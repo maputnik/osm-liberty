@@ -2,7 +2,7 @@
 
 <img align="right" alt="OSM Liberty" src="logo.png" />
 
-A free Mapbox GL basemap for everyone with complete liberty to use and self host. OSM Liberty is a fork of OSM Bright based on free data sources with a mission for a clear good looking design for the everyday user.
+A free Mapbox GL basemap from [OpenStreetMap](https://openstreetmap.org) with complete liberty to use and self host. OSM Liberty is a fork of OSM Bright based on free data sources with a mission for a clear good looking design for the everyday user.
 
 **[osm-liberty.lukasmartinelli.ch](http://osm-liberty.lukasmartinelli.ch/)**
 
@@ -45,7 +45,7 @@ To use it you don't need any access keys and you can host the tiles and assets y
 ## Data Sources
 
 - [OSM2VectorTiles](http://osm2vectortiles.org/) as vector data source
-- [Natural Earth Tiles](naturalearthtiles.org) for relief shading
+- [Natural Earth Tiles](http://naturalearthtiles.org) for relief shading
 - [Maki](https://www.mapbox.com/maki-icons/) as icon set
 
 ## Map Design
@@ -54,7 +54,7 @@ The map design originates from OSM Bright but strives to reach a unobtrusive and
 Colored relief shading from Natural Earth make the low zoom levels look good.
 
 ![Europe](demo/europe.png)
-![Switzerland](demo/europe.png)
+![Switzerland](demo/switzerland.png)
 ![Zurich](demo/zurich.png)
 ![Zurich Bürkliplatz](demo/zurich_buerkliplatz.png)
 
