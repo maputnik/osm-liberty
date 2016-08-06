@@ -1,10 +1,7 @@
 # Site settings
 title: OSM Liberty
 email: me@lukasmartinelli.ch
-description: > # this means to ignore newlines until "baseurl:"
-  A free Mapbox GL basemap based on open data sets
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://osm-liberty.luaksmartinelli.ch" # the base hostname & protocol for your site
-
-# Build settings
+description: A free Mapbox GL basemap based on open data
+baseurl: ""
+url: "http://osm-liberty.luaksmartinelli.ch"
 markdown: kramdown
