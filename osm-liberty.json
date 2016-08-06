@@ -4,7 +4,7 @@
   "metadata": {
     "mapbox:groups": {
       "1444849364238.8171": {
-        "collapsed": true,
+        "collapsed": false,
         "name": "Building"
       },
       "group_aeroway": {
@@ -12,7 +12,7 @@
         "name": "Aeroway"
       },
       "group_boundary": {
-        "collapsed": true,
+        "collapsed": false,
         "name": "Boundary"
       },
       "group_bridge": {
@@ -20,7 +20,7 @@
         "name": "Bridge"
       },
       "group_country_label": {
-        "collapsed": true,
+        "collapsed": false,
         "name": "Country Label"
       },
       "group_landuse": {
@@ -32,23 +32,23 @@
         "name": "Marine Label"
       },
       "group_place_label": {
-        "collapsed": true,
+        "collapsed": false,
         "name": "Place Label"
       },
       "group_poi_label": {
-        "collapsed": true,
+        "collapsed": false,
         "name": "POI Label"
       },
       "group_road": {
-        "collapsed": true,
+        "collapsed": false,
         "name": "Road"
       },
       "group_road_label": {
-        "collapsed": true,
+        "collapsed": false,
         "name": "Road Label"
       },
       "group_state_label": {
-        "collapsed": true,
+        "collapsed": false,
         "name": "State Label"
       },
       "group_tunnel": {
@@ -56,7 +56,7 @@
         "name": "Tunnel"
       },
       "group_water": {
-        "collapsed": true,
+        "collapsed": false,
         "name": "Water"
       },
       "group_water_label": {
@@ -88,33 +88,29 @@
       "type": "background",
       "interactive": true,
       "paint": {
-        "background-color": "rgb(229,229,229)"
+        "background-color": "rgb(239,239,239)"
       }
     },
     {
       "id": "natural_earth",
       "type": "raster",
       "source": "natural_earth_shaded_relief",
-      "maxzoom": 7,
+      "maxzoom": 6,
       "interactive": true,
       "layout": {
         "visibility": "visible"
       },
       "paint": {
         "raster-opacity": {
-          "base": 1.4,
+          "base": 1.5,
           "stops": [
             [
               0,
-              0.7
+              0.6
             ],
             [
-              5,
-              0.4
-            ],
-            [
-              7,
-              0
+              6,
+              0.1
             ]
           ]
         }
@@ -136,19 +132,28 @@
       ],
       "paint": {
         "fill-color": "#d8e8c8",
-        "fill-opacity": {
-          "base": 1,
-          "stops": [
-            [
-              4,
-              0.3
-            ],
-            [
-              9,
-              0.7
-            ]
-          ]
-        }
+        "fill-opacity": 0.7
+      }
+    },
+    {
+      "id": "landuse_residential",
+      "type": "fill",
+      "metadata": {
+        "mapbox:group": "group_landuse"
+      },
+      "source": "osm2vectortiles",
+      "source-layer": "landuse",
+      "interactive": true,
+      "filter": [
+        "==",
+        "class",
+        "residential"
+      ],
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "fill-color": "hsla(35, 57%, 88%, 0.49)"
       }
     },
     {
@@ -242,11 +247,11 @@
         "fill-antialias": false,
         "fill-color": "hsl(91, 83%, 35%)",
         "fill-opacity": {
-          "base": 0.4,
+          "base": 1,
           "stops": [
             [
               6,
-              0
+              0.1
             ],
             [
               9,
@@ -495,36 +500,44 @@
       "source-layer": "building",
       "interactive": true,
       "paint": {
-        "fill-color": "hsla(30, 1%, 73%, 0.44)"
+        "fill-color": "hsl(35, 8%, 85%)",
+        "fill-outline-color": "hsl(35, 6%, 79%)"
       }
     },
     {
-      "id": "building_top",
+      "id": "housenum_label",
+      "type": "symbol",
       "metadata": {
         "mapbox:group": "1444849364238.8171"
       },
-      "ref": "building",
+      "source": "osm2vectortiles",
+      "source-layer": "housenum_label",
+      "minzoom": 16,
       "interactive": true,
+      "layout": {
+        "text-field": "{house_num}",
+        "text-font": [
+          "Roboto Condensed",
+          "Arial Unicode MS Regular"
+        ],
+        "text-max-width": 7,
+        "text-size": 9.5,
+        "visibility": "visible"
+      },
       "paint": {
-        "fill-color": "rgb(236,236,236)",
-        "fill-opacity": 1,
-        "fill-outline-color": "hsla(30, 1%, 73%, 0.19)",
-        "fill-translate": {
+        "text-color": "hsl(35, 2%, 69%)",
+        "text-halo-color": "hsl(35, 8%, 85%)",
+        "text-halo-width": 0.5,
+        "text-opacity": {
           "base": 1,
           "stops": [
             [
               16,
-              [
-                1,
-                1
-              ]
+              0
             ],
             [
-              18,
-              [
-                3,
-                3
-              ]
+              16.5,
+              1
             ]
           ]
         }
@@ -1629,6 +1642,7 @@
       },
       "source": "osm2vectortiles",
       "source-layer": "road",
+      "minzoom": 14,
       "interactive": true,
       "filter": [
         "all",
@@ -3096,7 +3110,7 @@
         "text-max-width": 9,
         "text-offset": [
           0,
-          0.6
+          0.8
         ],
         "text-padding": 2,
         "text-size": 12,
