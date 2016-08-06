@@ -80,8 +80,8 @@
             "maxzoom": 6
         }
     },
-    "sprite": "https://raw.githubusercontent.com/osm2vectortiles/mapbox-gl-styles/master/sprites/bright-v9",
-    "glyphs": "http://glfonts.lukasmartinelli.ch/fonts/{fontstack}/{range}.pbf",
+    "sprite": "http://osm-liberty.lukasmartinelli.ch/sprites/osm-liberty",
+    "glyphs": "http://osm-liberty.lukasmartinelli.ch/fonts/{fontstack}/{range}.pbf",
     "layers": [
         {
             "id": "background",
