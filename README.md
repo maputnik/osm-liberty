@@ -60,7 +60,8 @@ Colored relief shading from Natural Earth make the low zoom levels look good.
 
 **Modify Style**
 
-You can directly modify the style with the help of the [mapbox-gl-style-editor](https://github.com/erikandre/mapbox-gl-style-editor).
+- You can directly modify the style with the help of the [mapbox-gl-style-editor](https://github.com/erikandre/mapbox-gl-style-editor).
+- Always format the Mapbox GL Style JSON with `gl-style-format` from [mapbox-gl-style-spec](https://github.com/mapbox/mapbox-gl-style-spec) first to keep a history in the style.
 
 ## Icon Design
 
