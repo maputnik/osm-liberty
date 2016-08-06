@@ -4,63 +4,63 @@
     "metadata": {
         "mapbox:type": "template",
         "mapbox:groups": {
+            "group_road": {
+                "name": "Road",
+                "collapsed": true
+            },
             "1444849364238.8171": {
                 "name": "Building",
                 "collapsed": true
             },
-            "c3537858a10d9cbf2fab0a0067eaa969": {
+            "group_state_label": {
                 "name": "State Label",
-                "collapsed": true
+                "collapsed": false
             },
-            "1444849354174.1904": {
+            "group_tunnel": {
                 "name": "Tunnel",
                 "collapsed": true
             },
-            "1444849320558.5054": {
-                "name": "Water Label",
-                "collapsed": true
-            },
-            "1444849371739.5945": {
-                "name": "Aeroway",
-                "collapsed": true
-            },
-            "1444849258897.3083": {
-                "name": "Marine Label",
-                "collapsed": true
-            },
-            "1444849388993.3071": {
-                "name": "Landuse",
-                "collapsed": false
-            },
-            "1444849242106.713": {
-                "name": "Country Label",
-                "collapsed": false
-            },
-            "1444849382550.77": {
-                "name": "Water",
-                "collapsed": false
-            },
-            "1444849345966.4436": {
-                "name": "Road",
-                "collapsed": true
-            },
-            "1444849307123.581": {
-                "name": "Boundaries",
-                "collapsed": false
-            },
-            "1456163609504.0715": {
-                "name": "Road Label",
-                "collapsed": false
-            },
-            "1444849272561.29": {
-                "name": "Place Label",
-                "collapsed": true
-            },
-            "1444849334699.1902": {
+            "group_bridge": {
                 "name": "Bridge",
                 "collapsed": true
             },
-            "1444849297111.495": {
+            "group_boundary": {
+                "name": "Boundary",
+                "collapsed": false
+            },
+            "group_country_label": {
+                "name": "Country Label",
+                "collapsed": false
+            },
+            "group_water_label": {
+                "name": "Water Label",
+                "collapsed": true
+            },
+            "group_aeroway": {
+                "name": "Aeroway",
+                "collapsed": true
+            },
+            "group_road_label": {
+                "name": "Road Label",
+                "collapsed": false
+            },
+            "group_water": {
+                "name": "Water",
+                "collapsed": false
+            },
+            "group_marine_label": {
+                "name": "Marine Label",
+                "collapsed": true
+            },
+            "group_landuse": {
+                "name": "Landuse",
+                "collapsed": false
+            },
+            "group_place_label": {
+                "name": "Place Label",
+                "collapsed": true
+            },
+            "group_poi_label": {
                 "name": "POI Label",
                 "collapsed": false
             }
@@ -88,7 +88,7 @@
             "type": "background",
             "interactive": true,
             "paint": {
-                "background-color": "#eee"
+                "background-color": "rgb(229,229,229)"
             }
         },
         {
@@ -120,7 +120,7 @@
             "id": "landuse_overlay_national_park",
             "type": "fill",
             "metadata": {
-                "mapbox:group": "1444849388993.3071"
+                "mapbox:group": "group_landuse"
             },
             "source": "osm2vectortiles",
             "source-layer": "landuse_overlay",
@@ -139,7 +139,7 @@
             "id": "landuse_park",
             "type": "fill",
             "metadata": {
-                "mapbox:group": "1444849388993.3071"
+                "mapbox:group": "group_landuse"
             },
             "source": "osm2vectortiles",
             "source-layer": "landuse",
@@ -158,7 +158,7 @@
             "id": "landuse_cemetery",
             "type": "fill",
             "metadata": {
-                "mapbox:group": "1444849388993.3071"
+                "mapbox:group": "group_landuse"
             },
             "source": "osm2vectortiles",
             "source-layer": "landuse",
@@ -176,7 +176,7 @@
             "id": "landuse_hospital",
             "type": "fill",
             "metadata": {
-                "mapbox:group": "1444849388993.3071"
+                "mapbox:group": "group_landuse"
             },
             "source": "osm2vectortiles",
             "source-layer": "landuse",
@@ -194,7 +194,7 @@
             "id": "landuse_school",
             "type": "fill",
             "metadata": {
-                "mapbox:group": "1444849388993.3071"
+                "mapbox:group": "group_landuse"
             },
             "source": "osm2vectortiles",
             "source-layer": "landuse",
@@ -212,7 +212,7 @@
             "id": "landuse_wood",
             "type": "fill",
             "metadata": {
-                "mapbox:group": "1444849388993.3071"
+                "mapbox:group": "group_landuse"
             },
             "source": "osm2vectortiles",
             "source-layer": "landuse",
@@ -244,7 +244,7 @@
             "id": "waterway",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849382550.77"
+                "mapbox:group": "group_water"
             },
             "source": "osm2vectortiles",
             "source-layer": "waterway",
@@ -291,7 +291,7 @@
             "id": "waterway_river",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849382550.77"
+                "mapbox:group": "group_water"
             },
             "source": "osm2vectortiles",
             "source-layer": "waterway",
@@ -325,7 +325,7 @@
             "id": "waterway_stream_canal",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849382550.77"
+                "mapbox:group": "group_water"
             },
             "source": "osm2vectortiles",
             "source-layer": "waterway",
@@ -360,7 +360,7 @@
             "id": "water",
             "type": "fill",
             "metadata": {
-                "mapbox:group": "1444849382550.77"
+                "mapbox:group": "group_water"
             },
             "source": "osm2vectortiles",
             "source-layer": "water",
@@ -373,7 +373,7 @@
             "id": "aeroway_fill",
             "type": "fill",
             "metadata": {
-                "mapbox:group": "1444849371739.5945"
+                "mapbox:group": "group_aeroway"
             },
             "source": "osm2vectortiles",
             "source-layer": "aeroway",
@@ -393,7 +393,7 @@
             "id": "aeroway_runway",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849371739.5945"
+                "mapbox:group": "group_aeroway"
             },
             "source": "osm2vectortiles",
             "source-layer": "aeroway",
@@ -433,7 +433,7 @@
             "id": "aeroway_taxiway",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849371739.5945"
+                "mapbox:group": "group_aeroway"
             },
             "source": "osm2vectortiles",
             "source-layer": "aeroway",
@@ -518,7 +518,7 @@
             "id": "tunnel_motorway_link_casing",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849354174.1904"
+                "mapbox:group": "group_tunnel"
             },
             "source": "osm2vectortiles",
             "source-layer": "road",
@@ -574,7 +574,7 @@
             "id": "tunnel_service_track_casing",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849354174.1904"
+                "mapbox:group": "group_tunnel"
             },
             "source": "osm2vectortiles",
             "source-layer": "road",
@@ -625,7 +625,7 @@
             "id": "tunnel_link_casing",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849354174.1904"
+                "mapbox:group": "group_tunnel"
             },
             "source": "osm2vectortiles",
             "source-layer": "road",
@@ -676,7 +676,7 @@
             "id": "tunnel_street_casing",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849354174.1904"
+                "mapbox:group": "group_tunnel"
             },
             "source": "osm2vectortiles",
             "source-layer": "road",
@@ -739,7 +739,7 @@
             "id": "tunnel_secondary_tertiary_casing",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849354174.1904"
+                "mapbox:group": "group_tunnel"
             },
             "source": "osm2vectortiles",
             "source-layer": "road",
@@ -783,7 +783,7 @@
             "id": "tunnel_trunk_primary_casing",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849354174.1904"
+                "mapbox:group": "group_tunnel"
             },
             "source": "osm2vectortiles",
             "source-layer": "road",
@@ -834,7 +834,7 @@
             "id": "tunnel_motorway_casing",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849354174.1904"
+                "mapbox:group": "group_tunnel"
             },
             "source": "osm2vectortiles",
             "source-layer": "road",
@@ -889,7 +889,7 @@
             "id": "tunnel_path_pedestrian",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849354174.1904"
+                "mapbox:group": "group_tunnel"
             },
             "source": "osm2vectortiles",
             "source-layer": "road",
@@ -940,7 +940,7 @@
         {
             "id": "tunnel_motorway_link",
             "metadata": {
-                "mapbox:group": "1444849354174.1904"
+                "mapbox:group": "group_tunnel"
             },
             "ref": "tunnel_motorway_link_casing",
             "interactive": true,
@@ -972,7 +972,7 @@
         {
             "id": "tunnel_service_track",
             "metadata": {
-                "mapbox:group": "1444849354174.1904"
+                "mapbox:group": "group_tunnel"
             },
             "ref": "tunnel_service_track_casing",
             "interactive": true,
@@ -1000,7 +1000,7 @@
         {
             "id": "tunnel_link",
             "metadata": {
-                "mapbox:group": "1444849354174.1904"
+                "mapbox:group": "group_tunnel"
             },
             "ref": "tunnel_link_casing",
             "interactive": true,
@@ -1032,7 +1032,7 @@
         {
             "id": "tunnel_street",
             "metadata": {
-                "mapbox:group": "1444849354174.1904"
+                "mapbox:group": "group_tunnel"
             },
             "ref": "tunnel_street_casing",
             "interactive": true,
@@ -1061,7 +1061,7 @@
         {
             "id": "tunnel_secondary_tertiary",
             "metadata": {
-                "mapbox:group": "1444849354174.1904"
+                "mapbox:group": "group_tunnel"
             },
             "ref": "tunnel_secondary_tertiary_casing",
             "interactive": true,
@@ -1089,7 +1089,7 @@
         {
             "id": "tunnel_trunk_primary",
             "metadata": {
-                "mapbox:group": "1444849354174.1904"
+                "mapbox:group": "group_tunnel"
             },
             "ref": "tunnel_trunk_primary_casing",
             "interactive": true,
@@ -1117,7 +1117,7 @@
         {
             "id": "tunnel_motorway",
             "metadata": {
-                "mapbox:group": "1444849354174.1904"
+                "mapbox:group": "group_tunnel"
             },
             "ref": "tunnel_motorway_casing",
             "interactive": true,
@@ -1146,7 +1146,7 @@
             "id": "tunnel_major_rail",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849354174.1904"
+                "mapbox:group": "group_tunnel"
             },
             "source": "osm2vectortiles",
             "source-layer": "road",
@@ -1189,7 +1189,7 @@
         {
             "id": "tunnel_major_rail_hatching",
             "metadata": {
-                "mapbox:group": "1444849354174.1904"
+                "mapbox:group": "group_tunnel"
             },
             "ref": "tunnel_major_rail",
             "interactive": true,
@@ -1222,7 +1222,7 @@
             "id": "road_motorway_link_casing",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849345966.4436"
+                "mapbox:group": "group_road"
             },
             "source": "osm2vectortiles",
             "source-layer": "road",
@@ -1276,7 +1276,7 @@
             "id": "road_service_track_casing",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849345966.4436"
+                "mapbox:group": "group_road"
             },
             "source": "osm2vectortiles",
             "source-layer": "road",
@@ -1325,7 +1325,7 @@
             "id": "road_link_casing",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849345966.4436"
+                "mapbox:group": "group_road"
             },
             "source": "osm2vectortiles",
             "source-layer": "road",
@@ -1380,7 +1380,7 @@
             "id": "road_street_casing",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849345966.4436"
+                "mapbox:group": "group_road"
             },
             "source": "osm2vectortiles",
             "source-layer": "road",
@@ -1453,7 +1453,7 @@
             "id": "road_secondary_tertiary_casing",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849345966.4436"
+                "mapbox:group": "group_road"
             },
             "source": "osm2vectortiles",
             "source-layer": "road",
@@ -1500,7 +1500,7 @@
             "id": "road_trunk_primary_casing",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849345966.4436"
+                "mapbox:group": "group_road"
             },
             "source": "osm2vectortiles",
             "source-layer": "road",
@@ -1555,7 +1555,7 @@
             "id": "road_motorway_casing",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849345966.4436"
+                "mapbox:group": "group_road"
             },
             "source": "osm2vectortiles",
             "source-layer": "road",
@@ -1609,7 +1609,7 @@
             "id": "road_path_pedestrian",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849345966.4436"
+                "mapbox:group": "group_road"
             },
             "source": "osm2vectortiles",
             "source-layer": "road",
@@ -1661,7 +1661,7 @@
         {
             "id": "road_motorway_link",
             "metadata": {
-                "mapbox:group": "1444849345966.4436"
+                "mapbox:group": "group_road"
             },
             "ref": "road_motorway_link_casing",
             "interactive": true,
@@ -1693,7 +1693,7 @@
         {
             "id": "road_service_track",
             "metadata": {
-                "mapbox:group": "1444849345966.4436"
+                "mapbox:group": "group_road"
             },
             "ref": "road_service_track_casing",
             "interactive": true,
@@ -1721,7 +1721,7 @@
         {
             "id": "road_link",
             "metadata": {
-                "mapbox:group": "1444849345966.4436"
+                "mapbox:group": "group_road"
             },
             "ref": "road_link_casing",
             "interactive": true,
@@ -1753,7 +1753,7 @@
         {
             "id": "road_street",
             "metadata": {
-                "mapbox:group": "1444849345966.4436"
+                "mapbox:group": "group_road"
             },
             "ref": "road_street_casing",
             "interactive": true,
@@ -1782,7 +1782,7 @@
         {
             "id": "road_secondary_tertiary",
             "metadata": {
-                "mapbox:group": "1444849345966.4436"
+                "mapbox:group": "group_road"
             },
             "ref": "road_secondary_tertiary_casing",
             "interactive": true,
@@ -1810,7 +1810,7 @@
         {
             "id": "road_trunk_primary",
             "metadata": {
-                "mapbox:group": "1444849345966.4436"
+                "mapbox:group": "group_road"
             },
             "ref": "road_trunk_primary_casing",
             "interactive": true,
@@ -1838,7 +1838,7 @@
         {
             "id": "road_motorway",
             "metadata": {
-                "mapbox:group": "1444849345966.4436"
+                "mapbox:group": "group_road"
             },
             "ref": "road_motorway_casing",
             "interactive": true,
@@ -1867,7 +1867,7 @@
             "id": "road_major_rail",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849345966.4436"
+                "mapbox:group": "group_road"
             },
             "source": "osm2vectortiles",
             "source-layer": "road",
@@ -1910,7 +1910,7 @@
         {
             "id": "road_major_rail_hatching",
             "metadata": {
-                "mapbox:group": "1444849345966.4436"
+                "mapbox:group": "group_road"
             },
             "ref": "road_major_rail",
             "interactive": true,
@@ -1943,7 +1943,7 @@
             "id": "bridge_motorway_link_casing",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849334699.1902"
+                "mapbox:group": "group_bridge"
             },
             "source": "osm2vectortiles",
             "source-layer": "road",
@@ -1994,7 +1994,7 @@
             "id": "bridge_service_track_casing",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849334699.1902"
+                "mapbox:group": "group_bridge"
             },
             "source": "osm2vectortiles",
             "source-layer": "road",
@@ -2041,7 +2041,7 @@
             "id": "bridge_link_casing",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849334699.1902"
+                "mapbox:group": "group_bridge"
             },
             "source": "osm2vectortiles",
             "source-layer": "road",
@@ -2092,7 +2092,7 @@
             "id": "bridge_street_casing",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849334699.1902"
+                "mapbox:group": "group_bridge"
             },
             "source": "osm2vectortiles",
             "source-layer": "road",
@@ -2155,7 +2155,7 @@
             "id": "bridge_secondary_tertiary_casing",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849334699.1902"
+                "mapbox:group": "group_bridge"
             },
             "source": "osm2vectortiles",
             "source-layer": "road",
@@ -2199,7 +2199,7 @@
             "id": "bridge_trunk_primary_casing",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849334699.1902"
+                "mapbox:group": "group_bridge"
             },
             "source": "osm2vectortiles",
             "source-layer": "road",
@@ -2250,7 +2250,7 @@
             "id": "bridge_motorway_casing",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849334699.1902"
+                "mapbox:group": "group_bridge"
             },
             "source": "osm2vectortiles",
             "source-layer": "road",
@@ -2300,7 +2300,7 @@
             "id": "bridge_path_pedestrian",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849334699.1902"
+                "mapbox:group": "group_bridge"
             },
             "source": "osm2vectortiles",
             "source-layer": "road",
@@ -2351,7 +2351,7 @@
         {
             "id": "bridge_motorway_link",
             "metadata": {
-                "mapbox:group": "1444849334699.1902"
+                "mapbox:group": "group_bridge"
             },
             "ref": "bridge_motorway_link_casing",
             "interactive": true,
@@ -2383,7 +2383,7 @@
         {
             "id": "bridge_service_track",
             "metadata": {
-                "mapbox:group": "1444849334699.1902"
+                "mapbox:group": "group_bridge"
             },
             "ref": "bridge_service_track_casing",
             "interactive": true,
@@ -2411,7 +2411,7 @@
         {
             "id": "bridge_link",
             "metadata": {
-                "mapbox:group": "1444849334699.1902"
+                "mapbox:group": "group_bridge"
             },
             "ref": "bridge_link_casing",
             "interactive": true,
@@ -2443,7 +2443,7 @@
         {
             "id": "bridge_street",
             "metadata": {
-                "mapbox:group": "1444849334699.1902"
+                "mapbox:group": "group_bridge"
             },
             "ref": "bridge_street_casing",
             "interactive": true,
@@ -2472,7 +2472,7 @@
         {
             "id": "bridge_secondary_tertiary",
             "metadata": {
-                "mapbox:group": "1444849334699.1902"
+                "mapbox:group": "group_bridge"
             },
             "ref": "bridge_secondary_tertiary_casing",
             "interactive": true,
@@ -2500,7 +2500,7 @@
         {
             "id": "bridge_trunk_primary",
             "metadata": {
-                "mapbox:group": "1444849334699.1902"
+                "mapbox:group": "group_bridge"
             },
             "ref": "bridge_trunk_primary_casing",
             "interactive": true,
@@ -2528,7 +2528,7 @@
         {
             "id": "bridge_motorway",
             "metadata": {
-                "mapbox:group": "1444849334699.1902"
+                "mapbox:group": "group_bridge"
             },
             "ref": "bridge_motorway_casing",
             "interactive": true,
@@ -2557,7 +2557,7 @@
             "id": "bridge_major_rail",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849334699.1902"
+                "mapbox:group": "group_bridge"
             },
             "source": "osm2vectortiles",
             "source-layer": "road",
@@ -2599,7 +2599,7 @@
         {
             "id": "bridge_major_rail_hatching",
             "metadata": {
-                "mapbox:group": "1444849334699.1902"
+                "mapbox:group": "group_bridge"
             },
             "ref": "bridge_major_rail",
             "interactive": true,
@@ -2632,7 +2632,7 @@
             "id": "admin_level_3",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849307123.581"
+                "mapbox:group": "group_boundary"
             },
             "source": "osm2vectortiles",
             "source-layer": "admin",
@@ -2682,7 +2682,7 @@
             "id": "admin_level_2",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849307123.581"
+                "mapbox:group": "group_boundary"
             },
             "source": "osm2vectortiles",
             "source-layer": "admin",
@@ -2747,7 +2747,7 @@
             "id": "admin_level_2_disputed",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849307123.581"
+                "mapbox:group": "group_boundary"
             },
             "source": "osm2vectortiles",
             "source-layer": "admin",
@@ -2802,7 +2802,7 @@
             "id": "admin_level_3_maritime",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849307123.581"
+                "mapbox:group": "group_boundary"
             },
             "source": "osm2vectortiles",
             "source-layer": "admin",
@@ -2855,7 +2855,7 @@
             "id": "admin_level_2_maritime",
             "type": "line",
             "metadata": {
-                "mapbox:group": "1444849307123.581"
+                "mapbox:group": "group_boundary"
             },
             "source": "osm2vectortiles",
             "source-layer": "admin",
@@ -2902,7 +2902,7 @@
             "id": "water_label",
             "type": "symbol",
             "metadata": {
-                "mapbox:group": "1444849320558.5054"
+                "mapbox:group": "group_water_label"
             },
             "source": "osm2vectortiles",
             "source-layer": "water_label",
@@ -2930,7 +2930,7 @@
             "id": "poi_label_4",
             "type": "symbol",
             "metadata": {
-                "mapbox:group": "1444849297111.495"
+                "mapbox:group": "group_poi_label"
             },
             "source": "osm2vectortiles",
             "source-layer": "poi_label",
@@ -2975,7 +2975,7 @@
             "id": "poi_label_3",
             "type": "symbol",
             "metadata": {
-                "mapbox:group": "1444849297111.495"
+                "mapbox:group": "group_poi_label"
             },
             "source": "osm2vectortiles",
             "source-layer": "poi_label",
@@ -3020,7 +3020,7 @@
             "id": "poi_label_2",
             "type": "symbol",
             "metadata": {
-                "mapbox:group": "1444849297111.495"
+                "mapbox:group": "group_poi_label"
             },
             "source": "osm2vectortiles",
             "source-layer": "poi_label",
@@ -3065,7 +3065,7 @@
             "id": "rail_station_label",
             "type": "symbol",
             "metadata": {
-                "mapbox:group": "1444849297111.495"
+                "mapbox:group": "group_poi_label"
             },
             "source": "osm2vectortiles",
             "source-layer": "rail_station_label",
@@ -3097,7 +3097,7 @@
             "id": "poi_label_1",
             "type": "symbol",
             "metadata": {
-                "mapbox:group": "1444849297111.495"
+                "mapbox:group": "group_poi_label"
             },
             "source": "osm2vectortiles",
             "source-layer": "poi_label",
@@ -3142,7 +3142,7 @@
             "id": "airport_label",
             "type": "symbol",
             "metadata": {
-                "mapbox:group": "1444849297111.495"
+                "mapbox:group": "group_poi_label"
             },
             "source": "osm2vectortiles",
             "source-layer": "airport_label",
@@ -3189,7 +3189,7 @@
             "id": "road_label",
             "type": "symbol",
             "metadata": {
-                "mapbox:group": "1456163609504.0715"
+                "mapbox:group": "group_road_label"
             },
             "source": "osm2vectortiles",
             "source-layer": "road_label",
@@ -3234,7 +3234,7 @@
             "id": "road_label_highway_shield",
             "type": "symbol",
             "metadata": {
-                "mapbox:group": "1456163609504.0715"
+                "mapbox:group": "group_road_label"
             },
             "source": "osm2vectortiles",
             "source-layer": "road_label",
@@ -3275,7 +3275,7 @@
             "id": "place_label_other",
             "type": "symbol",
             "metadata": {
-                "mapbox:group": "1444849272561.29"
+                "mapbox:group": "group_place_label"
             },
             "source": "osm2vectortiles",
             "source-layer": "place_label",
@@ -3321,7 +3321,7 @@
             "id": "place_label_village",
             "type": "symbol",
             "metadata": {
-                "mapbox:group": "1444849272561.29"
+                "mapbox:group": "group_place_label"
             },
             "source": "osm2vectortiles",
             "source-layer": "place_label",
@@ -3361,7 +3361,7 @@
             "id": "place_label_town",
             "type": "symbol",
             "metadata": {
-                "mapbox:group": "1444849272561.29"
+                "mapbox:group": "group_place_label"
             },
             "source": "osm2vectortiles",
             "source-layer": "place_label",
@@ -3401,7 +3401,7 @@
             "id": "place_label_city",
             "type": "symbol",
             "metadata": {
-                "mapbox:group": "1444849272561.29"
+                "mapbox:group": "group_place_label"
             },
             "source": "osm2vectortiles",
             "source-layer": "place_label",
@@ -3442,7 +3442,7 @@
             "id": "marine_label_line_4",
             "type": "symbol",
             "metadata": {
-                "mapbox:group": "1444849258897.3083"
+                "mapbox:group": "group_marine_label"
             },
             "source": "osm2vectortiles",
             "source-layer": "marine_label",
@@ -3491,7 +3491,7 @@
             "id": "marine_label_4",
             "type": "symbol",
             "metadata": {
-                "mapbox:group": "1444849258897.3083"
+                "mapbox:group": "group_marine_label"
             },
             "source": "osm2vectortiles",
             "source-layer": "marine_label",
@@ -3541,7 +3541,7 @@
             "id": "marine_label_line_3",
             "type": "symbol",
             "metadata": {
-                "mapbox:group": "1444849258897.3083"
+                "mapbox:group": "group_marine_label"
             },
             "source": "osm2vectortiles",
             "source-layer": "marine_label",
@@ -3590,7 +3590,7 @@
             "id": "marine_label_point_3",
             "type": "symbol",
             "metadata": {
-                "mapbox:group": "1444849258897.3083"
+                "mapbox:group": "group_marine_label"
             },
             "source": "osm2vectortiles",
             "source-layer": "marine_label",
@@ -3640,7 +3640,7 @@
             "id": "marine_label_line_2",
             "type": "symbol",
             "metadata": {
-                "mapbox:group": "1444849258897.3083"
+                "mapbox:group": "group_marine_label"
             },
             "source": "osm2vectortiles",
             "source-layer": "marine_label",
@@ -3689,7 +3689,7 @@
             "id": "marine_label_point_2",
             "type": "symbol",
             "metadata": {
-                "mapbox:group": "1444849258897.3083"
+                "mapbox:group": "group_marine_label"
             },
             "source": "osm2vectortiles",
             "source-layer": "marine_label",
@@ -3739,7 +3739,7 @@
             "id": "marine_label_line_1",
             "type": "symbol",
             "metadata": {
-                "mapbox:group": "1444849258897.3083"
+                "mapbox:group": "group_marine_label"
             },
             "source": "osm2vectortiles",
             "source-layer": "marine_label",
@@ -3788,7 +3788,7 @@
             "id": "marine_label_point_1",
             "type": "symbol",
             "metadata": {
-                "mapbox:group": "1444849258897.3083"
+                "mapbox:group": "group_marine_label"
             },
             "source": "osm2vectortiles",
             "source-layer": "marine_label",
@@ -3843,7 +3843,7 @@
             "id": "state_label",
             "type": "symbol",
             "metadata": {
-                "mapbox:group": "c3537858a10d9cbf2fab0a0067eaa969"
+                "mapbox:group": "group_state_label"
             },
             "source": "osm2vectortiles",
             "source-layer": "state_label",
@@ -3878,7 +3878,7 @@
             "id": "country_label_4",
             "type": "symbol",
             "metadata": {
-                "mapbox:group": "1444849242106.713"
+                "mapbox:group": "group_country_label"
             },
             "source": "osm2vectortiles",
             "source-layer": "country_label",
@@ -3919,7 +3919,7 @@
             "id": "country_label_3",
             "type": "symbol",
             "metadata": {
-                "mapbox:group": "1444849242106.713"
+                "mapbox:group": "group_country_label"
             },
             "source": "osm2vectortiles",
             "source-layer": "country_label",
@@ -3960,7 +3960,7 @@
             "id": "country_label_2",
             "type": "symbol",
             "metadata": {
-                "mapbox:group": "1444849242106.713"
+                "mapbox:group": "group_country_label"
             },
             "source": "osm2vectortiles",
             "source-layer": "country_label",
@@ -4001,7 +4001,7 @@
             "id": "country_label_1",
             "type": "symbol",
             "metadata": {
-                "mapbox:group": "1444849242106.713"
+                "mapbox:group": "group_country_label"
             },
             "source": "osm2vectortiles",
             "source-layer": "country_label",
