@@ -1,5 +1,7 @@
 # OSM Liberty [![BSD licensed](https://img.shields.io/badge/license-BSD-blue.svg)](https://github.com/lukasmartinelli/osm-liberty/blob/gh-pages/LICENSE.md)
 
+<img align="right" alt="OSM Liberty" src="logo.png" />
+
 A free Mapbox GL basemap for everyone with complete liberty to use and self host. OSM Liberty is a fork of OSM Bright based on free data sources with a mission for a clear good looking design for the everyday user.
 
 **[osm-liberty.lukasmartinelli.ch](http://osm-liberty.lukasmartinelli.ch/)**
