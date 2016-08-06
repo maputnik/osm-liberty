@@ -6,7 +6,7 @@
         "mapbox:groups": {
             "group_road": {
                 "name": "Road",
-                "collapsed": true
+                "collapsed": false
             },
             "1444849364238.8171": {
                 "name": "Building",
@@ -58,7 +58,7 @@
             },
             "group_place_label": {
                 "name": "Place Label",
-                "collapsed": true
+                "collapsed": false
             },
             "group_poi_label": {
                 "name": "POI Label",
@@ -3246,12 +3246,13 @@
                 6
             ],
             "layout": {
-                "text-field": "{ref}",
+                "text-size": 10,
+                "icon-image": "default-{reflen}",
+                "icon-rotation-alignment": "viewport",
+                "symbol-spacing": 500,
                 "text-font": [
-                    "Open Sans Semibold"
+                    "Roboto Regular"
                 ],
-                "text-size": 11,
-                "icon-image": "motorway_{reflen}",
                 "symbol-placement": {
                     "base": 1,
                     "stops": [
@@ -3265,9 +3266,12 @@
                         ]
                     ]
                 },
-                "symbol-spacing": 500,
+                "text-offset": [
+                    0,
+                    0.1
+                ],
                 "text-rotation-alignment": "viewport",
-                "icon-rotation-alignment": "viewport"
+                "text-field": "{ref}"
             },
             "paint": {}
         },
@@ -3389,7 +3393,25 @@
                             16
                         ]
                     ]
-                }
+                },
+                "icon-image": {
+                    "base": 1,
+                    "stops": [
+                        [
+                            0,
+                            "dot-9"
+                        ],
+                        [
+                            8,
+                            ""
+                        ]
+                    ]
+                },
+                "text-anchor": "bottom",
+                "text-offset": [
+                    0,
+                    0
+                ]
             },
             "paint": {
                 "text-color": "#333",
@@ -3414,7 +3436,7 @@
             ],
             "layout": {
                 "text-font": [
-                    "Roboto Bold"
+                    "Roboto Medium"
                 ],
                 "text-field": "{name_en}",
                 "text-max-width": 8,
@@ -3430,7 +3452,25 @@
                             24
                         ]
                     ]
-                }
+                },
+                "icon-image": {
+                    "base": 1,
+                    "stops": [
+                        [
+                            0,
+                            "dot-9"
+                        ],
+                        [
+                            8,
+                            ""
+                        ]
+                    ]
+                },
+                "text-anchor": "bottom",
+                "text-offset": [
+                    0,
+                    0
+                ]
             },
             "paint": {
                 "text-color": "#333",
