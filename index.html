@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title>OSM Global Noise Pollution</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+  <style>
+    body { margin:0; padding:0; }
+    #map { position:absolute; top:0; bottom:0; width:100%; }
+    #github-button { position: absolute; top: 15px; left: 15px; z-index: 1000; }
+  </style>
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.css' rel='stylesheet' />
+</head>
+<body>
+  <iframe id="github-button" src="https://ghbtns.com/github-btn.html?user=lukasmartinelli&repo=osm-liberty&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+  <div id='map'></div>
+  <script>
+  var map = new mapboxgl.Map({
+      container: 'map',
+      style: 'http://osm-liberty.lukasmartinelli.ch/osm-liberty.json',
+      center: [8.538961,47.372476],
+      zoom: 8,
+      hash: true
+  });
+  map.addControl(new mapboxgl.Navigation());
+  </script>
+</body>
+</html>
