@@ -3351,7 +3351,7 @@
         6
       ],
       "layout": {
-        "icon-image": "motorway-{reflen}",
+        "icon-image": "default-{reflen}",
         "icon-rotation-alignment": "viewport",
         "symbol-placement": {
           "base": 1,
