@@ -157,7 +157,19 @@
         "visibility": "visible"
       },
       "paint": {
-        "fill-color": "hsla(35, 57%, 88%, 0.49)"
+        "fill-color": {
+          "base": 1,
+          "stops": [
+            [
+              9,
+              "hsla(0, 3%, 85%, 0.84)"
+            ],
+            [
+              12,
+              "hsla(35, 57%, 88%, 0.49)"
+            ]
+          ]
+        }
       }
     },
     {
@@ -193,8 +205,11 @@
         "class",
         "cemetery"
       ],
+      "layout": {
+        "visibility": "visible"
+      },
       "paint": {
-        "fill-color": "#e0e4dd"
+        "fill-color": "hsl(75, 37%, 81%)"
       }
     },
     {
@@ -230,7 +245,7 @@
         "school"
       ],
       "paint": {
-        "fill-color": "#f0e8f8"
+        "fill-color": "rgb(236,238,204)"
       }
     },
     {
@@ -1237,8 +1252,7 @@
       "layout": {
         "text-field": "{house_num}",
         "text-font": [
-          "Roboto Condensed",
-          "Arial Unicode MS Regular"
+          "Roboto Condensed"
         ],
         "text-max-width": 7,
         "text-size": 9.5,
@@ -1892,7 +1906,19 @@
       "ref": "road_motorway_casing",
       "interactive": true,
       "paint": {
-        "line-color": "#fc8",
+        "line-color": {
+          "base": 1,
+          "stops": [
+            [
+              5,
+              "hsl(26, 87%, 62%)"
+            ],
+            [
+              6,
+              "#fc8"
+            ]
+          ]
+        },
         "line-width": {
           "base": 1.2,
           "stops": [
@@ -3020,7 +3046,7 @@
       "layout": {
         "text-field": "{name_en}",
         "text-font": [
-          "Roboto Italic"
+          "Roboto Regular"
         ],
         "text-max-width": 5,
         "text-size": 12
@@ -3104,7 +3130,7 @@
         "text-anchor": "top",
         "text-field": "{name_en}",
         "text-font": [
-          "Open Sans Semibold"
+          "Roboto Condensed Italic"
         ],
         "text-max-width": 9,
         "text-offset": [
@@ -3149,7 +3175,7 @@
         "text-anchor": "top",
         "text-field": "{name_en}",
         "text-font": [
-          "Open Sans Semibold"
+          "Roboto Condensed Italic"
         ],
         "text-max-width": 9,
         "text-offset": [
@@ -3180,7 +3206,7 @@
         "text-anchor": "left",
         "text-field": "{name_en}",
         "text-font": [
-          "Open Sans Semibold"
+          "Roboto Condensed Italic"
         ],
         "text-max-width": 9,
         "text-offset": [
@@ -3226,7 +3252,7 @@
         "text-anchor": "top",
         "text-field": "{name_en}",
         "text-font": [
-          "Open Sans Semibold"
+          "Roboto Condensed Italic"
         ],
         "text-max-width": 9,
         "text-offset": [
@@ -3273,7 +3299,7 @@
         "text-anchor": "top",
         "text-field": "{name_en}",
         "text-font": [
-          "Open Sans Semibold"
+          "Roboto Condensed Italic"
         ],
         "text-max-width": 9,
         "text-offset": [
@@ -3609,7 +3635,7 @@
         "symbol-placement": "line",
         "text-field": "{name_en}",
         "text-font": [
-          "Roboto Italic"
+          "Roboto Regular"
         ],
         "text-letter-spacing": 0.2,
         "text-size": {
@@ -3658,7 +3684,7 @@
         "symbol-placement": "point",
         "text-field": "{name_en}",
         "text-font": [
-          "Roboto Italic"
+          "Roboto Regular"
         ],
         "text-letter-spacing": 0.2,
         "text-max-width": 6,
@@ -3708,7 +3734,7 @@
         "symbol-placement": "line",
         "text-field": "{name_en}",
         "text-font": [
-          "Roboto Italic"
+          "Roboto Regular"
         ],
         "text-letter-spacing": 0.2,
         "text-size": {
@@ -3757,7 +3783,7 @@
         "symbol-placement": "point",
         "text-field": "{name_en}",
         "text-font": [
-          "Roboto Italic"
+          "Roboto Regular"
         ],
         "text-letter-spacing": 0.2,
         "text-max-width": 5,
@@ -3807,7 +3833,7 @@
         "symbol-placement": "line",
         "text-field": "{name_en}",
         "text-font": [
-          "Roboto Italic"
+          "Roboto Regular"
         ],
         "text-letter-spacing": 0.2,
         "text-size": {
@@ -3856,7 +3882,7 @@
         "symbol-placement": "point",
         "text-field": "{name_en}",
         "text-font": [
-          "Roboto Italic"
+          "Roboto Regular"
         ],
         "text-letter-spacing": 0.2,
         "text-max-width": 5,
@@ -3906,7 +3932,7 @@
         "symbol-placement": "line",
         "text-field": "{name_en}",
         "text-font": [
-          "Roboto Italic"
+          "Roboto Regular"
         ],
         "text-letter-spacing": 0.2,
         "text-size": {
@@ -3955,7 +3981,7 @@
         "symbol-placement": "point",
         "text-field": "{name_en}",
         "text-font": [
-          "Roboto Italic"
+          "Roboto Regular"
         ],
         "text-letter-spacing": 0.2,
         "text-line-height": 1.6,
@@ -3997,8 +4023,7 @@
       "layout": {
         "text-field": "{name_en}",
         "text-font": [
-          "Roboto Condensed Italic",
-          "Arial Unicode MS Regular"
+          "Roboto Condensed Italic"
         ],
         "text-size": {
           "stops": [
@@ -4037,7 +4062,7 @@
       "layout": {
         "text-field": "{name_en}",
         "text-font": [
-          "Roboto Bold"
+          "Roboto Condensed Italic"
         ],
         "text-max-width": 6.25,
         "text-size": {
@@ -4078,7 +4103,7 @@
       "layout": {
         "text-field": "{name_en}",
         "text-font": [
-          "Roboto Bold"
+          "Roboto Condensed Italic"
         ],
         "text-max-width": 6.25,
         "text-size": {
@@ -4119,7 +4144,7 @@
       "layout": {
         "text-field": "{name_en}",
         "text-font": [
-          "Roboto Bold"
+          "Roboto Condensed Italic"
         ],
         "text-max-width": 6.25,
         "text-size": {
@@ -4160,7 +4185,7 @@
       "layout": {
         "text-field": "{name_en}",
         "text-font": [
-          "Roboto Bold"
+          "Roboto Condensed Italic"
         ],
         "text-max-width": 6.25,
         "text-size": {
