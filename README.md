@@ -1,4 +1,4 @@
-# OSM Liberty [![BSD licensed](https://img.shields.io/badge/license-BSD-blue.svg)](https://github.com/lukasmartinelli/osm-liberty/blob/gh-pages/LICENSE.md)
+# OSM Liberty [![BSD licensed](https://img.shields.io/badge/license-BSD-blue.svg)](https://github.com/lukasmartinelli/osm-liberty/blob/gh-pages/LICENSE.md) [![Build Status](https://travis-ci.org/lukasmartinelli/osm-liberty.svg?branch=gh-pages)](https://travis-ci.org/lukasmartinelli/osm-liberty)
 
 <img align="right" alt="OSM Liberty" src="logo.png" />
 

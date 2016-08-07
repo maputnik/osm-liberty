@@ -1,0 +1,10 @@
+language: node_js
+sudo: false
+node_js:
+- '0.10'
+branches:
+  only:
+  - gh-pages
+script:
+  - npm install -g mapbox-gl-style-spec
+  - gl-style-validate osm-liberty.json
