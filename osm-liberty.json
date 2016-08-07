@@ -7,16 +7,20 @@
         "collapsed": false,
         "name": "Building"
       },
+      "5c16a6eb554162c4acf5ff3506899913": {
+        "collapsed": true,
+        "name": "Rail"
+      },
       "group_aeroway": {
         "collapsed": true,
         "name": "Aeroway"
       },
       "group_boundary": {
-        "collapsed": false,
+        "collapsed": true,
         "name": "Boundary"
       },
       "group_bridge": {
-        "collapsed": true,
+        "collapsed": false,
         "name": "Bridge"
       },
       "group_country_label": {
@@ -32,7 +36,7 @@
         "name": "Marine Label"
       },
       "group_place_label": {
-        "collapsed": false,
+        "collapsed": true,
         "name": "Place Label"
       },
       "group_poi_label": {
@@ -44,7 +48,7 @@
         "name": "Road"
       },
       "group_road_label": {
-        "collapsed": false,
+        "collapsed": true,
         "name": "Road Label"
       },
       "group_state_label": {
@@ -52,7 +56,7 @@
         "name": "State Label"
       },
       "group_tunnel": {
-        "collapsed": true,
+        "collapsed": false,
         "name": "Tunnel"
       },
       "group_water": {
@@ -387,7 +391,7 @@
       "source-layer": "water",
       "interactive": true,
       "paint": {
-        "fill-color": "hsl(228, 100%, 85%)"
+        "fill-color": "rgb(158,189,255)"
       }
     },
     {
@@ -485,59 +489,6 @@
             [
               20,
               6
-            ]
-          ]
-        }
-      }
-    },
-    {
-      "id": "building",
-      "type": "fill",
-      "metadata": {
-        "mapbox:group": "1444849364238.8171"
-      },
-      "source": "osm2vectortiles",
-      "source-layer": "building",
-      "interactive": true,
-      "paint": {
-        "fill-color": "hsl(35, 8%, 85%)",
-        "fill-outline-color": "hsl(35, 6%, 79%)"
-      }
-    },
-    {
-      "id": "housenum_label",
-      "type": "symbol",
-      "metadata": {
-        "mapbox:group": "1444849364238.8171"
-      },
-      "source": "osm2vectortiles",
-      "source-layer": "housenum_label",
-      "minzoom": 16,
-      "interactive": true,
-      "layout": {
-        "text-field": "{house_num}",
-        "text-font": [
-          "Roboto Condensed",
-          "Arial Unicode MS Regular"
-        ],
-        "text-max-width": 7,
-        "text-size": 9.5,
-        "visibility": "visible"
-      },
-      "paint": {
-        "text-color": "hsl(35, 2%, 69%)",
-        "text-halo-color": "hsl(35, 8%, 85%)",
-        "text-halo-width": 0.5,
-        "text-opacity": {
-          "base": 1,
-          "stops": [
-            [
-              16,
-              0
-            ],
-            [
-              16.5,
-              1
             ]
           ]
         }
@@ -946,21 +897,21 @@
         ]
       ],
       "paint": {
-        "line-color": "#cba",
+        "line-color": "hsl(0, 0%, 100%)",
         "line-dasharray": [
-          1.5,
+          1,
           0.75
         ],
         "line-width": {
           "base": 1.2,
           "stops": [
             [
-              15,
-              1.2
+              14,
+              0.5
             ],
             [
               20,
-              4
+              10
             ]
           ]
         }
@@ -1248,6 +1199,71 @@
       }
     },
     {
+      "id": "building",
+      "type": "fill",
+      "metadata": {
+        "mapbox:group": "1444849364238.8171"
+      },
+      "source": "osm2vectortiles",
+      "source-layer": "building",
+      "interactive": true,
+      "paint": {
+        "fill-color": "hsl(35, 8%, 85%)",
+        "fill-outline-color": {
+          "base": 1,
+          "stops": [
+            [
+              13,
+              "hsla(35, 6%, 79%, 0.32)"
+            ],
+            [
+              14,
+              "hsl(35, 6%, 79%)"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "housenum_label",
+      "type": "symbol",
+      "metadata": {
+        "mapbox:group": "1444849364238.8171"
+      },
+      "source": "osm2vectortiles",
+      "source-layer": "housenum_label",
+      "minzoom": 16,
+      "interactive": true,
+      "layout": {
+        "text-field": "{house_num}",
+        "text-font": [
+          "Roboto Condensed",
+          "Arial Unicode MS Regular"
+        ],
+        "text-max-width": 7,
+        "text-size": 9.5,
+        "visibility": "visible"
+      },
+      "paint": {
+        "text-color": "hsl(35, 2%, 69%)",
+        "text-halo-color": "hsl(35, 8%, 85%)",
+        "text-halo-width": 0.5,
+        "text-opacity": {
+          "base": 1,
+          "stops": [
+            [
+              16,
+              0
+            ],
+            [
+              16.5,
+              1
+            ]
+          ]
+        }
+      }
+    },
+    {
       "id": "road_motorway_link_casing",
       "type": "line",
       "metadata": {
@@ -1472,7 +1488,7 @@
             ],
             [
               20,
-              15
+              20
             ]
           ]
         }
@@ -1667,22 +1683,25 @@
           ]
         ]
       ],
+      "layout": {
+        "line-join": "round"
+      },
       "paint": {
-        "line-color": "#cba",
+        "line-color": "hsl(0, 0%, 100%)",
         "line-dasharray": [
-          1.5,
-          0.75
+          1,
+          0.7
         ],
         "line-width": {
           "base": 1.2,
           "stops": [
             [
-              15,
-              1.2
+              14,
+              1
             ],
             [
               20,
-              4
+              10
             ]
           ]
         }
@@ -1803,7 +1822,7 @@
             ],
             [
               20,
-              11.5
+              18
             ]
           ]
         }
@@ -1897,7 +1916,7 @@
       "id": "road_major_rail",
       "type": "line",
       "metadata": {
-        "mapbox:group": "group_road"
+        "mapbox:group": "5c16a6eb554162c4acf5ff3506899913"
       },
       "source": "osm2vectortiles",
       "source-layer": "road",
@@ -1940,7 +1959,7 @@
     {
       "id": "road_major_rail_hatching",
       "metadata": {
-        "mapbox:group": "group_road"
+        "mapbox:group": "5c16a6eb554162c4acf5ff3506899913"
       },
       "ref": "road_major_rail",
       "interactive": true,
@@ -2145,7 +2164,7 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "#cfcdca",
+        "line-color": "hsl(36, 6%, 74%)",
         "line-opacity": {
           "stops": [
             [
@@ -2175,7 +2194,63 @@
             ],
             [
               20,
-              15
+              25
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "bridge_path_pedestrian_casing",
+      "type": "line",
+      "metadata": {
+        "mapbox:group": "group_bridge"
+      },
+      "source": "osm2vectortiles",
+      "source-layer": "road",
+      "interactive": true,
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "LineString"
+        ],
+        [
+          "all",
+          [
+            "==",
+            "structure",
+            "bridge"
+          ],
+          [
+            "in",
+            "class",
+            "path",
+            "pedestrian"
+          ]
+        ]
+      ],
+      "layout": {
+        "line-join": "miter",
+        "visibility": "visible"
+      },
+      "paint": {
+        "line-color": "hsl(35, 6%, 80%)",
+        "line-dasharray": [
+          1,
+          0
+        ],
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              14,
+              1.5
+            ],
+            [
+              20,
+              18
             ]
           ]
         }
@@ -2358,21 +2433,21 @@
         ]
       ],
       "paint": {
-        "line-color": "#cba",
+        "line-color": "hsl(0, 0%, 100%)",
         "line-dasharray": [
-          1.5,
-          0.75
+          1,
+          0.3
         ],
         "line-width": {
           "base": 1.2,
           "stops": [
             [
-              15,
-              1.2
+              14,
+              0.5
             ],
             [
               20,
-              4
+              10
             ]
           ]
         }
@@ -2493,7 +2568,7 @@
             ],
             [
               20,
-              11.5
+              18
             ]
           ]
         }
@@ -3102,15 +3177,15 @@
       "interactive": true,
       "layout": {
         "icon-image": "{maki}-11",
-        "text-anchor": "top",
+        "text-anchor": "left",
         "text-field": "{name_en}",
         "text-font": [
           "Open Sans Semibold"
         ],
         "text-max-width": 9,
         "text-offset": [
-          0,
-          0.8
+          0.9,
+          0
         ],
         "text-padding": 2,
         "text-size": 12,
@@ -3276,7 +3351,7 @@
         6
       ],
       "layout": {
-        "icon-image": "default-{reflen}",
+        "icon-image": "motorway-{reflen}",
         "icon-rotation-alignment": "viewport",
         "symbol-placement": {
           "base": 1,
@@ -3920,9 +3995,10 @@
       "maxzoom": 6,
       "interactive": true,
       "layout": {
-        "text-field": "{name}",
+        "text-field": "{name_en}",
         "text-font": [
-          "Roboto Condensed Italic"
+          "Roboto Condensed Italic",
+          "Arial Unicode MS Regular"
         ],
         "text-size": {
           "stops": [
