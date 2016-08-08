@@ -6,8 +6,6 @@ A free Mapbox GL basemap from [OpenStreetMap](https://openstreetmap.org) with co
 
 **[osm-liberty.lukasmartinelli.ch](http://osm-liberty.lukasmartinelli.ch/)**
 
-[![OSM Liberty Map demo](demo/zoom.gif)](http://osm-liberty.lukasmartinelli.ch/)
-
 ## Usage
 
 You can instantly use the style in your Mapbox GL maps. The vector tiles are served from the @klokantech public CDN
@@ -54,6 +52,8 @@ To use it you don't need any access keys and you can host the tiles and assets y
 
 The map design originates from OSM Bright but strives to reach a unobtrusive and clean design for everyday use.
 Colored relief shading from Natural Earth make the low zoom levels look good.
+
+[![OSM Liberty Map demo](demo/zoom.gif)](http://osm-liberty.lukasmartinelli.ch/)
 
 **Modify Style**
 
