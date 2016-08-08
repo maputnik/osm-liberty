@@ -6,6 +6,8 @@ A free Mapbox GL basemap from [OpenStreetMap](https://openstreetmap.org) with co
 
 **[osm-liberty.lukasmartinelli.ch](http://osm-liberty.lukasmartinelli.ch/)**
 
+[![OSM Liberty Map demo](demo/zoom.gif)](http://osm-liberty.lukasmartinelli.ch/)
+
 ## Usage
 
 You can instantly use the style in your Mapbox GL maps. The vector tiles are served from the @klokantech public CDN
@@ -53,14 +55,10 @@ To use it you don't need any access keys and you can host the tiles and assets y
 The map design originates from OSM Bright but strives to reach a unobtrusive and clean design for everyday use.
 Colored relief shading from Natural Earth make the low zoom levels look good.
 
-![Europe](demo/europe.png)
-![Switzerland](demo/switzerland.png)
-![Zurich](demo/zurich.png)
-![Zurich Bürkliplatz](demo/zurich_buerkliplatz.png)
-
 **Modify Style**
 
 - You can directly modify the style with the help of the [mapbox-gl-style-editor](https://github.com/erikandre/mapbox-gl-style-editor).
+- You can use [Mapbox Studio](https://www.mapbox.com/studio/) in combination with [custom country extracts](http://osm2vectortiles.org/downloads/) to modify the style.
 - Always format the Mapbox GL Style JSON with `gl-style-format` from [mapbox-gl-style-spec](https://github.com/mapbox/mapbox-gl-style-spec) first to keep a history in the style.
 
 ## Icon Design
