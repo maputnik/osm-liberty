@@ -85,7 +85,7 @@
     }
   },
   "sprite": "http://osm-liberty.lukasmartinelli.ch/sprites/osm-liberty",
-  "glyphs": "http://osm-liberty.lukasmartinelli.ch/fonts/{fontstack}/{range}.pbf",
+  "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
