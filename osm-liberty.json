@@ -1252,7 +1252,7 @@
       "layout": {
         "text-field": "{house_num}",
         "text-font": [
-          "Roboto Condensed"
+          "Roboto Condensed Regular"
         ],
         "text-max-width": 7,
         "text-size": 9.5,
