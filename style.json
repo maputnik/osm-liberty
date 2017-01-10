@@ -3835,6 +3835,36 @@
         "text-halo-color": "rgba(255,255,255,0.8)",
         "text-halo-width": 1
       }
+    },
+    {
+      "id": "continent",
+      "type": "symbol",
+      "metadata": {},
+      "source": "openmaptiles",
+      "source-layer": "place",
+      "maxzoom": 1,
+      "layout": {
+        "text-field": "{name_en}",
+        "text-font": [
+          "Roboto Condensed Italic"
+        ],
+        "text-size": 13,
+        "text-transform": "uppercase",
+        "text-justify": "center"
+      },
+      "paint": {
+        "text-color": "#633",
+        "text-halo-color": "rgba(255,255,255,0.7)",
+        "text-halo-width": 1
+      },
+      "filter": [
+        "all",
+        [
+          "==",
+          "class",
+          "continent"
+        ]
+      ]
     }
   ]
 }
