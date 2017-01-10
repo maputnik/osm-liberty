@@ -1842,13 +1842,10 @@
       }
     },
     {
-      "id": "road_area",
+      "id": "road_area_pattern",
       "metadata": {},
       "paint": {
-        "fill-color": "rgba(0,0,0, 1)",
-        "fill-antialias": false,
-        "fill-outline-color": "rgba(69, 6, 6, 1)",
-        "fill-pattern": "airfield_11"
+        "fill-pattern": "pedestrian_polygon"
       },
       "type": "fill",
       "source": "openmaptiles",
