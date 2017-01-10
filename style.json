@@ -3367,7 +3367,7 @@
       }
     },
     {
-      "id": "road_label_highway_shield",
+      "id": "road_shield",
       "type": "symbol",
       "metadata": {},
       "source": "openmaptiles",
@@ -3382,7 +3382,7 @@
         ]
       ],
       "layout": {
-        "icon-image": "default-{ref_length}",
+        "icon-image": "default_{ref_length}",
         "icon-rotation-alignment": "viewport",
         "symbol-placement": {
           "base": 1,
@@ -3517,7 +3517,7 @@
           "stops": [
             [
               0,
-              "dot-9"
+              "dot_9"
             ],
             [
               8,
@@ -3576,7 +3576,7 @@
           "stops": [
             [
               0,
-              "dot-9"
+              "dot_9"
             ],
             [
               8,
