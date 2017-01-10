@@ -57,7 +57,9 @@ Colored relief shading from Natural Earth make the low zoom levels look good.
 
 ## Edit the Style
 
-Use the [Maputnik CLI](http://openmaptiles.org/docs/style/maputnik/) to edit and develop the style.
+You can [edit the style directly online in Maputnik](http://maputnik.com?style=https://rawgit.com/lukasmartinelli/osm-liberty/gh-pages/style.json).
+
+Use the [Maputnik CLI](http://openmaptiles.org/docs/style/maputnik/) to edit and develop the style locally.
 After you've started Maputnik open the editor on `localhost:8000`. This style actually triggered the need for the development of Maputnik.
 
 ```
