@@ -293,7 +293,7 @@
         "Polygon"
       ],
       "paint": {
-        "fill-color": "#f0ede9",
+        "fill-color": "rgba(229, 228, 224, 1)",
         "fill-opacity": 0.7
       }
     },
@@ -313,7 +313,7 @@
         ],
         [
           "==",
-          "type",
+          "class",
           "runway"
         ]
       ],
@@ -350,7 +350,7 @@
         ],
         [
           "==",
-          "type",
+          "class",
           "taxiway"
         ]
       ],
