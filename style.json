@@ -176,49 +176,6 @@
       }
     },
     {
-      "id": "landuse_wood",
-      "type": "fill",
-      "metadata": {
-      },
-      "source": "osm2vectortiles",
-      "source-layer": "waterway",
-      "interactive": true,
-      "filter": [
-        "all",
-        [
-          "!=",
-          "class",
-          "canal"
-        ],
-        [
-          "!=",
-          "class",
-          "river"
-        ],
-        [
-          "!=",
-          "class",
-          "stream"
-        ]
-      ],
-      "paint": {
-        "line-color": "#a0c8f0",
-        "line-width": {
-          "base": 1.3,
-          "stops": [
-            [
-              13,
-              0.5
-            ],
-            [
-              20,
-              2
-            ]
-          ]
-        }
-      }
-    },
-    {
       "id": "waterway_river",
       "type": "line",
       "metadata": {
