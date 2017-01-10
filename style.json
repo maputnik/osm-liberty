@@ -3,8 +3,7 @@
   "id": "osm-liberty",
   "name": "OSM Liberty",
   "metadata": {
-    "mapbox:type": "template",
-    "inspect": true
+    "mapbox:type": "template"
   },
   "sources": {
     "natural_earth_shaded_relief": {
