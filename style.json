@@ -3004,12 +3004,12 @@
       }
     },
     {
-      "id": "poi_label_4",
+      "id": "poi_z17",
       "type": "symbol",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "poi_label",
-      "minzoom": 16,
+      "source-layer": "poi",
+      "minzoom": 17,
       "filter": [
         "all",
         [
@@ -3018,15 +3018,15 @@
           "Point"
         ],
         [
-          "==",
+          ">=",
           "rank",
-          4
+          20
         ]
       ],
       "layout": {
-        "icon-image": "{maki}-11",
+        "icon-image": "{class}-11",
         "text-anchor": "top",
-        "text-field": "{name_en}",
+        "text-field": "{name}",
         "text-font": [
           "Roboto Regular"
         ],
@@ -3046,11 +3046,58 @@
       }
     },
     {
-      "id": "poi_label_3",
+      "id": "poi_z16",
       "type": "symbol",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "poi_label",
+      "source-layer": "poi",
+      "minzoom": 16,
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "Point"
+        ],
+        [
+          ">=",
+          "rank",
+          10
+        ],
+        [
+          "<",
+          "rank",
+          15
+        ]
+      ],
+      "layout": {
+        "icon-image": "{class}-11",
+        "text-anchor": "top",
+        "text-field": "{name}",
+        "text-font": [
+          "Roboto Condensed Italic"
+        ],
+        "text-max-width": 9,
+        "text-offset": [
+          0,
+          0.6
+        ],
+        "text-padding": 2,
+        "text-size": 12
+      },
+      "paint": {
+        "text-color": "#666",
+        "text-halo-blur": 0.5,
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1
+      }
+    },
+    {
+      "id": "poi_z15",
+      "type": "symbol",
+      "metadata": {},
+      "source": "openmaptiles",
+      "source-layer": "poi",
       "minzoom": 15,
       "filter": [
         "all",
@@ -3060,15 +3107,20 @@
           "Point"
         ],
         [
-          "==",
+          ">=",
           "rank",
-          3
+          5
+        ],
+        [
+          "<",
+          "rank",
+          10
         ]
       ],
       "layout": {
-        "icon-image": "{maki}-11",
+        "icon-image": "{class}-11",
         "text-anchor": "top",
-        "text-field": "{name_en}",
+        "text-field": "{name}",
         "text-font": [
           "Roboto Condensed Italic"
         ],
@@ -3088,11 +3140,11 @@
       }
     },
     {
-      "id": "poi_label_2",
+      "id": "poi_z14",
       "type": "symbol",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "poi_label",
+      "source-layer": "poi",
       "minzoom": 14,
       "filter": [
         "all",
@@ -3102,15 +3154,20 @@
           "Point"
         ],
         [
-          "==",
+          ">=",
           "rank",
-          2
+          1
+        ],
+        [
+          "<",
+          "rank",
+          5
         ]
       ],
       "layout": {
-        "icon-image": "{maki}-11",
+        "icon-image": "{class}-11",
         "text-anchor": "top",
-        "text-field": "{name_en}",
+        "text-field": "{name}",
         "text-font": [
           "Roboto Condensed Italic"
         ],
@@ -3130,11 +3187,11 @@
       }
     },
     {
-      "id": "rail_station_label",
+      "id": "poi_transit",
       "type": "symbol",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "rail_station_label",
+      "source-layer": "poi",
       "layout": {
         "icon-image": "{maki}-11",
         "text-anchor": "left",
@@ -3156,49 +3213,17 @@
         "text-halo-blur": 0.5,
         "text-halo-color": "#ffffff",
         "text-halo-width": 1
-      }
-    },
-    {
-      "id": "poi_label_1",
-      "type": "symbol",
-      "metadata": {},
-      "source": "openmaptiles",
-      "source-layer": "poi_label",
-      "minzoom": 13,
+      },
       "filter": [
         "all",
         [
-          "==",
-          "$type",
-          "Point"
-        ],
-        [
-          "==",
-          "rank",
-          1
+          "in",
+          "class",
+          "bus",
+          "rail",
+          "airport"
         ]
-      ],
-      "layout": {
-        "icon-image": "{maki}-11",
-        "text-anchor": "top",
-        "text-field": "{name_en}",
-        "text-font": [
-          "Roboto Condensed Italic"
-        ],
-        "text-max-width": 9,
-        "text-offset": [
-          0,
-          0.6
-        ],
-        "text-padding": 2,
-        "text-size": 12
-      },
-      "paint": {
-        "text-color": "#666",
-        "text-halo-blur": 0.5,
-        "text-halo-color": "#ffffff",
-        "text-halo-width": 1
-      }
+      ]
     },
     {
       "id": "road_label",
