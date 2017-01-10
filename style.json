@@ -3205,16 +3205,14 @@
       "type": "symbol",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road_label",
+      "source-layer": "transportation_name",
       "filter": [
-        "!=",
-        "class",
-        "ferry"
+        "all"
       ],
       "layout": {
         "symbol-placement": "line",
         "text-anchor": "center",
-        "text-field": "{name_en}",
+        "text-field": "{name}",
         "text-font": [
           "Roboto Regular"
         ],
@@ -3247,15 +3245,18 @@
       "type": "symbol",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road_label",
+      "source-layer": "transportation_name",
       "minzoom": 8,
       "filter": [
-        "<=",
-        "reflen",
-        6
+        "all",
+        [
+          "<=",
+          "ref_length",
+          6
+        ]
       ],
       "layout": {
-        "icon-image": "default-{reflen}",
+        "icon-image": "default-{ref_length}",
         "icon-rotation-alignment": "viewport",
         "symbol-placement": {
           "base": 1,
