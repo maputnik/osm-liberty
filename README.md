@@ -24,8 +24,8 @@ To use it you don't need any access keys and you can host the tiles and assets y
     body { margin:0; padding:0; }
     #map { position:absolute; top:0; bottom:0; width:100%; }
   </style>
-  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.js'></script>
-  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.css' rel='stylesheet' />
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.30.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.30.0/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body>
   <div id='map'></div>
@@ -44,7 +44,7 @@ To use it you don't need any access keys and you can host the tiles and assets y
 
 ## Data Sources
 
-- [OSM2VectorTiles](http://osm2vectortiles.org/) as vector data source
+- [OpenMapTiles](http://openmaptiles.org/) as vector data source
 - [Natural Earth Tiles](http://naturalearthtiles.org) for relief shading
 - [Maki](https://www.mapbox.com/maki-icons/) as icon set
 
@@ -81,7 +81,7 @@ Green        | `#76a723`
 
 **Modify Icons**
 
-1. Take the `iconset.json` and upload it to the [Maki Editor]https://www.mapbox.com/maki-icons/#editor().
+1. Take the `iconset.json` and upload it to the [Maki Editor](https://www.mapbox.com/maki-icons/#editor).
 2. Apply your changes and download the fonts and icon set again.
 3. Ensure you format the JSON first with `cat iconset.json | jq -MS '.'`
 4. Install [spritezero](https://github.com/mapbox/spritezero) `npm install spritezero-cli`

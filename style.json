@@ -1177,92 +1177,6 @@
       ]
     },
     {
-      "id": "building",
-      "type": "fill",
-      "metadata": {},
-      "source": "openmaptiles",
-      "source-layer": "building",
-      "minzoom": 13,
-      "maxzoom": 14,
-      "paint": {
-        "fill-color": "hsl(35, 8%, 85%)",
-        "fill-outline-color": {
-          "base": 1,
-          "stops": [
-            [
-              13,
-              "hsla(35, 6%, 79%, 0.32)"
-            ],
-            [
-              14,
-              "hsl(35, 6%, 79%)"
-            ]
-          ]
-        }
-      },
-      "layout": {
-        "visibility": "visible"
-      }
-    },
-    {
-      "id": "building-3d",
-      "type": "fill-extrusion",
-      "metadata": {},
-      "source": "openmaptiles",
-      "source-layer": "building",
-      "minzoom": 14,
-      "paint": {
-        "fill-extrusion-color": "hsl(35, 8%, 85%)",
-        "fill-extrusion-height": {
-          "property": "render_height",
-          "type": "identity"
-        },
-        "fill-extrusion-base": {
-          "property": "render_min_height",
-          "type": "identity"
-        },
-        "fill-extrusion-opacity": 0.8
-      },
-      "layout": {
-        "visibility": "visible"
-      }
-    },
-    {
-      "id": "housenum_label",
-      "type": "symbol",
-      "metadata": {},
-      "source": "openmaptiles",
-      "source-layer": "housenum_label",
-      "minzoom": 16,
-      "layout": {
-        "text-field": "{house_num}",
-        "text-font": [
-          "Roboto Condensed Regular"
-        ],
-        "text-max-width": 7,
-        "text-size": 9.5,
-        "visibility": "visible"
-      },
-      "paint": {
-        "text-color": "hsl(35, 2%, 69%)",
-        "text-halo-color": "hsl(35, 8%, 85%)",
-        "text-halo-width": 0.5,
-        "text-opacity": {
-          "base": 1,
-          "stops": [
-            [
-              16,
-              0
-            ],
-            [
-              16.5,
-              1
-            ]
-          ]
-        }
-      }
-    },
-    {
       "id": "road_motorway_link_casing",
       "type": "line",
       "metadata": {},
@@ -2185,6 +2099,57 @@
       "layout": {
         "line-cap": "round",
         "line-join": "round"
+      }
+    },
+    {
+      "id": "building",
+      "type": "fill",
+      "metadata": {},
+      "source": "openmaptiles",
+      "source-layer": "building",
+      "minzoom": 13,
+      "maxzoom": 14,
+      "paint": {
+        "fill-color": "hsl(35, 8%, 85%)",
+        "fill-outline-color": {
+          "base": 1,
+          "stops": [
+            [
+              13,
+              "hsla(35, 6%, 79%, 0.32)"
+            ],
+            [
+              14,
+              "hsl(35, 6%, 79%)"
+            ]
+          ]
+        }
+      },
+      "layout": {
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "building-3d",
+      "type": "fill-extrusion",
+      "metadata": {},
+      "source": "openmaptiles",
+      "source-layer": "building",
+      "minzoom": 14,
+      "paint": {
+        "fill-extrusion-color": "hsl(35, 8%, 85%)",
+        "fill-extrusion-height": {
+          "property": "render_height",
+          "type": "identity"
+        },
+        "fill-extrusion-base": {
+          "property": "render_min_height",
+          "type": "identity"
+        },
+        "fill-extrusion-opacity": 0.8
+      },
+      "layout": {
+        "visibility": "visible"
       }
     },
     {
