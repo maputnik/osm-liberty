@@ -3489,19 +3489,22 @@
       "paint": {}
     },
     {
-      "id": "place_label_other",
+      "id": "place_other",
       "type": "symbol",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "place_label",
+      "source-layer": "place",
       "filter": [
-        "in",
-        "type",
-        "hamlet",
-        "island",
-        "islet",
-        "neighbourhood",
-        "suburb"
+        "all",
+        [
+          "in",
+          "class",
+          "hamlet",
+          "island",
+          "islet",
+          "neighbourhood",
+          "suburb"
+        ]
       ],
       "layout": {
         "text-field": "{name_en}",
@@ -3532,15 +3535,18 @@
       }
     },
     {
-      "id": "place_label_village",
+      "id": "place_village",
       "type": "symbol",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "place_label",
+      "source-layer": "place",
       "filter": [
-        "==",
-        "type",
-        "village"
+        "all",
+        [
+          "==",
+          "class",
+          "village"
+        ]
       ],
       "layout": {
         "text-field": "{name_en}",
@@ -3569,15 +3575,18 @@
       }
     },
     {
-      "id": "place_label_town",
+      "id": "place_town",
       "type": "symbol",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "place_label",
+      "source-layer": "place",
       "filter": [
-        "==",
-        "type",
-        "town"
+        "all",
+        [
+          "==",
+          "class",
+          "town"
+        ]
       ],
       "layout": {
         "icon-image": {
@@ -3624,16 +3633,19 @@
       }
     },
     {
-      "id": "place_label_city",
+      "id": "place_city",
       "type": "symbol",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "place_label",
+      "source-layer": "place",
       "minzoom": 5,
       "filter": [
-        "==",
-        "type",
-        "city"
+        "all",
+        [
+          "==",
+          "class",
+          "city"
+        ]
       ],
       "layout": {
         "icon-image": {
@@ -3671,7 +3683,9 @@
               24
             ]
           ]
-        }
+        },
+        "icon-allow-overlap": true,
+        "icon-optional": false
       },
       "paint": {
         "text-color": "#333",
