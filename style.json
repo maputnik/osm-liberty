@@ -3037,8 +3037,8 @@
         [
           "in",
           "admin_level",
-          "3",
-          "4"
+          3,
+          4
         ]
       ],
       "layout": {
@@ -3414,7 +3414,7 @@
       "metadata": {},
       "source": "openmaptiles",
       "source-layer": "transportation_name",
-      "minzoom": 8,
+      "minzoom": 7,
       "filter": [
         "all",
         [
@@ -3449,7 +3449,8 @@
           0.1
         ],
         "text-rotation-alignment": "viewport",
-        "text-size": 10
+        "text-size": 10,
+        "icon-size": 0.8
       },
       "paint": {}
     },
