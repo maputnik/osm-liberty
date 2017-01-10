@@ -2,7 +2,7 @@
 
 <img align="right" alt="OSM Liberty" src="logo.png" />
 
-A free Mapbox GL basemap from [OpenStreetMap](https://openstreetmap.org) with complete liberty to use and self host. OSM Liberty is a fork of OSM Bright based on free data sources with a mission for a clear good looking design for the everyday user.
+A free Mapbox GL basemap from [OpenStreetMap](https://openstreetmap.org) with complete liberty to use and self host. OSM Liberty is a fork of OSM Bright based on free data sources with a mission for a clear good looking design for the everyday user. It is based on the vector tile schema of [OpenMapTiles](https://github.com/openmaptiles/openmaptiles).
 
 **[osm-liberty.lukasmartinelli.ch](http://osm-liberty.lukasmartinelli.ch/)**
 
@@ -55,11 +55,14 @@ Colored relief shading from Natural Earth make the low zoom levels look good.
 
 [![OSM Liberty Map demo](demo/zoom.gif)](http://osm-liberty.lukasmartinelli.ch/)
 
-**Modify Style**
+## Edit the Style
 
-- You can directly modify the style with the help of the [mapbox-gl-style-editor](https://github.com/erikandre/mapbox-gl-style-editor).
-- You can use [Mapbox Studio](https://www.mapbox.com/studio/) in combination with [custom country extracts](http://osm2vectortiles.org/downloads/) to modify the style.
-- Always format the Mapbox GL Style JSON with `gl-style-format` from [mapbox-gl-style-spec](https://github.com/mapbox/mapbox-gl-style-spec) first to keep a history in the style.
+Use the [Maputnik CLI](http://openmaptiles.org/docs/style/maputnik/) to edit and develop the style.
+After you've started Maputnik open the editor on `localhost:8000`. This style actually triggered the need for the development of Maputnik.
+
+```
+maputnik --watch --file style.json
+```
 
 ## Icon Design
 
