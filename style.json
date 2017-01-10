@@ -4057,11 +4057,11 @@
       }
     },
     {
-      "id": "state_label",
+      "id": "state",
       "type": "symbol",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "state_label",
+      "source-layer": "place",
       "maxzoom": 6,
       "layout": {
         "text-field": "{name_en}",
@@ -4086,7 +4086,15 @@
         "text-color": "#633",
         "text-halo-color": "rgba(255,255,255,0.7)",
         "text-halo-width": 1
-      }
+      },
+      "filter": [
+        "all",
+        [
+          "==",
+          "class",
+          "state"
+        ]
+      ]
     },
     {
       "id": "country_3",
