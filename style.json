@@ -74,8 +74,7 @@
     {
       "id": "landuse_residential",
       "type": "fill",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "landuse",
       "interactive": true,
@@ -106,8 +105,7 @@
     {
       "id": "landuse_park",
       "type": "fill",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "landuse",
       "interactive": true,
@@ -124,8 +122,7 @@
     {
       "id": "landuse_cemetery",
       "type": "fill",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "landuse",
       "interactive": true,
@@ -144,8 +141,7 @@
     {
       "id": "landuse_hospital",
       "type": "fill",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "landuse",
       "interactive": true,
@@ -161,8 +157,7 @@
     {
       "id": "landuse_school",
       "type": "fill",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "landuse",
       "interactive": true,
@@ -178,8 +173,7 @@
     {
       "id": "waterway_river",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "waterway",
       "interactive": true,
@@ -211,8 +205,7 @@
     {
       "id": "waterway_stream_canal",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "waterway",
       "interactive": true,
@@ -245,8 +238,7 @@
     {
       "id": "water",
       "type": "fill",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "water",
       "interactive": true,
@@ -257,8 +249,7 @@
     {
       "id": "aeroway_fill",
       "type": "fill",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "aeroway",
       "minzoom": 11,
@@ -276,8 +267,7 @@
     {
       "id": "aeroway_runway",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "aeroway",
       "minzoom": 11,
@@ -315,8 +305,7 @@
     {
       "id": "aeroway_taxiway",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "aeroway",
       "minzoom": 11,
@@ -354,8 +343,7 @@
     {
       "id": "tunnel_motorway_link_casing",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road",
       "interactive": true,
@@ -409,8 +397,7 @@
     {
       "id": "tunnel_service_track_casing",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road",
       "interactive": true,
@@ -459,8 +446,7 @@
     {
       "id": "tunnel_link_casing",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road",
       "interactive": true,
@@ -509,8 +495,7 @@
     {
       "id": "tunnel_street_casing",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road",
       "interactive": true,
@@ -571,8 +556,7 @@
     {
       "id": "tunnel_secondary_tertiary_casing",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road",
       "interactive": true,
@@ -614,8 +598,7 @@
     {
       "id": "tunnel_trunk_primary_casing",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road",
       "interactive": true,
@@ -664,8 +647,7 @@
     {
       "id": "tunnel_motorway_casing",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road",
       "interactive": true,
@@ -718,8 +700,7 @@
     {
       "id": "tunnel_path_pedestrian",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road",
       "interactive": true,
@@ -768,9 +749,7 @@
     },
     {
       "id": "tunnel_motorway_link",
-      "metadata": {
-      },
-      "ref": "tunnel_motorway_link_casing",
+      "metadata": {},
       "interactive": true,
       "paint": {
         "line-color": "#fc8",
@@ -795,13 +774,31 @@
             ]
           ]
         }
+      },
+      "type": "line",
+      "source": "osm2vectortiles",
+      "source-layer": "road",
+      "filter": [
+        "all",
+        [
+          "==",
+          "class",
+          "motorway_link"
+        ],
+        [
+          "==",
+          "structure",
+          "tunnel"
+        ]
+      ],
+      "layout": {
+        "line-join": "round",
+        "visibility": "visible"
       }
     },
     {
       "id": "tunnel_service_track",
-      "metadata": {
-      },
-      "ref": "tunnel_service_track_casing",
+      "metadata": {},
       "interactive": true,
       "paint": {
         "line-color": "#fff",
@@ -822,13 +819,31 @@
             ]
           ]
         }
+      },
+      "type": "line",
+      "source": "osm2vectortiles",
+      "source-layer": "road",
+      "filter": [
+        "all",
+        [
+          "==",
+          "structure",
+          "tunnel"
+        ],
+        [
+          "in",
+          "class",
+          "service",
+          "track"
+        ]
+      ],
+      "layout": {
+        "line-join": "round"
       }
     },
     {
       "id": "tunnel_link",
-      "metadata": {
-      },
-      "ref": "tunnel_link_casing",
+      "metadata": {},
       "interactive": true,
       "paint": {
         "line-color": "#fff4c6",
@@ -853,13 +868,30 @@
             ]
           ]
         }
+      },
+      "type": "line",
+      "source": "osm2vectortiles",
+      "source-layer": "road",
+      "filter": [
+        "all",
+        [
+          "==",
+          "class",
+          "link"
+        ],
+        [
+          "==",
+          "structure",
+          "tunnel"
+        ]
+      ],
+      "layout": {
+        "line-join": "round"
       }
     },
     {
       "id": "tunnel_street",
-      "metadata": {
-      },
-      "ref": "tunnel_street_casing",
+      "metadata": {},
       "interactive": true,
       "paint": {
         "line-color": "#fff",
@@ -881,13 +913,31 @@
             ]
           ]
         }
+      },
+      "type": "line",
+      "source": "osm2vectortiles",
+      "source-layer": "road",
+      "filter": [
+        "all",
+        [
+          "==",
+          "structure",
+          "tunnel"
+        ],
+        [
+          "in",
+          "class",
+          "street",
+          "street_limited"
+        ]
+      ],
+      "layout": {
+        "line-join": "round"
       }
     },
     {
       "id": "tunnel_secondary_tertiary",
-      "metadata": {
-      },
-      "ref": "tunnel_secondary_tertiary_casing",
+      "metadata": {},
       "interactive": true,
       "paint": {
         "line-color": "#fff4c6",
@@ -908,13 +958,31 @@
             ]
           ]
         }
+      },
+      "type": "line",
+      "source": "osm2vectortiles",
+      "source-layer": "road",
+      "filter": [
+        "all",
+        [
+          "==",
+          "structure",
+          "tunnel"
+        ],
+        [
+          "in",
+          "class",
+          "secondary",
+          "tertiary"
+        ]
+      ],
+      "layout": {
+        "line-join": "round"
       }
     },
     {
       "id": "tunnel_trunk_primary",
-      "metadata": {
-      },
-      "ref": "tunnel_trunk_primary_casing",
+      "metadata": {},
       "interactive": true,
       "paint": {
         "line-color": "#fff4c6",
@@ -935,13 +1003,31 @@
             ]
           ]
         }
+      },
+      "type": "line",
+      "source": "osm2vectortiles",
+      "source-layer": "road",
+      "filter": [
+        "all",
+        [
+          "==",
+          "structure",
+          "tunnel"
+        ],
+        [
+          "in",
+          "class",
+          "primary",
+          "trunk"
+        ]
+      ],
+      "layout": {
+        "line-join": "round"
       }
     },
     {
       "id": "tunnel_motorway",
-      "metadata": {
-      },
-      "ref": "tunnel_motorway_casing",
+      "metadata": {},
       "interactive": true,
       "paint": {
         "line-color": "#ffdaa6",
@@ -962,13 +1048,32 @@
             ]
           ]
         }
+      },
+      "type": "line",
+      "source": "osm2vectortiles",
+      "source-layer": "road",
+      "filter": [
+        "all",
+        [
+          "==",
+          "class",
+          "motorway"
+        ],
+        [
+          "==",
+          "structure",
+          "tunnel"
+        ]
+      ],
+      "layout": {
+        "line-join": "round",
+        "visibility": "visible"
       }
     },
     {
       "id": "tunnel_major_rail",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road",
       "interactive": true,
@@ -1009,9 +1114,7 @@
     },
     {
       "id": "tunnel_major_rail_hatching",
-      "metadata": {
-      },
-      "ref": "tunnel_major_rail",
+      "metadata": {},
       "interactive": true,
       "paint": {
         "line-color": "#bbb",
@@ -1036,13 +1139,29 @@
             ]
           ]
         }
-      }
+      },
+      "type": "line",
+      "source": "osm2vectortiles",
+      "source-layer": "road",
+      "filter": [
+        "all",
+        [
+          "==",
+          "structure",
+          "tunnel"
+        ],
+        [
+          "in",
+          "class",
+          "major_rail",
+          "minor_rail"
+        ]
+      ]
     },
     {
       "id": "building",
       "type": "fill",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "building",
       "interactive": true,
@@ -1066,8 +1185,7 @@
     {
       "id": "housenum_label",
       "type": "symbol",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "housenum_label",
       "minzoom": 16,
@@ -1103,8 +1221,7 @@
     {
       "id": "road_motorway_link_casing",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road",
       "minzoom": 12,
@@ -1156,8 +1273,7 @@
     {
       "id": "road_service_track_casing",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road",
       "interactive": true,
@@ -1204,8 +1320,7 @@
     {
       "id": "road_link_casing",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road",
       "minzoom": 13,
@@ -1258,8 +1373,7 @@
     {
       "id": "road_street_casing",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road",
       "interactive": true,
@@ -1330,8 +1444,7 @@
     {
       "id": "road_secondary_tertiary_casing",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road",
       "interactive": true,
@@ -1376,8 +1489,7 @@
     {
       "id": "road_trunk_primary_casing",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road",
       "interactive": true,
@@ -1430,8 +1542,7 @@
     {
       "id": "road_motorway_casing",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road",
       "minzoom": 5,
@@ -1483,8 +1594,7 @@
     {
       "id": "road_path_pedestrian",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road",
       "minzoom": 14,
@@ -1538,9 +1648,7 @@
     },
     {
       "id": "road_motorway_link",
-      "metadata": {
-      },
-      "ref": "road_motorway_link_casing",
+      "metadata": {},
       "interactive": true,
       "paint": {
         "line-color": "#fc8",
@@ -1565,13 +1673,33 @@
             ]
           ]
         }
+      },
+      "type": "line",
+      "source": "osm2vectortiles",
+      "source-layer": "road",
+      "minzoom": 12,
+      "filter": [
+        "all",
+        [
+          "!in",
+          "structure",
+          "bridge",
+          "tunnel"
+        ],
+        [
+          "==",
+          "class",
+          "motorway_link"
+        ]
+      ],
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round"
       }
     },
     {
       "id": "road_service_track",
-      "metadata": {
-      },
-      "ref": "road_service_track_casing",
+      "metadata": {},
       "interactive": true,
       "paint": {
         "line-color": "#fff",
@@ -1592,13 +1720,33 @@
             ]
           ]
         }
+      },
+      "type": "line",
+      "source": "osm2vectortiles",
+      "source-layer": "road",
+      "filter": [
+        "all",
+        [
+          "!in",
+          "structure",
+          "bridge",
+          "tunnel"
+        ],
+        [
+          "in",
+          "class",
+          "service",
+          "track"
+        ]
+      ],
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round"
       }
     },
     {
       "id": "road_link",
-      "metadata": {
-      },
-      "ref": "road_link_casing",
+      "metadata": {},
       "interactive": true,
       "paint": {
         "line-color": "#fea",
@@ -1623,13 +1771,34 @@
             ]
           ]
         }
+      },
+      "type": "line",
+      "source": "osm2vectortiles",
+      "source-layer": "road",
+      "minzoom": 13,
+      "filter": [
+        "all",
+        [
+          "!in",
+          "structure",
+          "bridge",
+          "tunnel"
+        ],
+        [
+          "==",
+          "class",
+          "link"
+        ]
+      ],
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round",
+        "visibility": "visible"
       }
     },
     {
       "id": "road_street",
-      "metadata": {
-      },
-      "ref": "road_street_casing",
+      "metadata": {},
       "interactive": true,
       "paint": {
         "line-color": "#fff",
@@ -1651,13 +1820,41 @@
             ]
           ]
         }
+      },
+      "type": "line",
+      "source": "osm2vectortiles",
+      "source-layer": "road",
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "LineString"
+        ],
+        [
+          "all",
+          [
+            "!in",
+            "structure",
+            "bridge",
+            "tunnel"
+          ],
+          [
+            "in",
+            "class",
+            "street",
+            "street_limited"
+          ]
+        ]
+      ],
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round"
       }
     },
     {
       "id": "road_secondary_tertiary",
-      "metadata": {
-      },
-      "ref": "road_secondary_tertiary_casing",
+      "metadata": {},
       "interactive": true,
       "paint": {
         "line-color": "#fea",
@@ -1678,13 +1875,34 @@
             ]
           ]
         }
+      },
+      "type": "line",
+      "source": "osm2vectortiles",
+      "source-layer": "road",
+      "filter": [
+        "all",
+        [
+          "!in",
+          "structure",
+          "bridge",
+          "tunnel"
+        ],
+        [
+          "in",
+          "class",
+          "secondary",
+          "tertiary"
+        ]
+      ],
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round",
+        "visibility": "visible"
       }
     },
     {
       "id": "road_trunk_primary",
-      "metadata": {
-      },
-      "ref": "road_trunk_primary_casing",
+      "metadata": {},
       "interactive": true,
       "paint": {
         "line-color": "#fea",
@@ -1705,13 +1923,34 @@
             ]
           ]
         }
+      },
+      "type": "line",
+      "source": "osm2vectortiles",
+      "source-layer": "road",
+      "filter": [
+        "all",
+        [
+          "!in",
+          "structure",
+          "bridge",
+          "tunnel"
+        ],
+        [
+          "in",
+          "class",
+          "primary",
+          "trunk"
+        ]
+      ],
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round",
+        "visibility": "visible"
       }
     },
     {
       "id": "road_motorway",
-      "metadata": {
-      },
-      "ref": "road_motorway_casing",
+      "metadata": {},
       "interactive": true,
       "paint": {
         "line-color": {
@@ -1744,13 +1983,35 @@
             ]
           ]
         }
+      },
+      "type": "line",
+      "source": "osm2vectortiles",
+      "source-layer": "road",
+      "minzoom": 5,
+      "filter": [
+        "all",
+        [
+          "!in",
+          "structure",
+          "bridge",
+          "tunnel"
+        ],
+        [
+          "==",
+          "class",
+          "motorway"
+        ]
+      ],
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round",
+        "visibility": "visible"
       }
     },
     {
       "id": "road_major_rail",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road",
       "interactive": true,
@@ -1791,9 +2052,7 @@
     },
     {
       "id": "road_major_rail_hatching",
-      "metadata": {
-      },
-      "ref": "road_major_rail",
+      "metadata": {},
       "interactive": true,
       "paint": {
         "line-color": "#bbb",
@@ -1818,13 +2077,29 @@
             ]
           ]
         }
-      }
+      },
+      "type": "line",
+      "source": "osm2vectortiles",
+      "source-layer": "road",
+      "filter": [
+        "all",
+        [
+          "!in",
+          "structure",
+          "bridge",
+          "tunnel"
+        ],
+        [
+          "==",
+          "class",
+          "major_rail"
+        ]
+      ]
     },
     {
       "id": "bridge_motorway_link_casing",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road",
       "interactive": true,
@@ -1873,8 +2148,7 @@
     {
       "id": "bridge_service_track_casing",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road",
       "interactive": true,
@@ -1919,8 +2193,7 @@
     {
       "id": "bridge_link_casing",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road",
       "interactive": true,
@@ -1969,8 +2242,7 @@
     {
       "id": "bridge_street_casing",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road",
       "interactive": true,
@@ -2031,8 +2303,7 @@
     {
       "id": "bridge_path_pedestrian_casing",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road",
       "interactive": true,
@@ -2086,8 +2357,7 @@
     {
       "id": "bridge_secondary_tertiary_casing",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road",
       "interactive": true,
@@ -2129,8 +2399,7 @@
     {
       "id": "bridge_trunk_primary_casing",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road",
       "interactive": true,
@@ -2179,8 +2448,7 @@
     {
       "id": "bridge_motorway_casing",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road",
       "interactive": true,
@@ -2228,8 +2496,7 @@
     {
       "id": "bridge_path_pedestrian",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road",
       "interactive": true,
@@ -2278,9 +2545,7 @@
     },
     {
       "id": "bridge_motorway_link",
-      "metadata": {
-      },
-      "ref": "bridge_motorway_link_casing",
+      "metadata": {},
       "interactive": true,
       "paint": {
         "line-color": "#fc8",
@@ -2305,13 +2570,30 @@
             ]
           ]
         }
+      },
+      "type": "line",
+      "source": "osm2vectortiles",
+      "source-layer": "road",
+      "filter": [
+        "all",
+        [
+          "==",
+          "class",
+          "motorway_link"
+        ],
+        [
+          "==",
+          "structure",
+          "bridge"
+        ]
+      ],
+      "layout": {
+        "line-join": "round"
       }
     },
     {
       "id": "bridge_service_track",
-      "metadata": {
-      },
-      "ref": "bridge_service_track_casing",
+      "metadata": {},
       "interactive": true,
       "paint": {
         "line-color": "#fff",
@@ -2332,13 +2614,31 @@
             ]
           ]
         }
+      },
+      "type": "line",
+      "source": "osm2vectortiles",
+      "source-layer": "road",
+      "filter": [
+        "all",
+        [
+          "==",
+          "structure",
+          "bridge"
+        ],
+        [
+          "in",
+          "class",
+          "service",
+          "track"
+        ]
+      ],
+      "layout": {
+        "line-join": "round"
       }
     },
     {
       "id": "bridge_link",
-      "metadata": {
-      },
-      "ref": "bridge_link_casing",
+      "metadata": {},
       "interactive": true,
       "paint": {
         "line-color": "#fea",
@@ -2363,13 +2663,30 @@
             ]
           ]
         }
+      },
+      "type": "line",
+      "source": "osm2vectortiles",
+      "source-layer": "road",
+      "filter": [
+        "all",
+        [
+          "==",
+          "class",
+          "link"
+        ],
+        [
+          "==",
+          "structure",
+          "bridge"
+        ]
+      ],
+      "layout": {
+        "line-join": "round"
       }
     },
     {
       "id": "bridge_street",
-      "metadata": {
-      },
-      "ref": "bridge_street_casing",
+      "metadata": {},
       "interactive": true,
       "paint": {
         "line-color": "#fff",
@@ -2391,13 +2708,31 @@
             ]
           ]
         }
+      },
+      "type": "line",
+      "source": "osm2vectortiles",
+      "source-layer": "road",
+      "filter": [
+        "all",
+        [
+          "==",
+          "structure",
+          "bridge"
+        ],
+        [
+          "in",
+          "class",
+          "street",
+          "street_limited"
+        ]
+      ],
+      "layout": {
+        "line-join": "round"
       }
     },
     {
       "id": "bridge_secondary_tertiary",
-      "metadata": {
-      },
-      "ref": "bridge_secondary_tertiary_casing",
+      "metadata": {},
       "interactive": true,
       "paint": {
         "line-color": "#fea",
@@ -2418,13 +2753,31 @@
             ]
           ]
         }
+      },
+      "type": "line",
+      "source": "osm2vectortiles",
+      "source-layer": "road",
+      "filter": [
+        "all",
+        [
+          "==",
+          "structure",
+          "bridge"
+        ],
+        [
+          "in",
+          "class",
+          "secondary",
+          "tertiary"
+        ]
+      ],
+      "layout": {
+        "line-join": "round"
       }
     },
     {
       "id": "bridge_trunk_primary",
-      "metadata": {
-      },
-      "ref": "bridge_trunk_primary_casing",
+      "metadata": {},
       "interactive": true,
       "paint": {
         "line-color": "#fea",
@@ -2445,13 +2798,31 @@
             ]
           ]
         }
+      },
+      "type": "line",
+      "source": "osm2vectortiles",
+      "source-layer": "road",
+      "filter": [
+        "all",
+        [
+          "==",
+          "structure",
+          "bridge"
+        ],
+        [
+          "in",
+          "class",
+          "primary",
+          "trunk"
+        ]
+      ],
+      "layout": {
+        "line-join": "round"
       }
     },
     {
       "id": "bridge_motorway",
-      "metadata": {
-      },
-      "ref": "bridge_motorway_casing",
+      "metadata": {},
       "interactive": true,
       "paint": {
         "line-color": "#fc8",
@@ -2472,13 +2843,31 @@
             ]
           ]
         }
+      },
+      "type": "line",
+      "source": "osm2vectortiles",
+      "source-layer": "road",
+      "filter": [
+        "all",
+        [
+          "==",
+          "class",
+          "motorway"
+        ],
+        [
+          "==",
+          "structure",
+          "bridge"
+        ]
+      ],
+      "layout": {
+        "line-join": "round"
       }
     },
     {
       "id": "bridge_major_rail",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road",
       "interactive": true,
@@ -2518,9 +2907,7 @@
     },
     {
       "id": "bridge_major_rail_hatching",
-      "metadata": {
-      },
-      "ref": "bridge_major_rail",
+      "metadata": {},
       "interactive": true,
       "paint": {
         "line-color": "#bbb",
@@ -2545,13 +2932,28 @@
             ]
           ]
         }
-      }
+      },
+      "type": "line",
+      "source": "osm2vectortiles",
+      "source-layer": "road",
+      "filter": [
+        "all",
+        [
+          "==",
+          "class",
+          "major_rail"
+        ],
+        [
+          "==",
+          "structure",
+          "bridge"
+        ]
+      ]
     },
     {
       "id": "admin_level_3",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "admin",
       "interactive": true,
@@ -2599,8 +3001,7 @@
     {
       "id": "admin_level_2",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "admin",
       "interactive": true,
@@ -2663,8 +3064,7 @@
     {
       "id": "admin_level_2_disputed",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "admin",
       "interactive": true,
@@ -2717,8 +3117,7 @@
     {
       "id": "admin_level_3_maritime",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "admin",
       "interactive": true,
@@ -2769,8 +3168,7 @@
     {
       "id": "admin_level_2_maritime",
       "type": "line",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "admin",
       "interactive": true,
@@ -2815,8 +3213,7 @@
     {
       "id": "water_label",
       "type": "symbol",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "water_label",
       "interactive": true,
@@ -2842,8 +3239,7 @@
     {
       "id": "poi_label_4",
       "type": "symbol",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "poi_label",
       "minzoom": 16,
@@ -2886,8 +3282,7 @@
     {
       "id": "poi_label_3",
       "type": "symbol",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "poi_label",
       "minzoom": 15,
@@ -2930,8 +3325,7 @@
     {
       "id": "poi_label_2",
       "type": "symbol",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "poi_label",
       "minzoom": 14,
@@ -2974,8 +3368,7 @@
     {
       "id": "rail_station_label",
       "type": "symbol",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "rail_station_label",
       "interactive": true,
@@ -3005,8 +3398,7 @@
     {
       "id": "poi_label_1",
       "type": "symbol",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "poi_label",
       "minzoom": 13,
@@ -3049,8 +3441,7 @@
     {
       "id": "airport_label",
       "type": "symbol",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "airport_label",
       "minzoom": 11,
@@ -3095,8 +3486,7 @@
     {
       "id": "road_label",
       "type": "symbol",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road_label",
       "interactive": true,
@@ -3139,8 +3529,7 @@
     {
       "id": "road_label_highway_shield",
       "type": "symbol",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "road_label",
       "minzoom": 8,
@@ -3183,8 +3572,7 @@
     {
       "id": "place_label_other",
       "type": "symbol",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "place_label",
       "interactive": true,
@@ -3228,8 +3616,7 @@
     {
       "id": "place_label_village",
       "type": "symbol",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "place_label",
       "interactive": true,
@@ -3267,8 +3654,7 @@
     {
       "id": "place_label_town",
       "type": "symbol",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "place_label",
       "interactive": true,
@@ -3324,8 +3710,7 @@
     {
       "id": "place_label_city",
       "type": "symbol",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "place_label",
       "minzoom": 5,
@@ -3382,8 +3767,7 @@
     {
       "id": "marine_label_line_4",
       "type": "symbol",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "marine_label",
       "interactive": true,
@@ -3430,8 +3814,7 @@
     {
       "id": "marine_label_4",
       "type": "symbol",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "marine_label",
       "interactive": true,
@@ -3479,8 +3862,7 @@
     {
       "id": "marine_label_line_3",
       "type": "symbol",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "marine_label",
       "interactive": true,
@@ -3527,8 +3909,7 @@
     {
       "id": "marine_label_point_3",
       "type": "symbol",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "marine_label",
       "interactive": true,
@@ -3576,8 +3957,7 @@
     {
       "id": "marine_label_line_2",
       "type": "symbol",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "marine_label",
       "interactive": true,
@@ -3624,8 +4004,7 @@
     {
       "id": "marine_label_point_2",
       "type": "symbol",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "marine_label",
       "interactive": true,
@@ -3673,8 +4052,7 @@
     {
       "id": "marine_label_line_1",
       "type": "symbol",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "marine_label",
       "interactive": true,
@@ -3721,8 +4099,7 @@
     {
       "id": "marine_label_point_1",
       "type": "symbol",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "marine_label",
       "interactive": true,
@@ -3775,8 +4152,7 @@
     {
       "id": "state_label",
       "type": "symbol",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "state_label",
       "maxzoom": 6,
@@ -3809,8 +4185,7 @@
     {
       "id": "country_label_4",
       "type": "symbol",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "country_label",
       "interactive": true,
@@ -3849,8 +4224,7 @@
     {
       "id": "country_label_3",
       "type": "symbol",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "country_label",
       "interactive": true,
@@ -3889,8 +4263,7 @@
     {
       "id": "country_label_2",
       "type": "symbol",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "country_label",
       "interactive": true,
@@ -3929,8 +4302,7 @@
     {
       "id": "country_label_1",
       "type": "symbol",
-      "metadata": {
-      },
+      "metadata": {},
       "source": "osm2vectortiles",
       "source-layer": "country_label",
       "interactive": true,
