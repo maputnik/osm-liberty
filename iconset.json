@@ -1,8 +1,8 @@
 {
   "activeGroupIndex": 5,
   "activeIconNames": [
-    "dog-park-11.svg",
-    "dog-park-15.svg"
+    "dog-park_11.svg",
+    "dog-park_15.svg"
   ],
   "iconGroups": [
     {
@@ -20,7 +20,7 @@
         "strokeWidth": 0
       },
       "svgs": {
-        "building-11.svg": {
+        "building_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -35,7 +35,7 @@
           ],
           "width": 11
         },
-        "building-15.svg": {
+        "building_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -50,37 +50,7 @@
           ],
           "width": 15
         },
-        "circle-11.svg": {
-          "height": 11,
-          "pathData": [
-            {
-              "d": "M10,5.5C10,7.9853,7.9853,10,5.5,10S1,7.9853,1,5.5S3.0147,1,5.5,1S10,3.0147,10,5.5z"
-            }
-          ],
-          "viewBox": [
-            "0",
-            "0",
-            "11",
-            "11"
-          ],
-          "width": 11
-        },
-        "circle-15.svg": {
-          "height": 15,
-          "pathData": [
-            {
-              "d": "M14,7.5c0,3.5899-2.9101,6.5-6.5,6.5S1,11.0899,1,7.5S3.9101,1,7.5,1S14,3.9101,14,7.5z"
-            }
-          ],
-          "viewBox": [
-            "0",
-            "0",
-            "15",
-            "15"
-          ],
-          "width": 15
-        },
-        "circle-stroked-11.svg": {
+        "circle-stroked_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -95,7 +65,7 @@
           ],
           "width": 11
         },
-        "circle-stroked-15.svg": {
+        "circle-stroked_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -110,7 +80,37 @@
           ],
           "width": 15
         },
-        "commercial-11.svg": {
+        "circle_11.svg": {
+          "height": 11,
+          "pathData": [
+            {
+              "d": "M10,5.5C10,7.9853,7.9853,10,5.5,10S1,7.9853,1,5.5S3.0147,1,5.5,1S10,3.0147,10,5.5z"
+            }
+          ],
+          "viewBox": [
+            "0",
+            "0",
+            "11",
+            "11"
+          ],
+          "width": 11
+        },
+        "circle_15.svg": {
+          "height": 15,
+          "pathData": [
+            {
+              "d": "M14,7.5c0,3.5899-2.9101,6.5-6.5,6.5S1,11.0899,1,7.5S3.9101,1,7.5,1S14,3.9101,14,7.5z"
+            }
+          ],
+          "viewBox": [
+            "0",
+            "0",
+            "15",
+            "15"
+          ],
+          "width": 15
+        },
+        "commercial_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -125,7 +125,7 @@
           ],
           "width": 11
         },
-        "commercial-15.svg": {
+        "commercial_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -140,7 +140,7 @@
           ],
           "width": 15
         },
-        "cross-11.svg": {
+        "cross_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -155,7 +155,7 @@
           ],
           "width": 11
         },
-        "cross-15.svg": {
+        "cross_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -170,7 +170,7 @@
           ],
           "width": 15
         },
-        "dam-11.svg": {
+        "dam_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -185,7 +185,7 @@
           ],
           "width": 11
         },
-        "dam-15.svg": {
+        "dam_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -200,7 +200,7 @@
           ],
           "width": 15
         },
-        "industry-11.svg": {
+        "industry_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -215,7 +215,7 @@
           ],
           "width": 11
         },
-        "industry-15.svg": {
+        "industry_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -230,7 +230,7 @@
           ],
           "width": 15
         },
-        "marker-11.svg": {
+        "marker_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -245,7 +245,7 @@
           ],
           "width": 11
         },
-        "marker-15.svg": {
+        "marker_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -260,37 +260,7 @@
           ],
           "width": 15
         },
-        "square-11.svg": {
-          "height": 11,
-          "pathData": [
-            {
-              "d": "M9,10H2c-0.5523,0-1-0.4477-1-1V2c0-0.5523,0.4477-1,1-1h7c0.5523,0,1,0.4477,1,1v7C10,9.5523,9.5523,10,9,10z"
-            }
-          ],
-          "viewBox": [
-            "0",
-            "0",
-            "11",
-            "11"
-          ],
-          "width": 11
-        },
-        "square-15.svg": {
-          "height": 15,
-          "pathData": [
-            {
-              "d": "M13,14H2c-0.5523,0-1-0.4477-1-1V2c0-0.5523,0.4477-1,1-1h11c0.5523,0,1,0.4477,1,1v11C14,13.5523,13.5523,14,13,14z"
-            }
-          ],
-          "viewBox": [
-            "0",
-            "0",
-            "15",
-            "15"
-          ],
-          "width": 15
-        },
-        "square-stroke-11.svg": {
+        "square-stroke_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -305,7 +275,7 @@
           ],
           "width": 11
         },
-        "square-stroke-15.svg": {
+        "square-stroke_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -320,11 +290,11 @@
           ],
           "width": 15
         },
-        "star-11.svg": {
+        "square_11.svg": {
           "height": 11,
           "pathData": [
             {
-              "d": "M5.4,0L4,3.5H0l3,3L1.5,11l3.9-2.6\n\tL9.5,11L8,6.5l3-3H7L5.4,0z"
+              "d": "M9,10H2c-0.5523,0-1-0.4477-1-1V2c0-0.5523,0.4477-1,1-1h7c0.5523,0,1,0.4477,1,1v7C10,9.5523,9.5523,10,9,10z"
             }
           ],
           "viewBox": [
@@ -335,11 +305,11 @@
           ],
           "width": 11
         },
-        "star-15.svg": {
+        "square_15.svg": {
           "height": 15,
           "pathData": [
             {
-              "d": "M7.5,0l-2,5h-5l4,3.5l-2,6l5-3.5\n\tl5,3.5l-2-6l4-3.5h-5L7.5,0z"
+              "d": "M13,14H2c-0.5523,0-1-0.4477-1-1V2c0-0.5523,0.4477-1,1-1h11c0.5523,0,1,0.4477,1,1v11C14,13.5523,13.5523,14,13,14z"
             }
           ],
           "viewBox": [
@@ -350,7 +320,7 @@
           ],
           "width": 15
         },
-        "star-stroke-11.svg": {
+        "star-stroke_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -365,7 +335,7 @@
           ],
           "width": 11
         },
-        "star-stroke-15.svg": {
+        "star-stroke_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -380,7 +350,37 @@
           ],
           "width": 15
         },
-        "triangle-11.svg": {
+        "star_11.svg": {
+          "height": 11,
+          "pathData": [
+            {
+              "d": "M5.4,0L4,3.5H0l3,3L1.5,11l3.9-2.6\n\tL9.5,11L8,6.5l3-3H7L5.4,0z"
+            }
+          ],
+          "viewBox": [
+            "0",
+            "0",
+            "11",
+            "11"
+          ],
+          "width": 11
+        },
+        "star_15.svg": {
+          "height": 15,
+          "pathData": [
+            {
+              "d": "M7.5,0l-2,5h-5l4,3.5l-2,6l5-3.5\n\tl5,3.5l-2-6l4-3.5h-5L7.5,0z"
+            }
+          ],
+          "viewBox": [
+            "0",
+            "0",
+            "15",
+            "15"
+          ],
+          "width": 15
+        },
+        "triangle_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -395,7 +395,7 @@
           ],
           "width": 11
         },
-        "triangle-15.svg": {
+        "triangle_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -410,7 +410,7 @@
           ],
           "width": 15
         },
-        "triangle-stroked-11.svg": {
+        "triangle_stroked_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -425,7 +425,7 @@
           ],
           "width": 11
         },
-        "triangle-stroked-15.svg": {
+        "triangle_stroked_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -440,7 +440,7 @@
           ],
           "width": 15
         },
-        "warehouse-11.svg": {
+        "warehouse_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -455,7 +455,7 @@
           ],
           "width": 11
         },
-        "warehouse-15.svg": {
+        "warehouse_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -487,7 +487,7 @@
         "strokeWidth": 0
       },
       "svgs": {
-        "bank-11.svg": {
+        "bank_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -505,7 +505,7 @@
           ],
           "width": 11
         },
-        "bank-15.svg": {
+        "bank_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -520,7 +520,7 @@
           ],
           "width": 15
         },
-        "clothing-store-11.svg": {
+        "clothing_store_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -535,7 +535,7 @@
           ],
           "width": 11
         },
-        "clothing-store-15.svg": {
+        "clothing_store_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -550,7 +550,7 @@
           ],
           "width": 15
         },
-        "gift-11.svg": {
+        "gift_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -565,7 +565,7 @@
           ],
           "width": 11
         },
-        "gift-15.svg": {
+        "gift_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -580,7 +580,7 @@
           ],
           "width": 15
         },
-        "grocery-11.svg": {
+        "grocery_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -595,7 +595,7 @@
           ],
           "width": 11
         },
-        "grocery-15.svg": {
+        "grocery_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -610,7 +610,7 @@
           ],
           "width": 15
         },
-        "hairdresser-11.svg": {
+        "hairdresser_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -625,7 +625,7 @@
           ],
           "width": 11
         },
-        "hairdresser-15.svg": {
+        "hairdresser_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -640,7 +640,7 @@
           ],
           "width": 15
         },
-        "ice-cream-11.svg": {
+        "ice_cream_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -655,7 +655,7 @@
           ],
           "width": 11
         },
-        "ice-cream-15.svg": {
+        "ice_cream_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -673,7 +673,7 @@
           ],
           "width": 15
         },
-        "laundry-11.svg": {
+        "laundry_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -688,7 +688,7 @@
           ],
           "width": 11
         },
-        "laundry-15.svg": {
+        "laundry_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -703,7 +703,7 @@
           ],
           "width": 15
         },
-        "music-11.svg": {
+        "music_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -718,7 +718,7 @@
           ],
           "width": 11
         },
-        "music-15.svg": {
+        "music_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -733,7 +733,7 @@
           ],
           "width": 15
         },
-        "pharmacy-11.svg": {
+        "pharmacy_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -748,7 +748,7 @@
           ],
           "width": 11
         },
-        "pharmacy-15.svg": {
+        "pharmacy_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -763,7 +763,7 @@
           ],
           "width": 15
         },
-        "shop-11.svg": {
+        "shop_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -778,7 +778,7 @@
           ],
           "width": 11
         },
-        "shop-15.svg": {
+        "shop_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -793,7 +793,7 @@
           ],
           "width": 15
         },
-        "suitcase-11.svg": {
+        "suitcase_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -808,7 +808,7 @@
           ],
           "width": 11
         },
-        "suitcase-15.svg": {
+        "suitcase_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -840,7 +840,7 @@
         "strokeWidth": 0
       },
       "svgs": {
-        "alcohol-shop-11.svg": {
+        "alcohol_shop_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -855,7 +855,7 @@
           ],
           "width": 11
         },
-        "alcohol-shop-15.svg": {
+        "alcohol_shop_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -870,7 +870,7 @@
           ],
           "width": 15
         },
-        "bakery-11.svg": {
+        "bakery_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -885,7 +885,7 @@
           ],
           "width": 11
         },
-        "bakery-15.svg": {
+        "bakery_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -903,7 +903,7 @@
           ],
           "width": 15
         },
-        "bar-11.svg": {
+        "bar_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -918,7 +918,7 @@
           ],
           "width": 11
         },
-        "bar-15.svg": {
+        "bar_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -933,7 +933,7 @@
           ],
           "width": 15
         },
-        "beer-11.svg": {
+        "beer_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -948,7 +948,7 @@
           ],
           "width": 11
         },
-        "beer-15.svg": {
+        "beer_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -963,7 +963,7 @@
           ],
           "width": 15
         },
-        "cafe-11.svg": {
+        "cafe_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -978,7 +978,7 @@
           ],
           "width": 11
         },
-        "cafe-15.svg": {
+        "cafe_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -993,7 +993,7 @@
           ],
           "width": 15
         },
-        "fast-food-11.svg": {
+        "fast_food_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1008,7 +1008,7 @@
           ],
           "width": 11
         },
-        "fast-food-15.svg": {
+        "fast_food_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1023,7 +1023,7 @@
           ],
           "width": 15
         },
-        "restaurant-11.svg": {
+        "restaurant_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1038,7 +1038,7 @@
           ],
           "width": 11
         },
-        "restaurant-15.svg": {
+        "restaurant_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1053,7 +1053,7 @@
           ],
           "width": 15
         },
-        "sushi-11.svg": {
+        "sushi_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1068,7 +1068,7 @@
           ],
           "width": 11
         },
-        "sushi-15.svg": {
+        "sushi_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1100,7 +1100,7 @@
         "strokeWidth": 0
       },
       "svgs": {
-        "america-football-11.svg": {
+        "america_football_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1115,7 +1115,7 @@
           ],
           "width": 11
         },
-        "america-football-15.svg": {
+        "america_football_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1130,7 +1130,7 @@
           ],
           "width": 15
         },
-        "baseball-11.svg": {
+        "baseball_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1145,7 +1145,7 @@
           ],
           "width": 11
         },
-        "baseball-15.svg": {
+        "baseball_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1160,7 +1160,7 @@
           ],
           "width": 15
         },
-        "basketball-11.svg": {
+        "basketball_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1175,7 +1175,7 @@
           ],
           "width": 11
         },
-        "basketball-15.svg": {
+        "basketball_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1190,7 +1190,7 @@
           ],
           "width": 15
         },
-        "cricket-11.svg": {
+        "cricket_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1205,7 +1205,7 @@
           ],
           "width": 11
         },
-        "cricket-15.svg": {
+        "cricket_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1220,7 +1220,7 @@
           ],
           "width": 15
         },
-        "golf-11.svg": {
+        "golf_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1235,7 +1235,7 @@
           ],
           "width": 11
         },
-        "golf-15.svg": {
+        "golf_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1250,7 +1250,7 @@
           ],
           "width": 15
         },
-        "pitch-11.svg": {
+        "pitch_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1265,7 +1265,7 @@
           ],
           "width": 11
         },
-        "pitch-15.svg": {
+        "pitch_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1280,7 +1280,7 @@
           ],
           "width": 15
         },
-        "skiing-11.svg": {
+        "skiing_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1295,7 +1295,7 @@
           ],
           "width": 11
         },
-        "skiing-15.svg": {
+        "skiing_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1310,7 +1310,7 @@
           ],
           "width": 15
         },
-        "soccer-11.svg": {
+        "soccer_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1325,7 +1325,7 @@
           ],
           "width": 11
         },
-        "soccer-15.svg": {
+        "soccer_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1340,7 +1340,7 @@
           ],
           "width": 15
         },
-        "swimming-11.svg": {
+        "swimming_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1355,7 +1355,7 @@
           ],
           "width": 11
         },
-        "swimming-15.svg": {
+        "swimming_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1370,7 +1370,7 @@
           ],
           "width": 15
         },
-        "tennis-11.svg": {
+        "tennis_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1385,7 +1385,7 @@
           ],
           "width": 11
         },
-        "tennis-15.svg": {
+        "tennis_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1417,7 +1417,7 @@
         "strokeWidth": 0
       },
       "svgs": {
-        "college-11.svg": {
+        "college_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1435,7 +1435,7 @@
           ],
           "width": 11
         },
-        "college-15.svg": {
+        "college_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1450,7 +1450,7 @@
           ],
           "width": 15
         },
-        "library-11.svg": {
+        "library_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1465,7 +1465,7 @@
           ],
           "width": 11
         },
-        "library-15.svg": {
+        "library_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1480,7 +1480,7 @@
           ],
           "width": 15
         },
-        "museum-11.svg": {
+        "museum_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1495,7 +1495,7 @@
           ],
           "width": 11
         },
-        "museum-15.svg": {
+        "museum_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1510,7 +1510,7 @@
           ],
           "width": 15
         },
-        "school-11.svg": {
+        "school_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1525,7 +1525,7 @@
           ],
           "width": 11
         },
-        "school-15.svg": {
+        "school_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1557,7 +1557,7 @@
         "strokeWidth": 0
       },
       "svgs": {
-        "amusement-park-11.svg": {
+        "amusement_park_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1572,7 +1572,7 @@
           ],
           "width": 11
         },
-        "amusement-park-15.svg": {
+        "amusement_park_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1587,7 +1587,7 @@
           ],
           "width": 15
         },
-        "aquarium-11.svg": {
+        "aquarium_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1602,7 +1602,7 @@
           ],
           "width": 11
         },
-        "aquarium-15.svg": {
+        "aquarium_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1617,7 +1617,7 @@
           ],
           "width": 15
         },
-        "art-gallery-11.svg": {
+        "art_gallery_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1632,7 +1632,7 @@
           ],
           "width": 11
         },
-        "art-gallery-15.svg": {
+        "art_gallery_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1647,7 +1647,7 @@
           ],
           "width": 15
         },
-        "attraction-11.svg": {
+        "attraction_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1662,7 +1662,7 @@
           ],
           "width": 11
         },
-        "attraction-15.svg": {
+        "attraction_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1677,7 +1677,7 @@
           ],
           "width": 15
         },
-        "bicycle-11.svg": {
+        "bicycle_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1692,7 +1692,7 @@
           ],
           "width": 11
         },
-        "bicycle-15.svg": {
+        "bicycle_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1707,7 +1707,7 @@
           ],
           "width": 15
         },
-        "bicycle-share-11.svg": {
+        "bicycle_share_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1722,7 +1722,7 @@
           ],
           "width": 11
         },
-        "bicycle-share-15.svg": {
+        "bicycle_share_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1737,7 +1737,7 @@
           ],
           "width": 15
         },
-        "cinema-11.svg": {
+        "cinema_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1752,7 +1752,7 @@
           ],
           "width": 11
         },
-        "cinema-15.svg": {
+        "cinema_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1767,7 +1767,7 @@
           ],
           "width": 15
         },
-        "dog-park-11.svg": {
+        "dog_park_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1782,7 +1782,7 @@
           ],
           "width": 11
         },
-        "dog-park-15.svg": {
+        "dog_park_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1797,7 +1797,7 @@
           ],
           "width": 15
         },
-        "playground-11.svg": {
+        "playground_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1812,7 +1812,7 @@
           ],
           "width": 11
         },
-        "playground-15.svg": {
+        "playground_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1827,7 +1827,7 @@
           ],
           "width": 15
         },
-        "stadium-11.svg": {
+        "stadium_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1842,7 +1842,7 @@
           ],
           "width": 11
         },
-        "stadium-15.svg": {
+        "stadium_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1857,7 +1857,7 @@
           ],
           "width": 15
         },
-        "theatre-11.svg": {
+        "theatre_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1872,7 +1872,7 @@
           ],
           "width": 11
         },
-        "theatre-15.svg": {
+        "theatre_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1887,7 +1887,7 @@
           ],
           "width": 15
         },
-        "zoo-11.svg": {
+        "zoo_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1902,7 +1902,7 @@
           ],
           "width": 11
         },
-        "zoo-15.svg": {
+        "zoo_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1934,7 +1934,7 @@
         "strokeWidth": 0
       },
       "svgs": {
-        "aerialway-11.svg": {
+        "aerialway_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1949,7 +1949,7 @@
           ],
           "width": 11
         },
-        "aerialway-15.svg": {
+        "aerialway_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1964,7 +1964,7 @@
           ],
           "width": 15
         },
-        "airfield-11.svg": {
+        "airfield_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -1979,7 +1979,7 @@
           ],
           "width": 11
         },
-        "airfield-15.svg": {
+        "airfield_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1994,7 +1994,7 @@
           ],
           "width": 15
         },
-        "airport-11.svg": {
+        "airport_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2009,7 +2009,7 @@
           ],
           "width": 11
         },
-        "airport-15.svg": {
+        "airport_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2024,7 +2024,7 @@
           ],
           "width": 15
         },
-        "bus-11.svg": {
+        "bus_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2039,7 +2039,7 @@
           ],
           "width": 11
         },
-        "bus-15.svg": {
+        "bus_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2054,7 +2054,7 @@
           ],
           "width": 15
         },
-        "car-11.svg": {
+        "car_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2069,7 +2069,7 @@
           ],
           "width": 11
         },
-        "car-15.svg": {
+        "car_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2084,7 +2084,7 @@
           ],
           "width": 15
         },
-        "entrance-11.svg": {
+        "entrance_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2099,7 +2099,7 @@
           ],
           "width": 11
         },
-        "entrance-15.svg": {
+        "entrance_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2117,7 +2117,7 @@
           ],
           "width": 15
         },
-        "ferry-11.svg": {
+        "ferry_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2132,7 +2132,7 @@
           ],
           "width": 11
         },
-        "ferry-15.svg": {
+        "ferry_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2147,7 +2147,7 @@
           ],
           "width": 15
         },
-        "fuel-11.svg": {
+        "fuel_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2162,7 +2162,7 @@
           ],
           "width": 11
         },
-        "fuel-15.svg": {
+        "fuel_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2177,7 +2177,7 @@
           ],
           "width": 15
         },
-        "harbor-11.svg": {
+        "harbor_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2192,7 +2192,7 @@
           ],
           "width": 11
         },
-        "harbor-15.svg": {
+        "harbor_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2207,7 +2207,7 @@
           ],
           "width": 15
         },
-        "heliport-11.svg": {
+        "heliport_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2222,7 +2222,7 @@
           ],
           "width": 11
         },
-        "heliport-15.svg": {
+        "heliport_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2237,7 +2237,7 @@
           ],
           "width": 15
         },
-        "parking-11.svg": {
+        "parking_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2252,7 +2252,7 @@
           ],
           "width": 11
         },
-        "parking-15.svg": {
+        "parking_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2267,7 +2267,7 @@
           ],
           "width": 15
         },
-        "parking-garage-11.svg": {
+        "parking_garage_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2282,7 +2282,7 @@
           ],
           "width": 11
         },
-        "parking-garage-15.svg": {
+        "parking_garage_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2297,7 +2297,7 @@
           ],
           "width": 15
         },
-        "rail-11.svg": {
+        "rail_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2312,7 +2312,7 @@
           ],
           "width": 11
         },
-        "rail-15.svg": {
+        "rail_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2327,7 +2327,7 @@
           ],
           "width": 15
         },
-        "rail-light-11.svg": {
+        "rail_light_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2342,7 +2342,7 @@
           ],
           "width": 11
         },
-        "rail-light-15.svg": {
+        "rail_light_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2357,7 +2357,7 @@
           ],
           "width": 15
         },
-        "rail-metro-11.svg": {
+        "rail_metro_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2372,7 +2372,7 @@
           ],
           "width": 11
         },
-        "rail-metro-15.svg": {
+        "rail_metro_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2404,7 +2404,7 @@
         "strokeWidth": 0
       },
       "svgs": {
-        "place-of-worship-11.svg": {
+        "place_of_worship_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2419,7 +2419,7 @@
           ],
           "width": 11
         },
-        "place-of-worship-15.svg": {
+        "place_of_worship_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2434,7 +2434,7 @@
           ],
           "width": 15
         },
-        "religious-christian-11.svg": {
+        "religious_christian_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2449,7 +2449,7 @@
           ],
           "width": 11
         },
-        "religious-christian-15.svg": {
+        "religious_christian_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2464,7 +2464,7 @@
           ],
           "width": 15
         },
-        "religious-jewish-11.svg": {
+        "religious_jewish_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2479,7 +2479,7 @@
           ],
           "width": 11
         },
-        "religious-jewish-15.svg": {
+        "religious_jewish_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2494,7 +2494,7 @@
           ],
           "width": 15
         },
-        "religious-muslim-11.svg": {
+        "religious_muslim_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2509,7 +2509,7 @@
           ],
           "width": 11
         },
-        "religious-muslim-15.svg": {
+        "religious_muslim_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2541,37 +2541,7 @@
         "strokeWidth": 0
       },
       "svgs": {
-        "cemetery-11.svg": {
-          "height": 11,
-          "pathData": [
-            {
-              "d": "M8.65,8H8l0,0l1-5.61c0.0167-0.1981-0.1304-0.3722-0.3286-0.3889C8.6577,1.9999,8.6438,1.9996,8.63,2H7.16\n\tc0-0.65-0.7-1-1.67-1S3.66,1.35,3.66,2H2.35C2.1512,2.0048,1.994,2.1699,1.9988,2.3686C1.999,2.3758,1.9994,2.3829,2,2.39L3,8l0,0\n\tH2.35C2.1567,7.9999,1.9999,8.1566,1.9999,8.3499c0,0.0034,0,0.0068,0.0001,0.0101V10h7V8.36\n\tc0.0055-0.1932-0.1466-0.3543-0.3399-0.3599C8.6568,8,8.6534,8,8.65,8z M7,5H4V4h3V5z"
-            }
-          ],
-          "viewBox": [
-            "0",
-            "0",
-            "11",
-            "11"
-          ],
-          "width": 11
-        },
-        "cemetery-15.svg": {
-          "height": 15,
-          "pathData": [
-            {
-              "d": "M11.46,12h-0.68L12,3.55c0.0175-0.2867-0.2008-0.5332-0.4874-0.5507C11.4884,2.9979,11.4641,2.9981,11.44,3h-1.18\n\tc0-0.92-1.23-2-2.75-2S4.77,2.08,4.77,3H3.54C3.253,2.9885,3.0111,3.2117,2.9995,3.4987C2.9988,3.5158,2.999,3.5329,3,3.55L4.2,12\n\tH3.55C3.2609,11.9886,3.0162,12.2112,3,12.5V14h9v-1.51C11.9839,12.2067,11.7435,11.9886,11.46,12z M4.5,5h6v1h-6V5z"
-            }
-          ],
-          "viewBox": [
-            "0",
-            "0",
-            "15",
-            "15"
-          ],
-          "width": 15
-        },
-        "drinking-water-11.svg": {
+        "_rinking-water_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2586,7 +2556,37 @@
           ],
           "width": 11
         },
-        "drinking-water-15.svg": {
+        "cemetery_11.svg": {
+          "height": 11,
+          "pathData": [
+            {
+              "d": "M8.65,8H8l0,0l1-5.61c0.0167-0.1981-0.1304-0.3722-0.3286-0.3889C8.6577,1.9999,8.6438,1.9996,8.63,2H7.16\n\tc0-0.65-0.7-1-1.67-1S3.66,1.35,3.66,2H2.35C2.1512,2.0048,1.994,2.1699,1.9988,2.3686C1.999,2.3758,1.9994,2.3829,2,2.39L3,8l0,0\n\tH2.35C2.1567,7.9999,1.9999,8.1566,1.9999,8.3499c0,0.0034,0,0.0068,0.0001,0.0101V10h7V8.36\n\tc0.0055-0.1932-0.1466-0.3543-0.3399-0.3599C8.6568,8,8.6534,8,8.65,8z M7,5H4V4h3V5z"
+            }
+          ],
+          "viewBox": [
+            "0",
+            "0",
+            "11",
+            "11"
+          ],
+          "width": 11
+        },
+        "cemetery_15.svg": {
+          "height": 15,
+          "pathData": [
+            {
+              "d": "M11.46,12h-0.68L12,3.55c0.0175-0.2867-0.2008-0.5332-0.4874-0.5507C11.4884,2.9979,11.4641,2.9981,11.44,3h-1.18\n\tc0-0.92-1.23-2-2.75-2S4.77,2.08,4.77,3H3.54C3.253,2.9885,3.0111,3.2117,2.9995,3.4987C2.9988,3.5158,2.999,3.5329,3,3.55L4.2,12\n\tH3.55C3.2609,11.9886,3.0162,12.2112,3,12.5V14h9v-1.51C11.9839,12.2067,11.7435,11.9886,11.46,12z M4.5,5h6v1h-6V5z"
+            }
+          ],
+          "viewBox": [
+            "0",
+            "0",
+            "15",
+            "15"
+          ],
+          "width": 15
+        },
+        "drinking_water_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2601,7 +2601,7 @@
           ],
           "width": 15
         },
-        "embassy-11.svg": {
+        "embassy_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2616,7 +2616,7 @@
           ],
           "width": 11
         },
-        "embassy-15.svg": {
+        "embassy_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2631,7 +2631,7 @@
           ],
           "width": 15
         },
-        "police-11.svg": {
+        "police_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2646,7 +2646,7 @@
           ],
           "width": 11
         },
-        "police-15.svg": {
+        "police_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2661,7 +2661,7 @@
           ],
           "width": 15
         },
-        "post-11.svg": {
+        "post_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2676,7 +2676,7 @@
           ],
           "width": 11
         },
-        "post-15.svg": {
+        "post_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2691,7 +2691,7 @@
           ],
           "width": 15
         },
-        "prison-11.svg": {
+        "prison_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2706,7 +2706,7 @@
           ],
           "width": 11
         },
-        "prison-15.svg": {
+        "prison_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2721,7 +2721,7 @@
           ],
           "width": 15
         },
-        "ranger-station-11.svg": {
+        "ranger_station_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2736,7 +2736,7 @@
           ],
           "width": 11
         },
-        "ranger-station-15.svg": {
+        "ranger_station_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2751,7 +2751,7 @@
           ],
           "width": 15
         },
-        "roadblock-11.svg": {
+        "roadblock_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2766,7 +2766,7 @@
           ],
           "width": 11
         },
-        "roadblock-15.svg": {
+        "roadblock_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2781,7 +2781,7 @@
           ],
           "width": 15
         },
-        "rocket-11.svg": {
+        "rocket_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2796,7 +2796,7 @@
           ],
           "width": 11
         },
-        "rocket-15.svg": {
+        "rocket_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2811,7 +2811,7 @@
           ],
           "width": 15
         },
-        "telephone-11.svg": {
+        "telephone_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2826,7 +2826,7 @@
           ],
           "width": 11
         },
-        "telephone-15.svg": {
+        "telephone_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2841,7 +2841,7 @@
           ],
           "width": 15
         },
-        "toilet-11.svg": {
+        "toilet_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2856,7 +2856,7 @@
           ],
           "width": 11
         },
-        "toilet-15.svg": {
+        "toilet_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2871,7 +2871,7 @@
           ],
           "width": 15
         },
-        "town-hall-11.svg": {
+        "town-hall_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2886,7 +2886,7 @@
           ],
           "width": 11
         },
-        "town-hall-15.svg": {
+        "town-hall_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2901,7 +2901,7 @@
           ],
           "width": 15
         },
-        "waste-basket-11.svg": {
+        "waste_basket_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2916,7 +2916,7 @@
           ],
           "width": 11
         },
-        "waste-basket-15.svg": {
+        "waste_basket_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2931,7 +2931,7 @@
           ],
           "width": 15
         },
-        "water-11.svg": {
+        "water_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2946,7 +2946,7 @@
           ],
           "width": 11
         },
-        "water-15.svg": {
+        "water_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2961,7 +2961,7 @@
           ],
           "width": 15
         },
-        "wheelchair-11.svg": {
+        "wheelchair_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2976,7 +2976,7 @@
           ],
           "width": 11
         },
-        "wheelchair-15.svg": {
+        "wheelchair_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3008,7 +3008,7 @@
         "strokeWidth": 0
       },
       "svgs": {
-        "garden-11.svg": {
+        "garden_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -3023,7 +3023,7 @@
           ],
           "width": 11
         },
-        "garden-15.svg": {
+        "garden_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3038,7 +3038,7 @@
           ],
           "width": 15
         },
-        "mountain-11.svg": {
+        "mountain_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -3053,7 +3053,7 @@
           ],
           "width": 11
         },
-        "mountain-15.svg": {
+        "mountain_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3068,7 +3068,7 @@
           ],
           "width": 15
         },
-        "park-11.svg": {
+        "park_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -3083,7 +3083,7 @@
           ],
           "width": 11
         },
-        "park-15.svg": {
+        "park_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3098,7 +3098,7 @@
           ],
           "width": 15
         },
-        "picnic-site-11.svg": {
+        "picnic_site_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -3113,7 +3113,7 @@
           ],
           "width": 11
         },
-        "picnic-site-15.svg": {
+        "picnic_site_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3128,7 +3128,7 @@
           ],
           "width": 15
         },
-        "volcano-11.svg": {
+        "volcano_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -3143,7 +3143,7 @@
           ],
           "width": 11
         },
-        "volcano-15.svg": {
+        "volcano_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3158,7 +3158,7 @@
           ],
           "width": 15
         },
-        "wetland-11.svg": {
+        "wetland_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -3173,7 +3173,7 @@
           ],
           "width": 11
         },
-        "wetland-15.svg": {
+        "wetland_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3205,7 +3205,7 @@
         "strokeWidth": 0
       },
       "svgs": {
-        "danger-11.svg": {
+        "danger_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -3220,7 +3220,7 @@
           ],
           "width": 11
         },
-        "danger-15.svg": {
+        "danger_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3235,7 +3235,7 @@
           ],
           "width": 15
         },
-        "dentist-11.svg": {
+        "dentist_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -3250,7 +3250,7 @@
           ],
           "width": 11
         },
-        "dentist-15.svg": {
+        "dentist_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3265,7 +3265,7 @@
           ],
           "width": 15
         },
-        "doctor-11.svg": {
+        "doctor_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -3280,7 +3280,7 @@
           ],
           "width": 11
         },
-        "doctor-15.svg": {
+        "doctor_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3295,7 +3295,7 @@
           ],
           "width": 15
         },
-        "fire-station-11.svg": {
+        "fire-station_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -3310,7 +3310,7 @@
           ],
           "width": 11
         },
-        "fire-station-15.svg": {
+        "fire-station_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3325,7 +3325,7 @@
           ],
           "width": 15
         },
-        "heart-11.svg": {
+        "heart_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -3340,7 +3340,7 @@
           ],
           "width": 11
         },
-        "heart-15.svg": {
+        "heart_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3355,7 +3355,7 @@
           ],
           "width": 15
         },
-        "hospital-11.svg": {
+        "hospital_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -3370,7 +3370,7 @@
           ],
           "width": 11
         },
-        "hospital-15.svg": {
+        "hospital_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3385,7 +3385,7 @@
           ],
           "width": 15
         },
-        "veterinary-11.svg": {
+        "veterinary_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -3400,7 +3400,7 @@
           ],
           "width": 11
         },
-        "veterinary-15.svg": {
+        "veterinary_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3460,7 +3460,7 @@
         "strokeWidth": 0
       },
       "svgs": {
-        "campsite-11.svg": {
+        "campsite_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -3475,7 +3475,7 @@
           ],
           "width": 11
         },
-        "campsite-15.svg": {
+        "campsite_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3490,7 +3490,7 @@
           ],
           "width": 15
         },
-        "castle-11.svg": {
+        "castle_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -3505,7 +3505,7 @@
           ],
           "width": 11
         },
-        "castle-15.svg": {
+        "castle_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3520,7 +3520,7 @@
           ],
           "width": 15
         },
-        "information-11.svg": {
+        "information_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -3535,7 +3535,7 @@
           ],
           "width": 11
         },
-        "information-15.svg": {
+        "information_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3550,7 +3550,7 @@
           ],
           "width": 15
         },
-        "lighthouse-11.svg": {
+        "lighthouse_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -3565,7 +3565,7 @@
           ],
           "width": 11
         },
-        "lighthouse-15.svg": {
+        "lighthouse_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3580,7 +3580,7 @@
           ],
           "width": 15
         },
-        "lodging-11.svg": {
+        "lodging_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -3595,7 +3595,7 @@
           ],
           "width": 11
         },
-        "lodging-15.svg": {
+        "lodging_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3610,7 +3610,7 @@
           ],
           "width": 15
         },
-        "monument-11.svg": {
+        "monument_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -3625,7 +3625,7 @@
           ],
           "width": 11
         },
-        "monument-15.svg": {
+        "monument_15.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3640,7 +3640,7 @@
           ],
           "width": 15
         },
-        "shelter-11.svg": {
+        "shelter_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -3655,7 +3655,7 @@
           ],
           "width": 11
         },
-        "shelter-15.svg": {
+        "shelter_15.svg": {
           "height": 15,
           "pathData": [
             {
