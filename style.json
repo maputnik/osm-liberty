@@ -81,7 +81,7 @@
           1,
           1.5
         ],
-        "line-color": "rgba(159, 183, 148, 1)",
+        "line-color": "rgba(228, 241, 215, 1)",
         "line-opacity": 1
       },
       "layout": {}
@@ -92,6 +92,7 @@
       "metadata": {},
       "source": "openmaptiles",
       "source-layer": "landuse",
+      "maxzoom": 8,
       "filter": [
         "==",
         "class",
@@ -117,6 +118,26 @@
       }
     },
     {
+      "id": "landcover_wood",
+      "type": "fill",
+      "metadata": {},
+      "source": "openmaptiles",
+      "source-layer": "landcover",
+      "filter": [
+        "all",
+        [
+          "==",
+          "class",
+          "wood"
+        ]
+      ],
+      "paint": {
+        "fill-antialias": false,
+        "fill-color": "hsla(98, 61%, 72%, 0.7)",
+        "fill-opacity": 0.4
+      }
+    },
+    {
       "id": "landcover_grass",
       "type": "fill",
       "metadata": {},
@@ -132,7 +153,8 @@
       ],
       "paint": {
         "fill-antialias": false,
-        "fill-color": "hsla(98, 61%, 72%, 0.7)"
+        "fill-color": "rgba(176, 213, 154, 1)",
+        "fill-opacity": 0.3
       }
     },
     {
