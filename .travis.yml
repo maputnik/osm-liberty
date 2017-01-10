@@ -7,4 +7,4 @@ branches:
   - gh-pages
 script:
   - npm install -g mapbox-gl-style-spec
-  - gl-style-validate osm-liberty.json
+  - gl-style-validate style.json
