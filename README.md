@@ -82,5 +82,8 @@ Green        | `#76a723`
 **Modify Icons**
 
 1. Take the style JSON file and upload it to the [Maki Editor]().
-2. Apply your changes and download the icon set again.
+2. Apply your changes and download the fonts and icon set again.
 3. Ensure you format the JSON first with `cat iconset.json | jq -MS '.'`
+4. Install [spritezero](https://github.com/mapbox/spritezero) `npm install spritezero-cli`
+5. Generate the low resolution sprites `spritezero sprites/osm-liberty ./svgs/`
+6. Generate the high resolution sprites `spritezero sprites/osm-liberty@2x ./svgs/`
