@@ -376,17 +376,22 @@
       "type": "line",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "==",
           "class",
-          "motorway_link"
+          "motorway"
         ],
         [
           "==",
-          "structure",
+          "ramp",
+          1
+        ],
+        [
+          "==",
+          "brunnel",
           "tunnel"
         ]
       ],
@@ -429,12 +434,12 @@
       "type": "line",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "==",
-          "structure",
+          "brunnel",
           "tunnel"
         ],
         [
@@ -477,17 +482,17 @@
       "type": "line",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "==",
-          "class",
-          "link"
+          "ramp",
+          "1"
         ],
         [
           "==",
-          "structure",
+          "brunnel",
           "tunnel"
         ]
       ],
@@ -525,12 +530,12 @@
       "type": "line",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "==",
-          "structure",
+          "brunnel",
           "tunnel"
         ],
         [
@@ -585,12 +590,12 @@
       "type": "line",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "==",
-          "structure",
+          "brunnel",
           "tunnel"
         ],
         [
@@ -626,12 +631,12 @@
       "type": "line",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "==",
-          "structure",
+          "brunnel",
           "tunnel"
         ],
         [
@@ -674,7 +679,7 @@
       "type": "line",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
@@ -684,7 +689,7 @@
         ],
         [
           "==",
-          "structure",
+          "brunnel",
           "tunnel"
         ]
       ],
@@ -726,7 +731,7 @@
       "type": "line",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
@@ -738,7 +743,7 @@
           "all",
           [
             "==",
-            "structure",
+            "brunnel",
             "tunnel"
           ],
           [
@@ -799,7 +804,7 @@
       },
       "type": "line",
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
@@ -809,7 +814,12 @@
         ],
         [
           "==",
-          "structure",
+          "ramp",
+          1
+        ],
+        [
+          "==",
+          "brunnel",
           "tunnel"
         ]
       ],
@@ -843,12 +853,12 @@
       },
       "type": "line",
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "==",
-          "structure",
+          "brunnel",
           "tunnel"
         ],
         [
@@ -891,17 +901,17 @@
       },
       "type": "line",
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "==",
-          "class",
-          "link"
+          "ramp",
+          "1"
         ],
         [
           "==",
-          "structure",
+          "brunnel",
           "tunnel"
         ]
       ],
@@ -935,12 +945,12 @@
       },
       "type": "line",
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "==",
-          "structure",
+          "brunnel",
           "tunnel"
         ],
         [
@@ -979,12 +989,12 @@
       },
       "type": "line",
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "==",
-          "structure",
+          "brunnel",
           "tunnel"
         ],
         [
@@ -1023,12 +1033,12 @@
       },
       "type": "line",
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "==",
-          "structure",
+          "brunnel",
           "tunnel"
         ],
         [
@@ -1067,7 +1077,7 @@
       },
       "type": "line",
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
@@ -1077,7 +1087,7 @@
         ],
         [
           "==",
-          "structure",
+          "brunnel",
           "tunnel"
         ]
       ],
@@ -1091,19 +1101,18 @@
       "type": "line",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "==",
-          "structure",
+          "brunnel",
           "tunnel"
         ],
         [
           "in",
           "class",
-          "major_rail",
-          "minor_rail"
+          "rail"
         ]
       ],
       "paint": {
@@ -1156,18 +1165,18 @@
       },
       "type": "line",
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "==",
-          "structure",
+          "brunnel",
           "tunnel"
         ],
         [
           "in",
           "class",
-          "major_rail",
+          "rail",
           "minor_rail"
         ]
       ]
@@ -1263,13 +1272,13 @@
       "type": "line",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "minzoom": 12,
       "filter": [
         "all",
         [
           "!in",
-          "structure",
+          "brunnel",
           "bridge",
           "tunnel"
         ],
@@ -1277,6 +1286,11 @@
           "==",
           "class",
           "motorway_link"
+        ],
+        [
+          "==",
+          "ramp",
+          1
         ]
       ],
       "layout": {
@@ -1314,12 +1328,12 @@
       "type": "line",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "!in",
-          "structure",
+          "brunnel",
           "bridge",
           "tunnel"
         ],
@@ -1360,13 +1374,13 @@
       "type": "line",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "minzoom": 13,
       "filter": [
         "all",
         [
           "!in",
-          "structure",
+          "brunnel",
           "bridge",
           "tunnel"
         ],
@@ -1412,7 +1426,7 @@
       "type": "line",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
@@ -1424,7 +1438,7 @@
           "all",
           [
             "!in",
-            "structure",
+            "brunnel",
             "bridge",
             "tunnel"
           ],
@@ -1482,12 +1496,12 @@
       "type": "line",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "!in",
-          "structure",
+          "brunnel",
           "bridge",
           "tunnel"
         ],
@@ -1526,12 +1540,12 @@
       "type": "line",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "!in",
-          "structure",
+          "brunnel",
           "bridge",
           "tunnel"
         ],
@@ -1578,13 +1592,13 @@
       "type": "line",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "minzoom": 5,
       "filter": [
         "all",
         [
           "!in",
-          "structure",
+          "brunnel",
           "bridge",
           "tunnel"
         ],
@@ -1629,7 +1643,7 @@
       "type": "line",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "minzoom": 14,
       "filter": [
         "all",
@@ -1642,7 +1656,7 @@
           "all",
           [
             "!in",
-            "structure",
+            "brunnel",
             "bridge",
             "tunnel"
           ],
@@ -1707,13 +1721,13 @@
       },
       "type": "line",
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "minzoom": 12,
       "filter": [
         "all",
         [
           "!in",
-          "structure",
+          "brunnel",
           "bridge",
           "tunnel"
         ],
@@ -1721,6 +1735,11 @@
           "==",
           "class",
           "motorway_link"
+        ],
+        [
+          "==",
+          "ramp",
+          1
         ]
       ],
       "layout": {
@@ -1753,12 +1772,12 @@
       },
       "type": "line",
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "!in",
-          "structure",
+          "brunnel",
           "bridge",
           "tunnel"
         ],
@@ -1803,13 +1822,13 @@
       },
       "type": "line",
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "minzoom": 13,
       "filter": [
         "all",
         [
           "!in",
-          "structure",
+          "brunnel",
           "bridge",
           "tunnel"
         ],
@@ -1851,7 +1870,7 @@
       },
       "type": "line",
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
@@ -1863,7 +1882,7 @@
           "all",
           [
             "!in",
-            "structure",
+            "brunnel",
             "bridge",
             "tunnel"
           ],
@@ -1905,12 +1924,12 @@
       },
       "type": "line",
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "!in",
-          "structure",
+          "brunnel",
           "bridge",
           "tunnel"
         ],
@@ -1952,12 +1971,12 @@
       },
       "type": "line",
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "!in",
-          "structure",
+          "brunnel",
           "bridge",
           "tunnel"
         ],
@@ -2011,13 +2030,13 @@
       },
       "type": "line",
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "minzoom": 5,
       "filter": [
         "all",
         [
           "!in",
-          "structure",
+          "brunnel",
           "bridge",
           "tunnel"
         ],
@@ -2038,19 +2057,19 @@
       "type": "line",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "!in",
-          "structure",
+          "brunnel",
           "bridge",
           "tunnel"
         ],
         [
           "==",
           "class",
-          "major_rail"
+          "rail"
         ]
       ],
       "paint": {
@@ -2103,19 +2122,19 @@
       },
       "type": "line",
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "!in",
-          "structure",
+          "brunnel",
           "bridge",
           "tunnel"
         ],
         [
           "==",
           "class",
-          "major_rail"
+          "rail"
         ]
       ]
     },
@@ -2124,7 +2143,7 @@
       "type": "line",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
@@ -2134,7 +2153,12 @@
         ],
         [
           "==",
-          "structure",
+          "ramp",
+          1
+        ],
+        [
+          "==",
+          "brunnel",
           "bridge"
         ]
       ],
@@ -2172,12 +2196,12 @@
       "type": "line",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "==",
-          "structure",
+          "brunnel",
           "bridge"
         ],
         [
@@ -2216,7 +2240,7 @@
       "type": "line",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
@@ -2226,7 +2250,7 @@
         ],
         [
           "==",
-          "structure",
+          "brunnel",
           "bridge"
         ]
       ],
@@ -2264,12 +2288,12 @@
       "type": "line",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "==",
-          "structure",
+          "brunnel",
           "bridge"
         ],
         [
@@ -2324,7 +2348,7 @@
       "type": "line",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
@@ -2336,7 +2360,7 @@
           "all",
           [
             "==",
-            "structure",
+            "brunnel",
             "bridge"
           ],
           [
@@ -2377,12 +2401,12 @@
       "type": "line",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "==",
-          "structure",
+          "brunnel",
           "bridge"
         ],
         [
@@ -2418,12 +2442,12 @@
       "type": "line",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "==",
-          "structure",
+          "brunnel",
           "bridge"
         ],
         [
@@ -2466,7 +2490,7 @@
       "type": "line",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
@@ -2476,7 +2500,7 @@
         ],
         [
           "==",
-          "structure",
+          "brunnel",
           "bridge"
         ]
       ],
@@ -2513,7 +2537,7 @@
       "type": "line",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
@@ -2525,7 +2549,7 @@
           "all",
           [
             "==",
-            "structure",
+            "brunnel",
             "bridge"
           ],
           [
@@ -2586,7 +2610,7 @@
       },
       "type": "line",
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
@@ -2596,7 +2620,12 @@
         ],
         [
           "==",
-          "structure",
+          "ramp",
+          1
+        ],
+        [
+          "==",
+          "brunnel",
           "bridge"
         ]
       ],
@@ -2629,12 +2658,12 @@
       },
       "type": "line",
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "==",
-          "structure",
+          "brunnel",
           "bridge"
         ],
         [
@@ -2677,7 +2706,7 @@
       },
       "type": "line",
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
@@ -2687,7 +2716,7 @@
         ],
         [
           "==",
-          "structure",
+          "brunnel",
           "bridge"
         ]
       ],
@@ -2721,12 +2750,12 @@
       },
       "type": "line",
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "==",
-          "structure",
+          "brunnel",
           "bridge"
         ],
         [
@@ -2765,12 +2794,12 @@
       },
       "type": "line",
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "==",
-          "structure",
+          "brunnel",
           "bridge"
         ],
         [
@@ -2809,12 +2838,12 @@
       },
       "type": "line",
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "==",
-          "structure",
+          "brunnel",
           "bridge"
         ],
         [
@@ -2853,7 +2882,7 @@
       },
       "type": "line",
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
@@ -2863,7 +2892,7 @@
         ],
         [
           "==",
-          "structure",
+          "brunnel",
           "bridge"
         ]
       ],
@@ -2876,17 +2905,17 @@
       "type": "line",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "==",
           "class",
-          "major_rail"
+          "rail"
         ],
         [
           "==",
-          "structure",
+          "brunnel",
           "bridge"
         ]
       ],
@@ -2940,17 +2969,17 @@
       },
       "type": "line",
       "source": "openmaptiles",
-      "source-layer": "road",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
           "==",
           "class",
-          "major_rail"
+          "rail"
         ],
         [
           "==",
-          "structure",
+          "brunnel",
           "bridge"
         ]
       ]
