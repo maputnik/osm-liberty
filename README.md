@@ -81,7 +81,7 @@ Green        | `#76a723`
 
 **Modify Icons**
 
-1. Take the style JSON file and upload it to the [Maki Editor]().
+1. Take the `iconset.json` and upload it to the [Maki Editor]https://www.mapbox.com/maki-icons/#editor().
 2. Apply your changes and download the fonts and icon set again.
 3. Ensure you format the JSON first with `cat iconset.json | jq -MS '.'`
 4. Install [spritezero](https://github.com/mapbox/spritezero) `npm install spritezero-cli`
