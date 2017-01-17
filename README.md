@@ -32,7 +32,7 @@ To use it you don't need any access keys and you can host the tiles and assets y
   <script>
   var map = new mapboxgl.Map({
       container: 'map',
-      style: 'http://osm-liberty.lukasmartinelli.ch/osm-liberty.json',
+      style: 'http://osm-liberty.lukasmartinelli.ch/style.json',
       center: [8.538961,47.372476],
       zoom: 5,
       hash: true
