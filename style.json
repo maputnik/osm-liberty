@@ -3086,18 +3086,48 @@
       }
     },
     {
-      "id": "water_label",
+      "id": "water_name_line",
       "type": "symbol",
       "metadata": {},
       "source": "openmaptiles",
-      "source-layer": "water_label",
+      "source-layer": "water_name",
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "LineString"
+        ]
+      ],
+      "layout": {
+        "text-field": "{name}",
+        "text-font": [
+          "Roboto Regular"
+        ],
+        "text-max-width": 5,
+        "text-size": 12,
+        "symbol-placement": "line"
+      },
+      "paint": {
+        "text-color": "#5d60be",
+        "text-halo-color": "rgba(255,255,255,0.7)",
+        "text-halo-width": 1
+      },
+      "minzoom": 0
+    },
+    {
+      "id": "water_name_point",
+      "type": "symbol",
+      "metadata": {},
+      "source": "openmaptiles",
+      "source-layer": "water_name",
       "filter": [
         "==",
         "$type",
         "Point"
       ],
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name}",
         "text-font": [
           "Roboto Regular"
         ],
@@ -3108,7 +3138,8 @@
         "text-color": "#5d60be",
         "text-halo-color": "rgba(255,255,255,0.7)",
         "text-halo-width": 1
-      }
+      },
+      "minzoom": 0
     },
     {
       "id": "poi_z17",
