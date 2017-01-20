@@ -3142,48 +3142,6 @@
       "minzoom": 0
     },
     {
-      "id": "poi_z17",
-      "type": "symbol",
-      "metadata": {},
-      "source": "openmaptiles",
-      "source-layer": "poi",
-      "minzoom": 17,
-      "filter": [
-        "all",
-        [
-          "==",
-          "$type",
-          "Point"
-        ],
-        [
-          ">=",
-          "rank",
-          20
-        ]
-      ],
-      "layout": {
-        "icon-image": "{class}-11",
-        "text-anchor": "top",
-        "text-field": "{name}",
-        "text-font": [
-          "Roboto Regular"
-        ],
-        "text-max-width": 9,
-        "text-offset": [
-          0,
-          0.6
-        ],
-        "text-padding": 2,
-        "text-size": 12
-      },
-      "paint": {
-        "text-color": "#666",
-        "text-halo-blur": 0.5,
-        "text-halo-color": "#ffffff",
-        "text-halo-width": 1
-      }
-    },
-    {
       "id": "poi_z16",
       "type": "symbol",
       "metadata": {},
@@ -3200,16 +3158,11 @@
         [
           ">=",
           "rank",
-          10
-        ],
-        [
-          "<",
-          "rank",
-          15
+          20
         ]
       ],
       "layout": {
-        "icon-image": "{class}-11",
+        "icon-image": "{class}_11",
         "text-anchor": "top",
         "text-field": "{name}",
         "text-font": [
@@ -3247,16 +3200,16 @@
         [
           ">=",
           "rank",
-          5
+          7
         ],
         [
           "<",
           "rank",
-          10
+          20
         ]
       ],
       "layout": {
-        "icon-image": "{class}-11",
+        "icon-image": "{class}_11",
         "text-anchor": "top",
         "text-field": "{name}",
         "text-font": [
@@ -3299,11 +3252,11 @@
         [
           "<",
           "rank",
-          5
+          7
         ]
       ],
       "layout": {
-        "icon-image": "{class}-11",
+        "icon-image": "{class}_11",
         "text-anchor": "top",
         "text-field": "{name}",
         "text-font": [
@@ -3331,7 +3284,7 @@
       "source": "openmaptiles",
       "source-layer": "poi",
       "layout": {
-        "icon-image": "{maki}-11",
+        "icon-image": "{maki}_11",
         "text-anchor": "left",
         "text-field": "{name_en}",
         "text-font": [
