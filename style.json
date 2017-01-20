@@ -1176,6 +1176,27 @@
       ]
     },
     {
+      "id": "road_area_pattern",
+      "metadata": {},
+      "paint": {
+        "fill-pattern": "pedestrian_polygon"
+      },
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "Polygon"
+        ]
+      ],
+      "layout": {
+        "visibility": "visible"
+      }
+    },
+    {
       "id": "road_motorway_link_casing",
       "type": "line",
       "metadata": {},
@@ -1778,27 +1799,6 @@
       "layout": {
         "line-cap": "round",
         "line-join": "round",
-        "visibility": "visible"
-      }
-    },
-    {
-      "id": "road_area_pattern",
-      "metadata": {},
-      "paint": {
-        "fill-pattern": "pedestrian_polygon"
-      },
-      "type": "fill",
-      "source": "openmaptiles",
-      "source-layer": "transportation",
-      "filter": [
-        "all",
-        [
-          "==",
-          "$type",
-          "Polygon"
-        ]
-      ],
-      "layout": {
         "visibility": "visible"
       }
     },
