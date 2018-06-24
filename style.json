@@ -3279,7 +3279,7 @@
       "source": "openmaptiles",
       "source-layer": "poi",
       "layout": {
-        "icon-image": "{maki}_11",
+        "icon-image": "{class}_11",
         "text-anchor": "left",
         "text-field": "{name_en}",
         "text-font": [
