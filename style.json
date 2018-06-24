@@ -1497,11 +1497,6 @@
           "class",
           "primary",
           "trunk"
-        ],
-        [
-          "!=",
-          "ramp",
-          1
         ]
       ],
       "layout": {
