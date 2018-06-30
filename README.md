@@ -1,12 +1,10 @@
-# OSM Liberty [![BSD licensed](https://img.shields.io/badge/license-BSD-blue.svg)](https://github.com/lukasmartinelli/osm-liberty/blob/gh-pages/LICENSE.md) [![Build Status](https://travis-ci.org/lukasmartinelli/osm-liberty.svg?branch=gh-pages)](https://travis-ci.org/lukasmartinelli/osm-liberty)
-
-> :warning: This repository is no longer maintained by Lukas Martinelli.
+# OSM Liberty [![BSD licensed](https://img.shields.io/badge/license-BSD-blue.svg)](https://github.com/maputnik/osm-liberty/blob/gh-pages/LICENSE.md) [![Build Status](https://travis-ci.org/maputnik/osm-liberty.svg?branch=gh-pages)](https://travis-ci.org/maputnik/osm-liberty)
 
 <img align="right" alt="OSM Liberty" src="logo.png" />
 
 A free Mapbox GL basemap from [OpenStreetMap](https://openstreetmap.org) with complete liberty to use and self host. OSM Liberty is a fork of OSM Bright based on free data sources with a mission for a clear good looking design for the everyday user. It is based on the vector tile schema of [OpenMapTiles](https://github.com/openmaptiles/openmaptiles).
 
-**[osm-liberty.lukasmartinelli.ch](http://osm-liberty.lukasmartinelli.ch/)**
+**[https://maputnik.github.io/osm-liberty](https://maputnik.github.io/osm-liberty)**
 
 ## Usage
 
@@ -34,7 +32,7 @@ To use it you don't need any access keys and you can host the tiles and assets y
   <script>
   var map = new mapboxgl.Map({
       container: 'map',
-      style: 'http://osm-liberty.lukasmartinelli.ch/style.json',
+      style: 'https://maputnik.github.io/osm-liberty/style.json',
       center: [8.538961,47.372476],
       zoom: 5,
       hash: true
@@ -55,11 +53,11 @@ To use it you don't need any access keys and you can host the tiles and assets y
 The map design originates from OSM Bright but strives to reach a unobtrusive and clean design for everyday use.
 Colored relief shading from Natural Earth make the low zoom levels look good.
 
-[![OSM Liberty Map demo](demo/zoom.gif)](http://osm-liberty.lukasmartinelli.ch/)
+[![OSM Liberty Map demo](demo/zoom.gif)](https://maputnik.github.io/osm-liberty/)
 
 ## Edit the Style
 
-You can [edit the style directly online in Maputnik](http://maputnik.com/editor?style=https://rawgit.com/lukasmartinelli/osm-liberty/gh-pages/style.json).
+You can [edit the style directly online in Maputnik](http://maputnik.com/editor?style=https://rawgit.com/maputnik/osm-liberty/gh-pages/style.json).
 
 Use the [Maputnik CLI](http://openmaptiles.org/docs/style/maputnik/) to edit and develop the style locally.
 After you've started Maputnik open the editor on `localhost:8000`. This style actually triggered the need for the development of Maputnik.
