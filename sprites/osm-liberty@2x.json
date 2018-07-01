@@ -1133,42 +1133,42 @@
     "x": 147,
     "y": 127
   },
-  "rail_11": {
+  "railway_11": {
     "height": 15,
     "pixelRatio": 1,
     "width": 15,
     "x": 282,
     "y": 148
   },
-  "rail_15": {
+  "railway_15": {
     "height": 19,
     "pixelRatio": 1,
     "width": 19,
     "x": 190,
     "y": 210
   },
-  "rail_light_11": {
+  "railway_light_11": {
     "height": 15,
     "pixelRatio": 1,
     "width": 15,
     "x": 297,
     "y": 148
   },
-  "rail_light_15": {
+  "railway_light_15": {
     "height": 19,
     "pixelRatio": 1,
     "width": 19,
     "x": 209,
     "y": 210
   },
-  "rail_metro_11": {
+  "railway_metro_11": {
     "height": 15,
     "pixelRatio": 1,
     "width": 15,
     "x": 312,
     "y": 148
   },
-  "rail_metro_15": {
+  "railway_metro_15": {
     "height": 19,
     "pixelRatio": 1,
     "width": 19,
