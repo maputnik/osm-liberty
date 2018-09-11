@@ -2,16 +2,19 @@
 
 <img align="right" alt="OSM Liberty" src="logo.png" />
 
-A free Mapbox GL basemap from [OpenStreetMap](https://openstreetmap.org) with complete liberty to use and self host. OSM Liberty is a fork of OSM Bright based on free data sources with a mission for a clear good looking design for the everyday user. It is based on the vector tile schema of [OpenMapTiles](https://github.com/openmaptiles/openmaptiles).
+A free Mapbox GL basemap style for everyone with complete liberty to use and self host. OSM Liberty is a fork of OSM Bright based on free data sources with a mission for a clear good looking design for the everyday user. It is based on the vector tile schema of [OpenMapTiles](https://github.com/openmaptiles/openmaptiles).
 
-**[https://maputnik.github.io/osm-liberty](https://maputnik.github.io/osm-liberty)**
+**[Preview OSM Liberty with Maputnik](https://maputnik.github.io/editor/?style=https://rawgit.com/maputnik/osm-liberty/gh-pages/style.json)**
 
 ## Usage
 
-You can instantly use the style in your Mapbox GL maps. The vector tiles are served from the @klokantech public CDN
-and the raster tiles, glyphs and sprites directly from GitHub.
-Take a look at the [demo page source code](index.html) how to display a map.
-To use it you don't need any access keys and you can host the tiles and assets yourself for complete liberty.
+You can use the style in your Mapbox GL maps. 
+
+By default, the vector tiles are served from [Maptiler Cloud](https://www.maptiler.com/cloud/) and the raster tiles, glyphs and sprites directly from GitHub.
+You would need to [subscribe](https://www.maptiler.com/cloud/plans) to Maptiler Cloud to get an access key and replace the placeholder {key} [here](https://github.com/maputnik/osm-liberty/blob/gh-pages/style.json#L19) with your own key.
+
+
+Another option is to create your own vector tiles with [OpenMapTiles](https://github.com/openmaptiles/openmaptiles) and host the tiles and assets yourself for complete liberty.
 
 ```html
 <!DOCTYPE html>
@@ -24,8 +27,8 @@ To use it you don't need any access keys and you can host the tiles and assets y
     body { margin:0; padding:0; }
     #map { position:absolute; top:0; bottom:0; width:100%; }
   </style>
-  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js'></script>
-  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body>
   <div id='map'></div>
@@ -59,12 +62,7 @@ Colored relief shading from Natural Earth make the low zoom levels look good.
 
 You can [edit the style directly online in Maputnik](https://maputnik.github.io/editor?style=https://rawgit.com/maputnik/osm-liberty/gh-pages/style.json).
 
-Use the [Maputnik CLI](http://openmaptiles.org/docs/style/maputnik/) to edit and develop the style locally.
-After you've started Maputnik open the editor on `localhost:8000`. This style actually triggered the need for the development of Maputnik.
-
-```
-maputnik --watch --file style.json
-```
+This style actually triggered the need for the development of [Maputnik](https://github.com/maputnik/editor/).
 
 ## Icon Design
 
