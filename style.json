@@ -6,6 +6,10 @@
     "mapbox:type": "template"
   },
   "sources": {
+    "openmaptiles": {
+      "type": "vector",
+      "url": "https://maps.tilehosting.com/data/v3.json?key={key}"
+    },
     "natural_earth_shaded_relief": {
       "maxzoom": 6,
       "tileSize": 256,
@@ -13,10 +17,6 @@
         "https://klokantech.github.io/naturalearthtiles/tiles/natural_earth_2_shaded_relief.raster/{z}/{x}/{y}.png"
       ],
       "type": "raster"
-    },
-    "openmaptiles": {
-      "type": "vector",
-      "url": "https://maps.tilehosting.com/data/v3.json?key={key}"
     }
   },
   "sprite": "https://rawgit.com/maputnik/osm-liberty/gh-pages/sprites/osm-liberty",
