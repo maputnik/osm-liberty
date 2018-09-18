@@ -27,8 +27,8 @@ Another option is to create your own vector tiles with [OpenMapTiles](https://gi
     body { margin:0; padding:0; }
     #map { position:absolute; top:0; bottom:0; width:100%; }
   </style>
-  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js'></script>
-  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css' rel='stylesheet' />
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body>
   <div id='map'></div>
@@ -81,9 +81,11 @@ Green        | `#76a723`
 
 **Modify Icons**
 
-1. Take the `iconset.json` and upload it to the [Maki Editor](https://www.mapbox.com/maki-icons/#editor).
-2. Apply your changes and download the fonts and icon set again.
-3. Ensure you format the JSON first with `cat iconset.json | jq -MS '.'`
-4. Install [spritezero](https://github.com/mapbox/spritezero) `npm install spritezero-cli`
-5. Generate the low resolution sprites `spritezero sprites/osm-liberty ./svgs/`
-6. Generate the high resolution sprites `spritezero sprites/osm-liberty@2x ./svgs/`
+1. Take the `iconset.json` and import it to the [Maki Editor](https://www.mapbox.com/maki-icons/editor/).
+2. Apply your changes and download the icons in SVG format and the iconset in JSON format.
+3. Optional: Format the JSON with `cat iconset.json | jq -MS '.'` for better legibility.
+4. Add the SVG files from the folder [svgs_not_in_iconset](https://github.com/maputnik/osm-liberty/tree/gh-pages/svgs/svgs_not_in_iconset) to the folder `svgs` downloaded from the Maki Editor.
+These are the SVGs for road shields, the dot used for city and town layers and the road area pattern which could not be modified using the Maki Editor. To modify these you could use e.g. [Inkscape](https://inkscape.org). 
+5. Install [spritezero-cli](https://github.com/mapbox/spritezero-cli): `npm install -g @mapbox/spritezero-cli`
+6. Generate the low resolution sprites: `spritezero osm-liberty ./svgs/`
+7. Generate the high resolution sprites: `spritezero --retina osm-liberty@2x ./svgs/`
