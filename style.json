@@ -20,7 +20,7 @@
     }
   },
   "sprite": "https://rawgit.com/maputnik/osm-liberty/gh-pages/sprites/osm-liberty",
-  "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
+  "glyphs": "https://maps.tilehosting.com/fonts/{fontstack}/{range}.pbf?key={key}",
   "layers": [
     {
       "id": "background",
