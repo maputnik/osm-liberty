@@ -27,8 +27,8 @@ Another option is to create your own vector tiles with [OpenMapTiles](https://gi
     body { margin:0; padding:0; }
     #map { position:absolute; top:0; bottom:0; width:100%; }
   </style>
-  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
-  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body>
   <div id='map'></div>
@@ -48,7 +48,7 @@ Another option is to create your own vector tiles with [OpenMapTiles](https://gi
 ## Data Sources
 
 - [OpenMapTiles](http://openmaptiles.org/) as vector data source
-- [Natural Earth Tiles](http://naturalearthtiles.org) for relief shading
+- [Natural Earth Tiles](https://klokantech.github.io/naturalearthtiles/) for relief shading
 - [Maki](https://www.mapbox.com/maki-icons/) as icon set
 
 ## Map Design
