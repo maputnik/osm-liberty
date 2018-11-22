@@ -274,6 +274,15 @@
       }
     },
     {
+      "id": "landcover_sand",
+      "type": "fill",
+      "metadata": {},
+      "source": "openmaptiles",
+      "source-layer": "landcover",
+      "filter": ["all", ["==", "class", "sand"]],
+      "paint": {"fill-color": "rgba(245, 238, 188, 1)"}
+    },
+    {
       "id": "aeroway_fill",
       "type": "fill",
       "metadata": {},
