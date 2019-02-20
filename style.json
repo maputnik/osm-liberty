@@ -2215,7 +2215,7 @@
       ]
     },
     {
-      "id": "road_minor-copy",
+      "id": "road_minor",
       "metadata": {},
       "paint": {
         "line-color": "#fff",
