@@ -4,7 +4,7 @@
 
 A free Mapbox GL basemap style for everyone with complete liberty to use and self host. OSM Liberty is a fork of OSM Bright based on free data sources with a mission for a clear good looking design for the everyday user. It is based on the vector tile schema of [OpenMapTiles](https://github.com/openmaptiles/openmaptiles).
 
-**[Preview OSM Liberty with Maputnik](https://maputnik.github.io/editor/?style=https://rawgit.com/maputnik/osm-liberty/gh-pages/style.json)**
+**[Preview OSM Liberty with Maputnik](https://maputnik.github.io/editor/?style=https://maputnik.github.io/osm-liberty/style.json)**
 
 ## Usage
 
@@ -27,8 +27,8 @@ Another option is to create your own vector tiles with [OpenMapTiles](https://gi
     body { margin:0; padding:0; }
     #map { position:absolute; top:0; bottom:0; width:100%; }
   </style>
-  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
-  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body>
   <div id='map'></div>
@@ -60,7 +60,7 @@ Colored relief shading from Natural Earth make the low zoom levels look good.
 
 ## Edit the Style
 
-You can [edit the style directly online in Maputnik](https://maputnik.github.io/editor?style=https://rawgit.com/maputnik/osm-liberty/gh-pages/style.json).
+You can [edit the style directly online in Maputnik](https://maputnik.github.io/editor?style=https://maputnik.github.io/osm-liberty/style.json).
 
 This style actually triggered the need for the development of [Maputnik](https://github.com/maputnik/editor/).
 
@@ -87,5 +87,5 @@ Green        | `#76a723`
 4. Add the SVG files from the folder [svgs_not_in_iconset](https://github.com/maputnik/osm-liberty/tree/gh-pages/svgs/svgs_not_in_iconset) to the folder `svgs` downloaded from the Maki Editor.
 These are the SVGs for road shields, the dot used for city and town layers and the road area pattern which could not be modified using the Maki Editor. To modify these you could use e.g. [Inkscape](https://inkscape.org). 
 5. Install [spritezero-cli](https://github.com/mapbox/spritezero-cli): `npm install -g @mapbox/spritezero-cli`
-6. Generate the low resolution sprites: `spritezero osm-liberty ./svgs/`
-7. Generate the high resolution sprites: `spritezero --retina osm-liberty@2x ./svgs/`
+6. Generate the low resolution sprite: `spritezero osm-liberty ./svgs/`
+7. Generate the high resolution sprite: `spritezero --retina osm-liberty@2x ./svgs/`
