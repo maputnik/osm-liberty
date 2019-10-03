@@ -15,6 +15,15 @@ are permitted provided that the following conditions are met:
 
 The look and feel of the OSM liberty map design is also derived (although heavily altered) from [OSM Bright from Mapbox Open Styles](https://github.com/mapbox/mapbox-gl-styles/blob/master/LICENSE.md) which is licensed under the Creative Commons Attribution 3.0 license.
 
+The map is displaying and styling the data from [OpenMapTiles](https://openmaptiles.org/) with [CC-BY 4.0 design license](https://github.com/openmaptiles/openmaptiles/blob/master/LICENSE.md).
+
+The products or services using this map style need to visibly credit "OpenMapTiles.org" or reference "OpenMapTiles" with a link to http://openmaptiles.org/. For a browsable electronic map based on OpenMapTiles and OpenStreetMap data, the credit should appear in the corner of the map. For example:
+
+[© OpenMapTiles](https://openmaptiles.org/)
+[© OpenStreetMap contributors](https://www.openstreetmap.org/copyright)
+
+For printed and static maps a similar attribution should be made in a textual description near the image, in the same fashion as if you cite a photograph.
+
 ## Icons
 
 OSM Liberty is using the [Maki POI icon set](https://github.com/mapbox/maki/blob/master/LICENSE.txt) which is licensed under CC0 1.0 Universal.
