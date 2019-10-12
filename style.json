@@ -3245,6 +3245,7 @@
       "metadata": {},
       "source": "openmaptiles",
       "source-layer": "boundary",
+      "minzoom": 8,
       "filter": [
         "all",
         [
