@@ -946,7 +946,6 @@
         ["==", "brunnel", "bridge"],
         ["in", "class", "path", "pedestrian"]
       ],
-      "layout": {"line-join": "miter"},
       "paint": {
         "line-color": "hsl(35, 6%, 80%)",
         "line-dasharray": [1, 0],
