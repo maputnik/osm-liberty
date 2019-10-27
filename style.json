@@ -50,7 +50,6 @@
       "type": "line",
       "source": "openmaptiles",
       "source-layer": "park",
-      "layout": {},
       "paint": {
         "line-dasharray": [1, 1.5],
         "line-color": "rgba(228, 241, 215, 1)"
