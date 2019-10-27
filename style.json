@@ -32,7 +32,6 @@
       "type": "raster",
       "source": "natural_earth_shaded_relief",
       "maxzoom": 6,
-      "layout": {"visibility": "visible"},
       "paint": {"raster-opacity": {"base": 1.5, "stops": [[0, 0.6], [6, 0.1]]}}
     },
     {
@@ -66,7 +65,6 @@
       "source-layer": "landuse",
       "maxzoom": 8,
       "filter": ["==", "class", "residential"],
-      "layout": {"visibility": "visible"},
       "paint": {
         "fill-color": {
           "base": 1,
@@ -110,7 +108,6 @@
       "source": "openmaptiles",
       "source-layer": "landuse",
       "filter": ["==", "class", "cemetery"],
-      "layout": {"visibility": "visible"},
       "paint": {"fill-color": "hsl(75, 37%, 81%)"}
     },
     {
@@ -230,7 +227,7 @@
         ["==", "ramp", 1],
         ["==", "brunnel", "tunnel"]
       ],
-      "layout": {"line-join": "round", "visibility": "visible"},
+      "layout": {"line-join": "round"},
       "paint": {
         "line-color": "#e9ac77",
         "line-dasharray": [0.5, 0.25],
@@ -346,7 +343,7 @@
         ["==", "class", "motorway"],
         ["==", "brunnel", "tunnel"]
       ],
-      "layout": {"line-join": "round", "visibility": "visible"},
+      "layout": {"line-join": "round"},
       "paint": {
         "line-color": "#e9ac77",
         "line-dasharray": [0.5, 0.25],
@@ -386,7 +383,7 @@
         ["==", "ramp", 1],
         ["==", "brunnel", "tunnel"]
       ],
-      "layout": {"line-join": "round", "visibility": "visible"},
+      "layout": {"line-join": "round"},
       "paint": {
         "line-color": "#fc8",
         "line-width": {
@@ -487,7 +484,7 @@
         ["==", "class", "motorway"],
         ["==", "brunnel", "tunnel"]
       ],
-      "layout": {"line-join": "round", "visibility": "visible"},
+      "layout": {"line-join": "round"},
       "paint": {
         "line-color": "#ffdaa6",
         "line-width": {"base": 1.2, "stops": [[5, 0], [7, 1], [20, 18]]}
@@ -558,7 +555,6 @@
       "source": "openmaptiles",
       "source-layer": "transportation",
       "filter": ["all", ["==", "$type", "Polygon"]],
-      "layout": {"visibility": "visible"},
       "paint": {"fill-pattern": "pedestrian_polygon"}
     },
     {
@@ -614,11 +610,7 @@
         ["!in", "class", "pedestrian", "path", "track", "service"],
         ["==", "ramp", "1"]
       ],
-      "layout": {
-        "line-cap": "round",
-        "line-join": "round",
-        "visibility": "visible"
-      },
+      "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
         "line-color": "#e9ac77",
         "line-opacity": 1,
@@ -663,11 +655,7 @@
         ["in", "class", "secondary", "tertiary"],
         ["!=", "ramp", 1]
       ],
-      "layout": {
-        "line-cap": "round",
-        "line-join": "round",
-        "visibility": "visible"
-      },
+      "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
         "line-color": "#e9ac77",
         "line-opacity": 1,
@@ -685,11 +673,7 @@
         ["!in", "brunnel", "bridge", "tunnel"],
         ["in", "class", "primary", "trunk"]
       ],
-      "layout": {
-        "line-cap": "butt",
-        "line-join": "round",
-        "visibility": "visible"
-      },
+      "layout": {"line-cap": "butt", "line-join": "round"},
       "paint": {
         "line-color": "#e9ac77",
         "line-opacity": 1,
@@ -712,11 +696,7 @@
         ["==", "class", "motorway"],
         ["!=", "ramp", "1"]
       ],
-      "layout": {
-        "line-cap": "round",
-        "line-join": "round",
-        "visibility": "visible"
-      },
+      "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
         "line-color": "#e9ac77",
         "line-width": {
@@ -797,11 +777,7 @@
         ["==", "ramp", 1],
         ["!in", "class", "pedestrian", "path", "track", "service"]
       ],
-      "layout": {
-        "line-cap": "round",
-        "line-join": "round",
-        "visibility": "visible"
-      },
+      "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
         "line-color": "#fea",
         "line-width": {
@@ -821,11 +797,7 @@
         ["!in", "brunnel", "bridge", "tunnel"],
         ["in", "class", "secondary", "tertiary"]
       ],
-      "layout": {
-        "line-cap": "round",
-        "line-join": "round",
-        "visibility": "visible"
-      },
+      "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
         "line-color": "#fea",
         "line-width": {"base": 1.2, "stops": [[6.5, 0], [8, 0.5], [20, 13]]}
@@ -842,11 +814,7 @@
         ["!in", "brunnel", "bridge", "tunnel"],
         ["in", "class", "primary", "trunk"]
       ],
-      "layout": {
-        "line-cap": "butt",
-        "line-join": "round",
-        "visibility": "visible"
-      },
+      "layout": {"line-cap": "butt", "line-join": "round"},
       "paint": {
         "line-color": "#fea",
         "line-width": {"base": 1.2, "stops": [[5, 0], [7, 1], [20, 18]]}
@@ -865,11 +833,7 @@
         ["==", "class", "motorway"],
         ["!=", "ramp", 1]
       ],
-      "layout": {
-        "line-cap": "round",
-        "line-join": "round",
-        "visibility": "visible"
-      },
+      "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
         "line-color": {
           "base": 1,
@@ -1052,7 +1016,7 @@
         ["==", "brunnel", "bridge"],
         ["in", "class", "path", "pedestrian"]
       ],
-      "layout": {"line-join": "miter", "visibility": "visible"},
+      "layout": {"line-join": "miter"},
       "paint": {
         "line-color": "hsl(35, 6%, 80%)",
         "line-dasharray": [1, 0],
@@ -1320,7 +1284,6 @@
       "source-layer": "building",
       "minzoom": 13,
       "maxzoom": 14,
-      "layout": {"visibility": "visible"},
       "paint": {
         "fill-color": "hsl(35, 8%, 85%)",
         "fill-outline-color": {
@@ -1336,7 +1299,6 @@
       "source": "openmaptiles",
       "source-layer": "building",
       "minzoom": 14,
-      "layout": {"visibility": "visible"},
       "paint": {
         "fill-extrusion-color": "hsl(35, 8%, 85%)",
         "fill-extrusion-height": {
@@ -1520,8 +1482,7 @@
         "text-max-width": 9,
         "text-offset": [0.9, 0],
         "text-padding": 2,
-        "text-size": 12,
-        "visibility": "visible"
+        "text-size": 12
       },
       "paint": {
         "text-color": "#4898ff",
