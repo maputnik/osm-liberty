@@ -1430,8 +1430,7 @@
         "text-rotation-alignment": "viewport",
         "text-size": 10,
         "icon-size": 0.8
-      },
-      "paint": {}
+      }
     },
     {
       "id": "place_other",
@@ -1601,7 +1600,6 @@
     {
       "id": "continent",
       "type": "symbol",
-      "metadata": {},
       "source": "openmaptiles",
       "source-layer": "place",
       "maxzoom": 1,
