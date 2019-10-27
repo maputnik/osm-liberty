@@ -625,7 +625,7 @@
         ["!in", "brunnel", "bridge", "tunnel"],
         ["in", "class", "primary", "trunk"]
       ],
-      "layout": {"line-cap": "butt", "line-join": "round"},
+      "layout": {"line-join": "round"},
       "paint": {
         "line-color": "#e9ac77",
         "line-width": {
@@ -758,7 +758,7 @@
         ["!in", "brunnel", "bridge", "tunnel"],
         ["in", "class", "primary", "trunk"]
       ],
-      "layout": {"line-cap": "butt", "line-join": "round"},
+      "layout": {"line-join": "round"},
       "paint": {
         "line-color": "#fea",
         "line-width": {"base": 1.2, "stops": [[5, 0], [7, 1], [20, 18]]}
