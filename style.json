@@ -1300,7 +1300,6 @@
         "text-font": ["Roboto Condensed Italic"],
         "text-max-width": 9,
         "text-offset": [0, 0.6],
-        "text-padding": 2,
         "text-size": 12
       },
       "paint": {
@@ -1329,7 +1328,6 @@
         "text-font": ["Roboto Condensed Italic"],
         "text-max-width": 9,
         "text-offset": [0, 0.6],
-        "text-padding": 2,
         "text-size": 12
       },
       "paint": {
@@ -1358,7 +1356,6 @@
         "text-font": ["Roboto Condensed Italic"],
         "text-max-width": 9,
         "text-offset": [0, 0.6],
-        "text-padding": 2,
         "text-size": 12
       },
       "paint": {
@@ -1381,7 +1378,6 @@
         "text-font": ["Roboto Condensed Italic"],
         "text-max-width": 9,
         "text-offset": [0.9, 0],
-        "text-padding": 2,
         "text-size": 12
       },
       "paint": {
