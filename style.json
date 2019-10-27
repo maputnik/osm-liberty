@@ -1255,7 +1255,6 @@
       "type": "symbol",
       "source": "openmaptiles",
       "source-layer": "water_name",
-      "minzoom": 0,
       "filter": ["all", ["==", "$type", "LineString"]],
       "layout": {
         "text-field": "{name}",
@@ -1275,7 +1274,6 @@
       "type": "symbol",
       "source": "openmaptiles",
       "source-layer": "water_name",
-      "minzoom": 0,
       "filter": ["==", "$type", "Point"],
       "layout": {
         "text-field": "{name}",
