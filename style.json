@@ -352,7 +352,7 @@
       "source-layer": "transportation",
       "filter": [
         "all",
-        ["==", "class", "motorway_link"],
+        ["==", "class", "motorway"],
         ["==", "ramp", 1],
         ["==", "brunnel", "tunnel"]
       ],
@@ -871,7 +871,7 @@
       "source-layer": "transportation",
       "filter": [
         "all",
-        ["==", "class", "motorway_link"],
+        ["==", "class", "motorway"],
         ["==", "ramp", 1],
         ["==", "brunnel", "bridge"]
       ],
@@ -1030,7 +1030,7 @@
       "source-layer": "transportation",
       "filter": [
         "all",
-        ["==", "class", "motorway_link"],
+        ["==", "class", "motorway"],
         ["==", "ramp", 1],
         ["==", "brunnel", "bridge"]
       ],
