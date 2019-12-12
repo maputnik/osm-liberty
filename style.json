@@ -1257,7 +1257,7 @@
       "id": "water_name_line",
       "type": "symbol",
       "source": "openmaptiles",
-      "source-layer": "water_name",
+      "source-layer": "waterway",
       "filter": ["all", ["==", "$type", "LineString"]],
       "layout": {
         "text-field": "{name}",
