@@ -33,10 +33,10 @@ def main():
     osm_diff = set(osm_iconset_keys).difference(maki_names)
 
     print('Names in Maki unused by OSM Libery:')
-    sorted(maki_diff)
+    print(sorted(maki_diff))
 
     print('\nNames in Maki unused by OSM Libery:')
-    sorted(osm_diff)
+    print(sorted(osm_diff))
 
 
 if __name__ == '__main__':
