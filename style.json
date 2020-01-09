@@ -149,6 +149,7 @@
       "type": "fill",
       "source": "openmaptiles",
       "source-layer": "water",
+      "filter": ["all", ["!=", "brunnel", "tunnel"]],
       "paint": {"fill-color": "rgb(158,189,255)"}
     },
     {
@@ -1241,10 +1242,25 @@
       }
     },
     {
-      "id": "boundary_2",
+      "id": "boundary_2_z0-4",
       "type": "line",
       "source": "openmaptiles",
       "source-layer": "boundary",
+      "maxzoom": 5,
+      "filter": ["all", ["==", "admin_level", 2], ["!has", "claimed_by"]],
+      "layout": {"line-cap": "round", "line-join": "round"},
+      "paint": {
+        "line-color": "hsl(248, 1%, 41%)",
+        "line-opacity": {"base": 1, "stops": [[0, 0.4], [4, 1]]},
+        "line-width": {"base": 1, "stops": [[3, 1], [5, 1.2], [12, 3]]}
+      }
+    },
+    {
+      "id": "boundary_2_z5-",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "boundary",
+      "minzoom": 5,
       "filter": ["all", ["==", "admin_level", 2]],
       "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
