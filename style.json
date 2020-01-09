@@ -101,9 +101,7 @@
       "type": "fill",
       "source": "openmaptiles",
       "source-layer": "landcover",
-      "maxzoom": 24,
       "filter": ["all", ["==", "class", "ice"]],
-      "layout": {"visibility": "visible"},
       "paint": {
         "fill-antialias": false,
         "fill-color": "rgba(224, 236, 236, 1)",
