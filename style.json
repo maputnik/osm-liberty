@@ -133,11 +133,25 @@
       "paint": {"fill-color": "rgb(236,238,204)"}
     },
     {
+      "id": "waterway_tunnel",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "waterway",
+      "filter": ["all", ["==", "brunnel", "tunnel"]],
+      "paint": {
+        "line-color": "#a0c8f0",
+        "line-dasharray": [3, 3],
+        "line-gap-width": {"stops": [[12, 0], [20, 6]]},
+        "line-opacity": 1,
+        "line-width": {"base": 1.4, "stops": [[8, 1], [20, 2]]}
+      }
+    },
+    {
       "id": "waterway_river",
       "type": "line",
       "source": "openmaptiles",
       "source-layer": "waterway",
-      "filter": ["==", "class", "river"],
+      "filter": ["all", ["==", "class", "river"], ["!=", "brunnel", "tunnel"]],
       "layout": {"line-cap": "round"},
       "paint": {
         "line-color": "#a0c8f0",
@@ -149,7 +163,7 @@
       "type": "line",
       "source": "openmaptiles",
       "source-layer": "waterway",
-      "filter": ["all", ["!=", "class", "river"]],
+      "filter": ["all", ["!=", "class", "river"], ["!=", "brunnel", "tunnel"]],
       "layout": {"line-cap": "round"},
       "paint": {
         "line-color": "#a0c8f0",
@@ -161,6 +175,7 @@
       "type": "fill",
       "source": "openmaptiles",
       "source-layer": "water",
+      "filter": ["all", ["!=", "brunnel", "tunnel"]],
       "paint": {"fill-color": "rgb(158,189,255)"}
     },
     {
@@ -1253,10 +1268,25 @@
       }
     },
     {
-      "id": "boundary_2",
+      "id": "boundary_2_z0-4",
       "type": "line",
       "source": "openmaptiles",
       "source-layer": "boundary",
+      "maxzoom": 5,
+      "filter": ["all", ["==", "admin_level", 2], ["!has", "claimed_by"]],
+      "layout": {"line-cap": "round", "line-join": "round"},
+      "paint": {
+        "line-color": "hsl(248, 1%, 41%)",
+        "line-opacity": {"base": 1, "stops": [[0, 0.4], [4, 1]]},
+        "line-width": {"base": 1, "stops": [[3, 1], [5, 1.2], [12, 3]]}
+      }
+    },
+    {
+      "id": "boundary_2_z5-",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "boundary",
+      "minzoom": 5,
       "filter": ["all", ["==", "admin_level", 2]],
       "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
