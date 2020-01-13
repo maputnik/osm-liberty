@@ -126,7 +126,6 @@
       "source": "openmaptiles",
       "source-layer": "waterway",
       "filter": ["all", ["==", "brunnel", "tunnel"]],
-      "layout": {"visibility": "visible"},
       "paint": {
         "line-color": "#a0c8f0",
         "line-dasharray": [3, 3],
