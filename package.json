@@ -1,0 +1,36 @@
+{
+  "name": "osm-liberty",
+  "version": "0.1.0",
+  "description": "A free Mapbox GL basemap style for everyone",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate": "./node_modules/.bin/gl-style-validate style.json",
+    "diff": "bash -c 'diff <(./node_modules/.bin/gl-style-format style.json) style.json'",
+    "format": "./node_modules/.bin/gl-style-format style.json | ./node_modules/.bin/sponge style.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maputnik/osm-liberty.git"
+  },
+  "keywords": [
+    "maps",
+    "cartography",
+    "mapbox-gl-js",
+    "mapbox-gl"
+  ],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/maputnik/osm-liberty/issues"
+  },
+  "homepage": "https://github.com/maputnik/osm-liberty#readme",
+  "devDependencies": {
+    "@mapbox/mapbox-gl-style-spec": "^13.10.2",
+    "husky": "^4.0.7",
+    "sponge": "^0.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run validate && npm run format && git add style.json"
+    }
+  }
+}

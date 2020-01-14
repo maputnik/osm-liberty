@@ -64,6 +64,21 @@ You can [edit the style directly online in Maputnik](https://maputnik.github.io/
 
 This style actually triggered the need for the development of [Maputnik](https://github.com/maputnik/editor/).
 
+A pre-commit hook is included to validate and format the JSON styles using
+[`mapbox-gl-style-spec`](https://www.npmjs.com/package/@mapbox/mapbox-gl-style-spec).
+To use, just install the NPM dev dependencies:
+```
+npm install
+```
+and then validate or format the style with
+```
+npm run validate
+npm run format
+```
+
+Validation and reformatting will happen automatically on commit if you have the
+dependencies installed.
+
 ## Icon Design
 
 A [Maki](https://github.com/mapbox/maki) icon set using colors to distinguish between icon categories.
