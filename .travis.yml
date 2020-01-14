@@ -6,6 +6,6 @@ branches:
   only:
   - gh-pages
 script:
-  - npm install -g @mapbox/mapbox-gl-style-spec
-  - gl-style-validate style.json
-  - diff <(gl-style-format style.json) style.json
+  - npm install
+  - npm run validate
+  - npm run diff
