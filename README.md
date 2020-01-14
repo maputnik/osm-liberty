@@ -70,10 +70,10 @@ To use, just install the NPM dev dependencies:
 ```
 npm install
 ```
-and then validate or reformat with
+and then validate or format the style with
 ```
 npm run validate
-npm run reformat
+npm run format
 ```
 
 Validation and reformatting will happen automatically on commit if you have the
