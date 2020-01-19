@@ -27,8 +27,8 @@ Another option is to create your own vector tiles with [OpenMapTiles](https://gi
     body { margin:0; padding:0; }
     #map { position:absolute; top:0; bottom:0; width:100%; }
   </style>
-  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.js'></script>
-  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css' rel='stylesheet' />
+  <script src='https://api.mapbox.com/mapbox-gl-js/v1.6.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v1.6.1/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body>
   <div id='map'></div>
@@ -110,3 +110,7 @@ These are the SVGs for road shields, the dot used for city and town layers and t
 5. Install [spritezero-cli](https://github.com/mapbox/spritezero-cli): `npm install -g @mapbox/spritezero-cli`
 6. Generate the low resolution sprite: `spritezero osm-liberty ./svgs/`
 7. Generate the high resolution sprite: `spritezero --retina osm-liberty@2x ./svgs/`
+
+## Have a look at ...
+
+- [OSM Liberty Topo](https://github.com/nst-guide/osm-liberty-topo) - a topographic fork of OSM Liberty
