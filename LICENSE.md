@@ -32,8 +32,11 @@ U.S. Interstate shields come from [Wikipedia][wikipedia_us_interstate] and are i
 
 U.S. Highway shields come from [Wikipedia][wikipedia_us_highway] and are in the public domain.
 
+Canada Transcanada shields come from [Wikipedia][wikipedia_ca_transcanada] and are in the public domain.
+
 [wikipedia_us_interstate]: https://commons.m.wikimedia.org/wiki/Category:Interstate_Highway_shield_blanks
 [wikipedia_us_highway]: https://commons.m.wikimedia.org/wiki/Category:US_Highway_shield_blanks
+[wikipedia_ca_transcanada]: https://commons.wikimedia.org/wiki/File:TCH_blank.svg
 
 ## Fonts
 
