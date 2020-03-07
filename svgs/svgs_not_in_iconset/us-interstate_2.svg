@@ -9,8 +9,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.0"
-   width="601"
-   height="601"
+   height="30"
+   width="30"
    viewBox="0 0 600 599.99902"
    id="Layer_1"
    xml:space="preserve"
@@ -43,10 +43,10 @@
    inkscape:window-y="-4"
    inkscape:current-layer="Layer_1" /><defs
    id="defs1659">
-	
-	
-	
-	
+
+
+
+
 </defs>
 <g
    transform="matrix(0.9983361,0,0,0.9983377,0.4991681,0.4986858)"
@@ -56,7 +56,7 @@
    id="path1602"
    style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.99999923;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
    d="M 80.75293,0 C 115.42871,10.583496 152.23779,16.276856 190.37695,16.276856 C 228.51563,16.276856 265.32422,10.583496 300,0.0004883 C 334.67578,10.583496 371.48438,16.276856 409.62305,16.276856 C 447.76172,16.276856 484.57129,10.583496 519.24707,0 C 569.8125,63.908203 600,144.67822 600,232.5 C 600,413.92383 471.16992,565.25391 300,599.99902 C 128.83008,565.25391 0,413.92383 0,232.5 C 0,144.67822 30.187988,63.907715 80.75293,0 z " />
-		
+
 			<path
    id="path1604"
    style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.99999923;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
