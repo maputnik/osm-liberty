@@ -19,7 +19,7 @@
       "type": "raster"
     }
   },
-  "sprite": "https://maputnik.github.io/osm-liberty/sprites/osm-liberty",
+  "sprite": "https://raw.githubusercontent.com/kylebarron/osm-liberty/highway-shields/sprites/osm-liberty",
   "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key={key}",
   "layers": [
     {
@@ -1454,12 +1454,174 @@
       }
     },
     {
+      "id": "road_shield_us-interstate-2",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "transportation_name",
+      "minzoom": 7,
+      "filter": [
+        "all",
+        ["<=", "ref_length", 2],
+        ["in", "network", "us-interstate"]
+      ],
+      "layout": {
+        "icon-image": "{network}_2",
+        "icon-rotation-alignment": "viewport",
+        "symbol-placement": {"base": 1, "stops": [[10, "point"], [11, "line"]]},
+        "symbol-spacing": 500,
+        "text-field": "{ref}",
+        "text-font": ["Roboto Regular"],
+        "text-offset": [0, 0.2],
+        "text-rotation-alignment": "viewport",
+        "text-size": 10,
+        "icon-size": 0.8
+      },
+      "paint": {"text-color": "#fff"}
+    },
+    {
+      "id": "road_shield_us-interstate-3",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "transportation_name",
+      "minzoom": 7,
+      "filter": [
+        "all",
+        ["==", "ref_length", 3],
+        ["in", "network", "us-interstate"]
+      ],
+      "layout": {
+        "icon-image": "{network}_3",
+        "icon-rotation-alignment": "viewport",
+        "symbol-placement": {"base": 1, "stops": [[10, "point"], [11, "line"]]},
+        "symbol-spacing": 500,
+        "text-field": "{ref}",
+        "text-font": ["Roboto Regular"],
+        "text-offset": [0, 0.2],
+        "text-rotation-alignment": "viewport",
+        "text-size": 10,
+        "icon-size": 0.8
+      },
+      "paint": {"text-color": "#fff"}
+    },
+    {
+      "id": "road_shield_us-highway-2",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "transportation_name",
+      "minzoom": 7,
+      "filter": [
+        "all",
+        ["<=", "ref_length", 2],
+        ["in", "network", "us-highway", "us-state"]
+      ],
+      "layout": {
+        "icon-image": "{network}_2",
+        "icon-rotation-alignment": "viewport",
+        "symbol-placement": {"base": 1, "stops": [[10, "point"], [11, "line"]]},
+        "symbol-spacing": 500,
+        "text-field": "{ref}",
+        "text-font": ["Roboto Regular"],
+        "text-offset": [0, 0.2],
+        "text-rotation-alignment": "viewport",
+        "text-size": 10,
+        "icon-size": 0.8
+      },
+      "paint": {"text-color": "#000"}
+    },
+    {
+      "id": "road_shield_us-highway-3",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "transportation_name",
+      "minzoom": 7,
+      "filter": [
+        "all",
+        ["==", "ref_length", 3],
+        ["in", "network", "us-highway", "us-state"]
+      ],
+      "layout": {
+        "icon-image": "{network}_3",
+        "icon-rotation-alignment": "viewport",
+        "symbol-placement": {"base": 1, "stops": [[10, "point"], [11, "line"]]},
+        "symbol-spacing": 500,
+        "text-field": "{ref}",
+        "text-font": ["Roboto Regular"],
+        "text-offset": [0, 0.2],
+        "text-rotation-alignment": "viewport",
+        "text-size": 10,
+        "icon-size": 0.8
+      },
+      "paint": {"text-color": "#000"}
+    },
+    {
+      "id": "road_shield_ca-transcanada-2",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "transportation_name",
+      "minzoom": 7,
+      "filter": [
+        "all",
+        ["<=", "ref_length", 2],
+        ["in", "network", "ca-transcanada"]
+      ],
+      "layout": {
+        "icon-image": "{network}_2",
+        "icon-rotation-alignment": "viewport",
+        "symbol-placement": {"base": 1, "stops": [[10, "point"], [11, "line"]]},
+        "symbol-spacing": 500,
+        "text-field": "{ref}",
+        "text-font": ["Roboto Regular"],
+        "text-offset": [0, 0.2],
+        "text-rotation-alignment": "viewport",
+        "text-size": 10,
+        "icon-size": 0.8
+      },
+      "paint": {"text-color": "#000"}
+    },
+    {
+      "id": "road_shield_gb-motorway-3",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "transportation_name",
+      "minzoom": 7,
+      "filter": [
+        "all",
+        ["<=", "ref_length", 3],
+        ["in", "network", "gb-motorway"]
+      ],
+      "layout": {
+        "icon-image": "{network}_3",
+        "icon-rotation-alignment": "viewport",
+        "symbol-placement": {"base": 1, "stops": [[10, "point"], [11, "line"]]},
+        "symbol-spacing": 500,
+        "text-field": "{ref}",
+        "text-font": ["Roboto Regular"],
+        "text-offset": [0, 0.2],
+        "text-rotation-alignment": "viewport",
+        "text-size": 10,
+        "icon-size": 0.8
+      },
+      "paint": {"text-color": "#fff"}
+    },
+    {
       "id": "road_shield",
       "type": "symbol",
       "source": "openmaptiles",
       "source-layer": "transportation_name",
       "minzoom": 7,
-      "filter": ["all", ["<=", "ref_length", 6]],
+      "filter": [
+        "all",
+        ["<=", "ref_length", 6],
+        [
+          "!in",
+          "network",
+          "us-interstate",
+          "us-highway",
+          "us-state",
+          "ca-transcanada",
+          "gb-motorway"
+        ]
+      ],
       "layout": {
         "icon-image": "default_{ref_length}",
         "icon-rotation-alignment": "viewport",
