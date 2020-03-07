@@ -1462,7 +1462,7 @@
       "filter": [
         "all",
         ["<=", "ref_length", 2],
-        ["in", "network", "us-interstate", "us-highway"]
+        ["in", "network", "us-interstate"]
       ],
       "layout": {
         "icon-image": "{network}_2",
@@ -1487,7 +1487,7 @@
       "filter": [
         "all",
         ["==", "ref_length", 3],
-        ["in", "network", "us-interstate", "us-highway"]
+        ["in", "network", "us-interstate"]
       ],
       "layout": {
         "icon-image": "{network}_3",
@@ -1502,6 +1502,56 @@
         "icon-size": 0.8
       },
       "paint": {"text-color": "#fff"}
+    },
+    {
+      "id": "road_shield_us-highway-2",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "transportation_name",
+      "minzoom": 7,
+      "filter": [
+        "all",
+        ["<=", "ref_length", 2],
+        ["in", "network", "us-highway"]
+      ],
+      "layout": {
+        "icon-image": "{network}_2",
+        "icon-rotation-alignment": "viewport",
+        "symbol-placement": {"base": 1, "stops": [[10, "point"], [11, "line"]]},
+        "symbol-spacing": 500,
+        "text-field": "{ref}",
+        "text-font": ["Roboto Regular"],
+        "text-offset": [0, 0.2],
+        "text-rotation-alignment": "viewport",
+        "text-size": 10,
+        "icon-size": 0.8
+      },
+      "paint": {"text-color": "#000"}
+    },
+    {
+      "id": "road_shield_us-highway-3",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "transportation_name",
+      "minzoom": 7,
+      "filter": [
+        "all",
+        ["==", "ref_length", 3],
+        ["in", "network", "us-highway"]
+      ],
+      "layout": {
+        "icon-image": "{network}_3",
+        "icon-rotation-alignment": "viewport",
+        "symbol-placement": {"base": 1, "stops": [[10, "point"], [11, "line"]]},
+        "symbol-spacing": 500,
+        "text-field": "{ref}",
+        "text-font": ["Roboto Regular"],
+        "text-offset": [0, 0.2],
+        "text-rotation-alignment": "viewport",
+        "text-size": 10,
+        "icon-size": 0.8
+      },
+      "paint": {"text-color": "#000"}
     },
     {
       "id": "road_shield",
