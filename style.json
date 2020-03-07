@@ -19,7 +19,7 @@
       "type": "raster"
     }
   },
-  "sprite": "https://maputnik.github.io/osm-liberty/sprites/osm-liberty",
+  "sprite": "https://raw.githubusercontent.com/kylebarron/osm-liberty/one-way/sprites/osm-liberty",
   "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key={key}",
   "layers": [
     {
@@ -891,6 +891,20 @@
       "paint": {
         "line-color": "#fff",
         "line-width": {"base": 1.2, "stops": [[13.5, 0], [14, 2.5], [20, 18]]}
+      }
+    },
+    {
+      "id": "road_one_way_arrow",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "minzoom": 15,
+      "filter": ["all", ["in", "oneway", 1]],
+      "layout": {
+        "icon-image": "arrow",
+        "symbol-placement": "line",
+        "symbol-spacing": 250,
+        "icon-size": 1
       }
     },
     {
