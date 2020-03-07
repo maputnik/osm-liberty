@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	version="1.1"
+	width="750"
+	height="600">
+<rect
+	width="750"
+	height="600"
+	rx="37.5"
+	ry="37.5"
+	style="fill:#000;fill-opacity:1;stroke:none"/>
+<ellipse
+	rx="362.5"
+	ry="287.5"
+	cx="375"
+	cy="300"
+	style="fill:#fff;fill-opacity:1;stroke:none"/>
+</svg>

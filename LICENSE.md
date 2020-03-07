@@ -32,12 +32,15 @@ U.S. Interstate shields come from [Wikipedia][wikipedia_us_interstate] and are i
 
 U.S. Highway shields come from [Wikipedia][wikipedia_us_highway] and are in the public domain.
 
+U.S. State Highway shields come from [Wikipedia][wikipedia_us_state] and are in the public domain.
+
 Canada Transcanada shields come from [Wikipedia][wikipedia_ca_transcanada] and are in the public domain.
 
 GB motorway shields come from [Wikipedia][wikipedia_gb_motorway] and are in the public domain.
 
 [wikipedia_us_interstate]: https://commons.m.wikimedia.org/wiki/Category:Interstate_Highway_shield_blanks
 [wikipedia_us_highway]: https://commons.m.wikimedia.org/wiki/Category:US_Highway_shield_blanks
+[wikipedia_us_state]: https://commons.wikimedia.org/wiki/Category:Circle_shield_blanks
 [wikipedia_ca_transcanada]: https://commons.wikimedia.org/wiki/File:TCH_blank.svg
 [wikipedia_gb_motorway]: https://commons.wikimedia.org/wiki/File:Road_marker_UK_A2.svg
 
