@@ -30,7 +30,10 @@ OSM Liberty is using the [Maki POI icon set](https://github.com/mapbox/maki/blob
 
 U.S. Interstate shields come from [Wikipedia][wikipedia_us_interstate] and are in the public domain.
 
+U.S. Highway shields come from [Wikipedia][wikipedia_us_highway] and are in the public domain.
+
 [wikipedia_us_interstate]: https://commons.m.wikimedia.org/wiki/Category:Interstate_Highway_shield_blanks
+[wikipedia_us_highway]: https://commons.m.wikimedia.org/wiki/Category:US_Highway_shield_blanks
 
 ## Fonts
 
