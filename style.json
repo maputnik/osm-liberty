@@ -1512,7 +1512,7 @@
       "filter": [
         "all",
         ["<=", "ref_length", 2],
-        ["in", "network", "us-highway"]
+        ["in", "network", "us-highway", "us-state"]
       ],
       "layout": {
         "icon-image": "{network}_2",
@@ -1537,7 +1537,7 @@
       "filter": [
         "all",
         ["==", "ref_length", 3],
-        ["in", "network", "us-highway"]
+        ["in", "network", "us-highway", "us-state"]
       ],
       "layout": {
         "icon-image": "{network}_3",
@@ -1617,6 +1617,7 @@
           "network",
           "us-interstate",
           "us-highway",
+          "us-state",
           "ca-transcanada",
           "gb-motorway"
         ]
