@@ -7,7 +7,7 @@
 <svg  version="1.1" id="Layer_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="30" height="30" viewBox="0 0 600 600"
 	 overflow="visible" enable-background="new 0 0 600 600" xml:space="preserve">
 <g>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M300,10.0024414
+	<path fill-rule="evenodd" clip-rule="evenodd" stroke="#000000" stroke-width="30" fill="#FFFFFF" d="M300,10.0024414
 		c23.5644531,20.0751953,54.1171875,32.1914063,87.5,32.1914063S451.4355469,30.0751953,475,10l115,115
 		c-21.1621094,30.0805664-33.5878906,66.753418-33.5878906,106.3271484c0,28.4628906,6.4267578,55.4238281,17.9101563,79.5117188
 		C584.2441406,331.6640625,590,355.3945313,590,380c0,88.3671875-71.6328125,160-160,160h-25.1132813
