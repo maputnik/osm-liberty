@@ -28,6 +28,10 @@ For printed and static maps a similar attribution should be made in a textual de
 
 OSM Liberty is using the [Maki POI icon set](https://github.com/mapbox/maki/blob/master/LICENSE.txt) which is licensed under CC0 1.0 Universal.
 
+U.S. Interstate shields come from [Wikipedia][wikipedia_us_interstate] and are in the public domain.
+
+[wikipedia_us_interstate]: https://commons.m.wikimedia.org/wiki/Category:Interstate_Highway_shield_blanks
+
 ## Fonts
 
 OSM Liberty is using the Roboto font family (Copyright 2011 Google).
