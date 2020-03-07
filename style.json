@@ -1462,10 +1462,10 @@
       "filter": [
         "all",
         ["<=", "ref_length", 2],
-        ["==", "network", "us-interstate"]
+        ["in", "network", "us-interstate", "us-highway"]
       ],
       "layout": {
-        "icon-image": "us-interstate_2",
+        "icon-image": "{network}_2",
         "icon-rotation-alignment": "viewport",
         "symbol-placement": {"base": 1, "stops": [[10, "point"], [11, "line"]]},
         "symbol-spacing": 500,
@@ -1487,10 +1487,10 @@
       "filter": [
         "all",
         ["==", "ref_length", 3],
-        ["==", "network", "us-interstate"]
+        ["in", "network", "us-interstate", "us-highway"]
       ],
       "layout": {
-        "icon-image": "us-interstate_3",
+        "icon-image": "{network}_3",
         "icon-rotation-alignment": "viewport",
         "symbol-placement": {"base": 1, "stops": [[10, "point"], [11, "line"]]},
         "symbol-spacing": 500,
@@ -1512,7 +1512,7 @@
       "filter": [
         "all",
         ["<=", "ref_length", 6],
-        ["!=", "network", "us-interstate"]
+        ["!in", "network", "us-interstate", "us-highway"]
       ],
       "layout": {
         "icon-image": "default_{ref_length}",
