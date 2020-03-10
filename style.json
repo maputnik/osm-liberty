@@ -899,12 +899,10 @@
       "source": "openmaptiles",
       "source-layer": "transportation",
       "minzoom": 15,
-      "filter": ["all", ["in", "oneway", 1]],
+      "filter": ["==", "oneway", 1],
       "layout": {
         "icon-image": "arrow",
         "symbol-placement": "line",
-        "symbol-spacing": 250,
-        "icon-size": 1
       }
     },
     {
