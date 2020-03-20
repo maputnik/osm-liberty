@@ -19,7 +19,7 @@
       "type": "raster"
     }
   },
-  "sprite": "https://raw.githubusercontent.com/kylebarron/osm-liberty/one-way/sprites/osm-liberty",
+  "sprite": "https://maputnik.github.io/osm-liberty/sprites/osm-liberty",
   "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key={key}",
   "layers": [
     {
