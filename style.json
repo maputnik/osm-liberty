@@ -894,6 +894,28 @@
       }
     },
     {
+      "id": "road_one_way_arrow",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "minzoom": 15,
+      "filter": ["==", "oneway", 1],
+      "layout": {"icon-image": "arrow", "symbol-placement": "line"}
+    },
+    {
+      "id": "road_one_way_arrow_opposite",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "minzoom": 15,
+      "filter": ["==", "oneway", -1],
+      "layout": {
+        "icon-image": "arrow",
+        "symbol-placement": "line",
+        "icon-rotate": 180
+      }
+    },
+    {
       "id": "bridge_motorway_link_casing",
       "type": "line",
       "source": "openmaptiles",

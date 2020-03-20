@@ -28,6 +28,10 @@ For printed and static maps a similar attribution should be made in a textual de
 
 OSM Liberty is using the [Maki POI icon set](https://github.com/mapbox/maki/blob/master/LICENSE.txt) which is licensed under CC0 1.0 Universal.
 
+The right arrow was derived from [Wikipedia][wiki_arrow] which is in the public domain.
+
+[wiki_arrow]: https://commons.wikimedia.org/wiki/File:Arrowright.svg
+
 ## Fonts
 
 OSM Liberty is using the Roboto font family (Copyright 2011 Google).
