@@ -109,6 +109,27 @@
       }
     },
     {
+      "id": "landcover_wetland",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landcover",
+      "filter": [
+        "all",
+        ["==", "class", "wetland"]
+      ],
+      "paint": {
+        "fill-antialias": true,
+        "fill-opacity": 0.8,
+        "fill-color": "#D8D8AB",
+        "fill-pattern": [
+          "literal",
+          "wetland_bg_11"
+        ],
+        "fill-translate-anchor": "map"
+      },
+      "minzoom": 12
+    },
+    {
       "id": "landuse_cemetery",
       "type": "fill",
       "source": "openmaptiles",
