@@ -73,6 +73,20 @@
       }
     },
     {
+      "id": "landcover_farmland",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landcover",
+      "filter": [
+        "all",
+        ["==", "class", "farmland"]
+      ],
+      "paint": {
+        "fill-color": "rgba(222, 216, 186, 0.66)"
+      },
+      "minzoom": 0
+    },
+    {
       "id": "landcover_wood",
       "type": "fill",
       "source": "openmaptiles",
