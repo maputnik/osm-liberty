@@ -24,8 +24,8 @@
   },
   "homepage": "https://github.com/maputnik/osm-liberty#readme",
   "devDependencies": {
-    "@mapbox/mapbox-gl-style-spec": "^13.10.2",
-    "husky": "^4.0.7",
+    "@mapbox/mapbox-gl-style-spec": "^13.15.0",
+    "husky": "^4.2.5",
     "sponge": "^0.1.0"
   },
   "husky": {
