@@ -3,7 +3,8 @@
   "name": "OSM Liberty",
   "metadata": {
     "maputnik:license": "https://github.com/maputnik/osm-liberty/blob/gh-pages/LICENSE.md",
-    "maputnik:renderer": "mbgljs"
+    "maputnik:renderer": "mbgljs",
+    "openmaptiles:version": "3.x"
   },
   "sources": {
     "openmaptiles": {
