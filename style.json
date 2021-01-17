@@ -763,6 +763,23 @@
       }
     },
     {
+      "id": "road_minor",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "filter": [
+        "all",
+        ["==", "$type", "LineString"],
+        ["!in", "brunnel", "bridge", "tunnel"],
+        ["in", "class", "minor"]
+      ],
+      "layout": {"line-cap": "round", "line-join": "round"},
+      "paint": {
+        "line-color": "#fff",
+        "line-width": {"base": 1.2, "stops": [[13.5, 0], [14, 2.5], [20, 18]]}
+      }
+    },
+    {
       "id": "road_secondary_tertiary",
       "type": "line",
       "source": "openmaptiles",
@@ -875,23 +892,6 @@
         "line-color": "#bbb",
         "line-dasharray": [0.2, 8],
         "line-width": {"base": 1.4, "stops": [[14.5, 0], [15, 3], [20, 8]]}
-      }
-    },
-    {
-      "id": "road_minor",
-      "type": "line",
-      "source": "openmaptiles",
-      "source-layer": "transportation",
-      "filter": [
-        "all",
-        ["==", "$type", "LineString"],
-        ["!in", "brunnel", "bridge", "tunnel"],
-        ["in", "class", "minor"]
-      ],
-      "layout": {"line-cap": "round", "line-join": "round"},
-      "paint": {
-        "line-color": "#fff",
-        "line-width": {"base": 1.2, "stops": [[13.5, 0], [14, 2.5], [20, 18]]}
       }
     },
     {
