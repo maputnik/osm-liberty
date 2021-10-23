@@ -1503,7 +1503,16 @@
       "source-layer": "place",
       "filter": [
         "all",
-        ["in", "class", "hamlet", "island", "islet", "neighbourhood", "suburb", "quarter"]
+        [
+          "in",
+          "class",
+          "hamlet",
+          "island",
+          "islet",
+          "neighbourhood",
+          "suburb",
+          "quarter"
+        ]
       ],
       "layout": {
         "text-field": "{name_en}",
