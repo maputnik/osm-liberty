@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "A free Mapbox GL basemap style for the ehrenamtskarte project",
   "scripts": {
+    "edit": "wget https://github.com/maputnik/editor/releases/download/v1.7.0/maputnik-linux.zip && unzip maputnik-linux.zip && chmod +x maputnik && ./maputnik --file style.json",
     "test": "echo \"Error: no test specified\" && exit 1",
     "validate": "./node_modules/.bin/gl-style-validate style.json",
     "diff": "bash -c 'diff <(./node_modules/.bin/gl-style-format style.json) style.json'",
