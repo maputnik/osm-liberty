@@ -124,30 +124,6 @@
       }
     },
     {
-      "id": "landuse_cemetery",
-      "type": "fill",
-      "source": "openmaptiles",
-      "source-layer": "landuse",
-      "filter": ["==", "class", "cemetery"],
-      "paint": {"fill-color": "hsl(75, 37%, 81%)"}
-    },
-    {
-      "id": "landuse_hospital",
-      "type": "fill",
-      "source": "openmaptiles",
-      "source-layer": "landuse",
-      "filter": ["==", "class", "hospital"],
-      "paint": {"fill-color": "#fde"}
-    },
-    {
-      "id": "landuse_school",
-      "type": "fill",
-      "source": "openmaptiles",
-      "source-layer": "landuse",
-      "filter": ["==", "class", "school"],
-      "paint": {"fill-color": "rgb(236,238,204)"}
-    },
-    {
       "id": "waterway_tunnel",
       "type": "line",
       "source": "openmaptiles",
