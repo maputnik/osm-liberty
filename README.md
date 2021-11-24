@@ -23,6 +23,7 @@ They were created using [OpenMapTiles](https://github.com/openmaptiles/openmapti
 - [OpenMapTiles](http://openmaptiles.org/) as vector data source
 - [Natural Earth Tiles](https://klokantech.github.io/naturalearthtiles/) for relief shading
 - [Maki](https://www.mapbox.com/maki-icons/) as icon set
+- Tiles from the Ehrenamtskarte project which shows stores
 
 ## Map Design
 
@@ -84,13 +85,6 @@ Green        | `#76a723`
 
 1. Take the `iconset.json` and import it to the [Maki Editor](https://www.mapbox.com/maki-icons/editor/).
 2. Apply your changes and download the icons in SVG format and the iconset in JSON format.
-3. Optional: Format the JSON with `cat iconset.json | jq -MS '.'` for better legibility.
-4. Add the SVG files from the folder [svgs_not_in_iconset](https://github.com/maputnik/osm-liberty/tree/gh-pages/svgs/svgs_not_in_iconset) to the folder `svgs` downloaded from the Maki Editor.
-These are the SVGs for road shields, the dot used for city and town layers and the road area pattern which could not be modified using the Maki Editor. To modify these you could use e.g. [Inkscape](https://inkscape.org).
-5. Install [spritezero-cli](https://github.com/mapbox/spritezero-cli): `npm install -g @mapbox/spritezero-cli`
-6. Generate the low resolution sprite: `spritezero osm-liberty ./svgs/`
-7. Generate the high resolution sprite: `spritezero --retina osm-liberty@2x ./svgs/`
-
-## Have a look at ...
-
-- [OSM Liberty Topo](https://github.com/nst-guide/osm-liberty-topo) - a topographic fork of OSM Liberty
+3. Format the JSON with `cat iconset.json | jq -MS '.'` for better legibility.
+4. Replace the current iconset.json in this repository with the updated one.
+5. Replace all the icons in the `svgs_iconset` with the SVGs downloaded from the Make Editor.

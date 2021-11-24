@@ -1,0 +1,57 @@
+#!/usr/bin/env node
+const fs = require('fs')
+const path = require('path')
+const spritezero = require('@mapbox/spritezero')
+const d3 = require('d3-queue')
+
+const filepaths = dir => fs.readdirSync(dir)
+  .filter(d => !d.match(/^\./))
+  .map(d => path.join(dir, d))
+
+const loadFile = (file, callback) => {
+  fs.readFile(file, (err, res) => callback(err, {
+    svg: res,
+    id: path.basename(file).replace('.svg', '')
+  }))
+}
+
+const sortById = (a, b) => b.id < a.id
+
+const generate_sprite_sheet = (outfile, inputs, ratio) => {
+  const q = d3.queue(16)
+
+  inputs.forEach((input) => {
+    filepaths(input).forEach(file => {
+      q.defer(loadFile, file)
+    })
+  })
+
+  q.awaitAll((err, buffers) => {
+    if (err) throw err
+
+    buffers.sort(sortById)
+
+    const saveLayout = (err, formattedLayout) => {
+      if (err) throw err
+      fs.writeFile(outfile + '.json', JSON.stringify(formattedLayout, null, 2), 'utf8', err => {
+        if (err) throw err
+      })
+    }
+
+    const saveImage = (err, layout) => {
+      if (err) throw err
+      spritezero.generateImage(layout, (err, image) => {
+        if (err) throw err
+        fs.writeFile(outfile + '.png', image, err => {
+          if (err) throw err
+        })
+      })
+    }
+
+    spritezero.generateLayout({imgs: buffers, pixelRatio: ratio, format: true}, saveLayout)
+    spritezero.generateLayout({imgs: buffers, pixelRatio: ratio, format: false}, saveImage)
+  })
+}
+
+generate_sprite_sheet("sprites", ['svgs/svgs_iconset', 'svgs/svgs_not_in_iconset'], 1)
+generate_sprite_sheet("sprites@2x", ['svgs/svgs_iconset', 'svgs/svgs_not_in_iconset'], 2)
