@@ -65,4 +65,4 @@ jobs:
           name: "SFTP upload"
           command: |
             sudo ssh-keyscan -H maps.tuerantuer.org >> known_hosts
-            sftp -b - -o UserKnownHostsFile=known_hosts ci@maps.tuerantuer.org:/ \<<< "put -r /tmp/artifacts/*"
+            sftp -b - -o UserKnownHostsFile=known_hosts ci@maps.tuerantuer.org:/styles/ \<<< $'-mkdir ehrenamtskarte\n cd ehrenamtskarte\n put -r /tmp/artifacts'
