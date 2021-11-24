@@ -34,8 +34,8 @@
       "maxZoom": 14
     }
   },
-  "sprite": "https://tiles.ehrenamtskarte.app/sprites/osm-liberty",
-  "glyphs": "https://tiles.ehrenamtskarte.app/font-glyphs/glyphs/{fontstack}/{range}.pbf",
+  "sprite": "https://tiles.staging.ehrenamtskarte.app/sprites/osm-liberty",
+  "glyphs": "https://tiles.staging.ehrenamtskarte.app/font-glyphs/glyphs/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
