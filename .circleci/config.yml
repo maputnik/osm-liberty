@@ -1,0 +1,69 @@
+version: 2.1
+orbs:
+  gradle: circleci/gradle@2.2.0
+workflows:
+  default:
+    jobs:
+      - build-styles
+      - deploy:
+          requires:
+            - build-styles
+          filters:
+            branches:
+              only:
+                - main
+
+jobs:
+  build-styles:
+    docker:
+      - image: cimg/base:2021.11
+    steps:
+      - run:
+          name: "Pull Submodules"
+          command: |
+            git submodule init
+            git submodule update
+      - run:
+          name: "Install Dependencies"
+          command: npm install
+      - run:
+          name: "Setup Artifacts Folder"
+          command: |
+            mkdir ~/artifacts
+            mkdir ~/artifacts/font-glyphs
+      - run:
+          name: "Download Glyphs"
+          command: |
+            wget -O glyphs.zip https://github.com/digitalfabrik/font-glyphs/archive/gh-pages.zip
+            unzip glyphs.zip -d ~/artifacts/font-glyphs
+            rm glyphs.zip
+      - run:
+          name: "Generate sprites"
+          command: |
+            ./tools/generate_sprite_sheets
+      - run:
+          name: "Add files"
+          command: |
+            cp sprites*.json ~/artifacts/
+            cp sprites*.png ~/artifacts/
+            cp style.json ~/artifacts/
+            cp map.html ~/artifacts/
+      - persist_to_workspace:
+          root: ~/artifacts
+          paths:
+            - "*"
+
+  deploy:
+    docker:
+      - image: cimg/base:2021.11
+    steps:
+      - attach_workspace:
+          at: /tmp/artifacts
+      - add_ssh_keys:
+          fingerprints:
+            - "??"
+      - run:
+          name: "SFTP upload"
+          command: |
+            echo $APT_HOST_FINGERPRINT > known_hosts
+            sftp -b - -o UserKnownHostsFile=known_hosts ci@maps.tuerantuer.org:/ \<<< "put -r /tmp/artifacts/*"
