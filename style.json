@@ -1237,8 +1237,8 @@
       "type": "fill",
       "source": "openmaptiles",
       "source-layer": "building",
-      "minzoom": 13,
-      "maxzoom": 14,
+      "minzoom": 14,
+      "maxzoom": 15,
       "paint": {
         "fill-color": "hsl(35, 8%, 85%)",
         "fill-outline-color": {
@@ -1252,7 +1252,7 @@
       "type": "fill-extrusion",
       "source": "openmaptiles",
       "source-layer": "building",
-      "minzoom": 14,
+      "minzoom": 15,
       "paint": {
         "fill-extrusion-color": "hsl(35, 8%, 85%)",
         "fill-extrusion-height": {
@@ -1472,6 +1472,7 @@
       "source": "openmaptiles",
       "source-layer": "transportation_name",
       "minzoom": 7,
+      "maxzoom": 14,
       "filter": ["all", ["<=", "ref_length", 6]],
       "layout": {
         "icon-image": "default_{ref_length}",
