@@ -64,5 +64,5 @@ jobs:
       - run:
           name: "SFTP upload"
           command: |
-            echo $APT_HOST_FINGERPRINT > known_hosts
+            sudo ssh-keyscan -H maps.tuerantuer.org >> known_hosts
             sftp -b - -o UserKnownHostsFile=known_hosts ci@maps.tuerantuer.org:/ \<<< "put -r /tmp/artifacts/*"
