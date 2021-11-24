@@ -16,7 +16,7 @@ workflows:
 jobs:
   build-styles:
     docker:
-      - image: cimg/base:2021.11
+      - image: cimg/node:17.1.0
     steps:
       - checkout
       - run:
@@ -62,7 +62,7 @@ jobs:
           at: /tmp/artifacts
       - add_ssh_keys:
           fingerprints:
-            - "??"
+            - "5e:b9:08:4e:01:f0:71:3c:74:0c:d9:10:3b:6d:74:de"
       - run:
           name: "SFTP upload"
           command: |
