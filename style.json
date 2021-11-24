@@ -16,6 +16,22 @@
       "tileSize": 256,
       "url": "https://maps.tuerantuer.org/natural_earth/tiles.json",
       "type": "raster"
+    },
+    "physical_stores": {
+      "type": "vector",
+      "tiles": [
+        "https://tiles.staging.ehrenamtskarte.app/rpc/physical_stores/{z}/{x}/{y}.pbf"
+      ],
+      "minZoom": 0,
+      "maxZoom": 14
+    },
+    "physical_stores_clustered": {
+      "type": "vector",
+      "tiles": [
+        "https://tiles.staging.ehrenamtskarte.app/rpc/physical_stores_clustered/{z}/{x}/{y}.pbf"
+      ],
+      "minZoom": 0,
+      "maxZoom": 14
     }
   },
   "sprite": "https://tiles.ehrenamtskarte.app/sprites/osm-liberty",
