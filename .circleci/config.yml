@@ -33,11 +33,9 @@ jobs:
             mkdir ~/artifacts
             mkdir ~/artifacts/font-glyphs
       - run:
-          name: "Download Glyphs"
+          name: "Copy Glyphs"
           command: |
-            wget -O glyphs.zip https://github.com/digitalfabrik/font-glyphs/archive/gh-pages.zip
-            unzip glyphs.zip -d ~/artifacts/font-glyphs
-            rm glyphs.zip
+            cp -r ./font-glyphs ~/artifacts/
       - run:
           name: "Generate sprites"
           command: |
