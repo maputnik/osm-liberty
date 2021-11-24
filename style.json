@@ -1601,6 +1601,92 @@
         "text-halo-color": "rgba(255,255,255,0.7)",
         "text-halo-width": 1
       }
+    },
+    {
+      "id": "physical_stores",
+      "type": "symbol",
+      "source": "physical_stores",
+      "source-layer": "physical_stores",
+      "minzoom": 11,
+      "maxzoom": 24,
+      "filter": ["all"],
+      "layout": {
+        "visibility": "visible",
+        "text-field": "",
+        "icon-image": [
+          "match",
+          ["get", "categoryId"],
+          [0],
+          "0",
+          [1],
+          "1",
+          [2],
+          "2",
+          [3],
+          "3",
+          [4],
+          "4",
+          [5],
+          "5",
+          [6],
+          "6",
+          [7],
+          "7",
+          [8],
+          "8",
+          [9],
+          "9",
+          "marker_11"
+        ],
+        "icon-allow-overlap": true
+      }
+    },
+    {
+      "id": "physical_stores_clustered_circle",
+      "type": "circle",
+      "source": "physical_stores_clustered",
+      "source-layer": "physical_stores_clustered",
+      "maxzoom": 11,
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "circle-radius": [
+          "max",
+          30,
+          ["*", 10, ["ln", ["get", "cluster_count"]]]
+        ],
+        "circle-pitch-scale": "map",
+        "circle-color": "rgb(33, 150, 243)",
+        "circle-stroke-color": "rgba(50, 50, 50, 0.72)",
+        "circle-stroke-width": 0,
+        "circle-stroke-opacity": 1,
+        "circle-blur": 0.3,
+        "circle-opacity": 0.7
+      }
+    },
+    {
+      "id": "physical_stores_cluster",
+      "type": "symbol",
+      "source": "physical_stores_clustered",
+      "source-layer": "physical_stores_clustered",
+      "minzoom": 0,
+      "maxzoom": 11,
+      "layout": {
+        "visibility": "visible",
+        "text-field": ["get", "cluster_count"],
+        "text-anchor": "center",
+        "text-offset": [0, 0],
+        "text-size": ["+", 13, ["*", 1, ["ln", ["get", "cluster_count"]]]],
+        "icon-size": 1,
+        "text-justify": "center",
+        "text-font": ["Roboto Medium"],
+        "text-allow-overlap": true
+      },
+      "paint": {
+        "text-color": "rgba(255, 255, 255, 1)",
+        "text-halo-color": "rgba(15, 50, 80, 0.5)",
+        "text-halo-blur": 0,
+        "text-halo-width": 0.4
+      }
     }
   ],
   "id": "osm-liberty"
