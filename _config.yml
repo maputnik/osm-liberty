@@ -1,6 +1,6 @@
 # Site settings
 title: OSM Liberty
-email: me@lukasmartinelli.ch
+email: ammann@integreat-app.de
 description: A free Mapbox GL basemap based on open data
 baseurl: ""
 markdown: kramdown
