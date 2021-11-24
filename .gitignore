@@ -43,3 +43,6 @@ maputnik
 # Ignore generated sprite sheets
 sprites*.json
 sprites*.png
+
+# Ignore intellij files
+.idea
