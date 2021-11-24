@@ -11,7 +11,7 @@ workflows:
           filters:
             branches:
               only:
-                - main
+                - gh-pages
 
 jobs:
   build-styles:
