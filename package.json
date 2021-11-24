@@ -1,7 +1,7 @@
 {
-  "name": "osm-liberty",
+  "name": "ehrenamtskarte-maplibre-style",
   "version": "0.1.0",
-  "description": "A free Mapbox GL basemap style for everyone",
+  "description": "A free Mapbox GL basemap style for the ehrenamtskarte project",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "validate": "./node_modules/.bin/gl-style-validate style.json",
@@ -10,19 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maputnik/osm-liberty.git"
+    "url": "git+https://github.com/digitalfabrik/ehrenamtskarte-maplibre-style.git"
   },
   "keywords": [
     "maps",
     "cartography",
-    "mapbox-gl-js",
-    "mapbox-gl"
+    "maplibre-gl-js",
+    "maplibre-gl"
   ],
   "author": "",
   "bugs": {
-    "url": "https://github.com/maputnik/osm-liberty/issues"
+    "url": "https://github.com/digitalfabrik/ehrenamtskarte-maplibre-style/issues"
   },
-  "homepage": "https://github.com/maputnik/osm-liberty#readme",
+  "homepage": "https://github.com/digitalfabrik/ehrenamtskarte-maplibre-style#readme",
   "devDependencies": {
     "@mapbox/mapbox-gl-style-spec": "^13.15.0",
     "husky": "^4.2.5",
