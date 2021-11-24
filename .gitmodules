@@ -1,0 +1,3 @@
+[submodule "font-glyphs"]
+	path = font-glyphs
+	url = https://github.com/orangemug/font-glyphs
