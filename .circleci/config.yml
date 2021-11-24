@@ -35,7 +35,7 @@ jobs:
       - run:
           name: "Copy Glyphs"
           command: |
-            cp -r ./font-glyphs ~/artifacts/
+            cp -r ./font-glyphs/* ~/artifacts/
       - run:
           name: "Generate sprites"
           command: |
