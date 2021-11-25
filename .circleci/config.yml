@@ -31,27 +31,32 @@ jobs:
       - run:
           name: "Setup Artifacts Folder"
           command: |
-            mkdir ~/artifacts
-            mkdir ~/artifacts/font-glyphs
+            mkdir ~/working
+            mkdir ~/working/font-glyphs
       - run:
           name: "Copy Glyphs"
           command: |
-            cp -r ./font-glyphs/* ~/artifacts/
+            cp -r ./font-glyphs/* ~/working/
       - run:
           name: "Generate sprites"
           command: |
             ./tools/generate_sprite_sheets
       - run:
-          name: "Add files"
+          name: "Add Files"
           command: |
-            cp sprites*.json ~/artifacts/
-            cp sprites*.png ~/artifacts/
-            cp style.json ~/artifacts/
-            cp map.html ~/artifacts/
+            cp sprites*.json ~/working/
+            cp sprites*.png ~/working/
+            cp style.json ~/working/
+            cp map.html ~/working/
+      - run:
+          name: "Packing Artifact"
+          command: |
+            mkdir ~/artifacts
+            tar cfvz ~/artifacts/styles.tar.gz ~/working/*
       - persist_to_workspace:
           root: ~/artifacts
           paths:
-            - "*"
+            - styles.tar.gz
 
   deploy:
     docker:
@@ -59,12 +64,18 @@ jobs:
     resource_class: small
     steps:
       - attach_workspace:
-          at: /tmp/artifacts
+          at: ~/artifacts
       - add_ssh_keys:
           fingerprints:
             - "5e:b9:08:4e:01:f0:71:3c:74:0c:d9:10:3b:6d:74:de"
       - run:
-          name: "SFTP upload"
+          name: "SSH Upload"
           command: |
             sudo ssh-keyscan -H maps.tuerantuer.org >> known_hosts
-            sftp -b - -o UserKnownHostsFile=known_hosts ci@maps.tuerantuer.org:/styles/ \<<< $'-mkdir ehrenamtskarte\n cd ehrenamtskarte\n put -r /tmp/artifacts/*'
+            scp -o UserKnownHostsFile=known_hosts ~/artifacts/styles.tar.gz ci@maps.tuerantuer.org:/var/www/styles/ehrenamtskarte-styles.tar.gz
+            ssh -o UserKnownHostsFile=known_hosts ci@maps.tuerantuer.org \<<SSH
+              mkdir -p /var/www/styles/ehrenamtskarte
+              cd /var/www/styles/ehrenamtskarte
+              tar xfv /var/www/styles/ehrenamtskarte-styles.tar.gz
+              rm /var/www/styles/ehrenamtskarte-styles.tar.gz
+            SSH
