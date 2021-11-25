@@ -6,7 +6,7 @@ This is a fork from [osm-liberty](https://github.com/maputnik/osm-liberty). We u
 
 A free Mapbox GL basemap style for everyone with complete liberty to use and self host. OSM Liberty is a fork of OSM Bright based on free data sources with a mission for a clear good looking design for the everyday user. It is based on the vector tile schema of [OpenMapTiles](https://github.com/openmaptiles/openmaptiles).
 
-**[Preview OSM Liberty with Maputnik](https://maputnik.github.io/editor/?style=https://digitalfabrik.github.io/eherenamtskarte-maplibre-style/style.json)**
+**[Preview OSM Liberty with Maputnik](https://maputnik.github.io/editor/?style=https://digitalfabrik.github.io/ehrenamtskarte-maplibre-style/style.json)**
 
 ## Usage
 

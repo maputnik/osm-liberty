@@ -34,8 +34,8 @@
       "maxZoom": 14
     }
   },
-  "sprite": "https://tiles.staging.ehrenamtskarte.app/sprites/osm-liberty",
-  "glyphs": "https://tiles.staging.ehrenamtskarte.app/font-glyphs/glyphs/{fontstack}/{range}.pbf",
+  "sprite": "https://maps.tuerantuer.org/styles/ehrenamtskarte/sprites",
+  "glyphs": "https://maps.tuerantuer.org/styles/ehrenamtskarte/glyphs/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
