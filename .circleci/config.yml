@@ -52,7 +52,8 @@ jobs:
           name: "Packing Artifact"
           command: |
             mkdir ~/artifacts
-            tar cfvz ~/artifacts/styles.tar.gz ~/working/*
+            cd /working
+            tar cfvz ~/artifacts/styles.tar.gz .
       - persist_to_workspace:
           root: ~/artifacts
           paths:
