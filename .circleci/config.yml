@@ -75,6 +75,7 @@ jobs:
             sudo ssh-keyscan -H maps.tuerantuer.org >> known_hosts
             scp -o UserKnownHostsFile=known_hosts ~/artifacts/styles.tar.gz ci@maps.tuerantuer.org:/var/www/styles/ehrenamtskarte-styles.tar.gz
             ssh -o UserKnownHostsFile=known_hosts ci@maps.tuerantuer.org \<<SSH
+              rm -rf /var/www/styles/ehrenamtskarte
               mkdir -p /var/www/styles/ehrenamtskarte
               cd /var/www/styles/ehrenamtskarte
               tar xfv /var/www/styles/ehrenamtskarte-styles.tar.gz
