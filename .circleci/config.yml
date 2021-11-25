@@ -32,7 +32,6 @@ jobs:
           name: "Setup Artifacts Folder"
           command: |
             mkdir ~/working
-            mkdir ~/working/font-glyphs
       - run:
           name: "Copy Glyphs"
           command: |
