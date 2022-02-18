@@ -2,7 +2,7 @@
 
 <img align="right" alt="OSM Liberty" src="logo.png" />
 
-This is a fork from [osm-liberty](https://github.com/maputnik/osm-liberty). We use this as a base map style for the whole Ehrenamtkarte project. Whenever you see a map in the context of the Ehrenamtkarte, then this style should be used.
+This is a fork from [osm-liberty](https://github.com/maputnik/osm-liberty). We use this as a base map style for the whole Ehrenamtskarte project. Whenever you see a map in the context of the Ehrenamtskarte, then this style should be used.
 
 A free Mapbox GL basemap style for everyone with complete liberty to use and self host. OSM Liberty is a fork of OSM Bright based on free data sources with a mission for a clear good looking design for the everyday user. It is based on the vector tile schema of [OpenMapTiles](https://github.com/openmaptiles/openmaptiles).
 
