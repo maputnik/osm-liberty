@@ -34,7 +34,7 @@ Colored relief shading from Natural Earth make the low zoom levels look good.
 
 ## Edit the Style
 
-You can [edit the style directly online in Maputnik](https://maputnik.github.io/editor?style=https://digitalfabrik.github.io/eherenamtskarte-maplibre-style/style.json).
+You can [edit the style directly online in Maputnik](https://maputnik.github.io/editor?style=https://digitalfabrik.github.io/ehrenamtskarte-maplibre-style/style.json).
 
 You can also run maputnik locally:
 
