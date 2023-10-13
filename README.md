@@ -1,4 +1,4 @@
-# OSM Liberty [![BSD licensed](https://img.shields.io/badge/license-BSD-blue.svg)](https://github.com/maputnik/osm-liberty/blob/gh-pages/LICENSE.md) [![Build Status](https://travis-ci.org/maputnik/osm-liberty.svg?branch=gh-pages)](https://travis-ci.org/maputnik/osm-liberty)
+# OSM Liberty [![BSD licensed](https://img.shields.io/badge/license-BSD-blue.svg)](https://github.com/maputnik/osm-liberty/blob/gh-pages/LICENSE.md) [![GitHub CI status](https://github.com/maputnik/osm-liberty/workflows/CI/badge.svg)](https://github.com/maputnik/osm-liberty/actions?query=workflow%3ACI)
 
 <img align="right" alt="OSM Liberty" src="logo.png" />
 
@@ -27,8 +27,8 @@ Another option is to create your own vector tiles with [OpenMapTiles](https://gi
     body { margin:0; padding:0; }
     #map { position:absolute; top:0; bottom:0; width:100%; }
   </style>
-  <script src='https://api.mapbox.com/mapbox-gl-js/v1.6.1/mapbox-gl.js'></script>
-  <link href='https://api.mapbox.com/mapbox-gl-js/v1.6.1/mapbox-gl.css' rel='stylesheet' />
+  <script src='https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body>
   <div id='map'></div>
@@ -104,10 +104,10 @@ Green        | `#76a723`
 
 1. Take the `iconset.json` and import it to the [Maki Editor](https://www.mapbox.com/maki-icons/editor/).
 2. Apply your changes and download the icons in SVG format and the iconset in JSON format.
-3. Optional: Format the JSON with `cat iconset.json | jq -MS '.'` for better legibility.
+3. Mandatory if the updated `iconset.json` should become part of this repo: Format the JSON with `cat iconset.json | jq -MS '.'` for better legibility.
 4. Add the SVG files from the folder [svgs_not_in_iconset](https://github.com/maputnik/osm-liberty/tree/gh-pages/svgs/svgs_not_in_iconset) to the folder `svgs` downloaded from the Maki Editor.
 These are the SVGs for road shields, the dot used for city and town layers and the road area pattern which could not be modified using the Maki Editor. To modify these you could use e.g. [Inkscape](https://inkscape.org).
-5. Install [spritezero-cli](https://github.com/mapbox/spritezero-cli): `npm install -g @mapbox/spritezero-cli`
+5. Install [spritezero-cli](https://gitlab.com/beyondtracks/spritezero-cli): `npm install -g @beyondtracks/spritezero-cli` (We're using a maintained fork of https://github.com/mapbox/spritezero-cli.)
 6. Generate the low resolution sprite: `spritezero osm-liberty ./svgs/`
 7. Generate the high resolution sprite: `spritezero --retina osm-liberty@2x ./svgs/`
 

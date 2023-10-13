@@ -1,5 +1,5 @@
 {
-  "activeGroupIndex": 12,
+  "activeGroupIndex": 1,
   "activeIconNames": [],
   "iconGroups": [
     {
@@ -798,7 +798,7 @@
         "bgFill": "#fff",
         "bgRadius": 4,
         "bgShape": true,
-        "bgSize": 4.5,
+        "bgSize": 4,
         "bgStroke": "#bbb",
         "bgStrokeWidth": 2,
         "fill": "#d97200",
@@ -2907,7 +2907,7 @@
           ],
           "width": 15
         },
-        "town-hall_11.svg": {
+        "town_hall_11.svg": {
           "height": 11,
           "pathData": [
             {
@@ -2922,7 +2922,7 @@
           ],
           "width": 11
         },
-        "town-hall_15.svg": {
+        "town_hall_15.svg": {
           "height": 15,
           "pathData": [
             {
