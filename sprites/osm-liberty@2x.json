@@ -101,8 +101,8 @@
     "height": 14,
     "pixelRatio": 2,
     "width": 40,
-    "x": 972,
-    "y": 296
+    "x": 504,
+    "y": 338
   },
   "art_gallery_11": {
     "height": 34,
@@ -598,7 +598,7 @@
     "height": 18,
     "pixelRatio": 2,
     "width": 18,
-    "x": 954,
+    "x": 984,
     "y": 296
   },
   "drinking-water_11": {
@@ -1657,6 +1657,13 @@
     "width": 42,
     "x": 378,
     "y": 338
+  },
+  "wetland_bg_11": {
+    "height": 30,
+    "pixelRatio": 2,
+    "width": 30,
+    "x": 954,
+    "y": 296
   },
   "wheelchair_11": {
     "height": 34,
