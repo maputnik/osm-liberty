@@ -1442,7 +1442,7 @@
         "bgShape": true,
         "bgSize": 4,
         "bgStroke": "#bbb",
-        "bgStrokeWidth": 1,
+        "bgStrokeWidth": 2,
         "fill": "#725a50",
         "stroke": "#000",
         "strokeOpt": false,
