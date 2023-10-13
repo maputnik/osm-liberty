@@ -55,14 +55,14 @@
     "x": 128,
     "y": 0
   },
-  "america_football_11": {
+  "american_football_11": {
     "height": 34,
     "pixelRatio": 2,
     "width": 34,
     "x": 796,
     "y": 420
   },
-  "america_football_15": {
+  "american_football_15": {
     "height": 42,
     "pixelRatio": 2,
     "width": 42,
@@ -370,28 +370,28 @@
     "x": 168,
     "y": 212
   },
-  "circle-stroked_11": {
+  "circle_11": {
     "height": 30,
     "pixelRatio": 2,
     "width": 30,
     "x": 748,
     "y": 254
   },
-  "circle-stroked_15": {
+  "circle_15": {
     "height": 38,
     "pixelRatio": 2,
     "width": 38,
     "x": 388,
     "y": 380
   },
-  "circle_11": {
+  "circle_stroked_11": {
     "height": 30,
     "pixelRatio": 2,
     "width": 30,
     "x": 778,
     "y": 254
   },
-  "circle_15": {
+  "circle_stroked_15": {
     "height": 38,
     "pixelRatio": 2,
     "width": 38,
@@ -552,14 +552,14 @@
     "x": 336,
     "y": 128
   },
-  "doctor_11": {
+  "doctors_11": {
     "height": 34,
     "pixelRatio": 2,
     "width": 34,
     "x": 536,
     "y": 380
   },
-  "doctor_15": {
+  "doctors_15": {
     "height": 42,
     "pixelRatio": 2,
     "width": 42,
@@ -601,7 +601,7 @@
     "x": 954,
     "y": 296
   },
-  "drinking-water_11": {
+  "drinking_water_11": {
     "height": 34,
     "pixelRatio": 2,
     "width": 34,
@@ -671,14 +671,14 @@
     "x": 114,
     "y": 420
   },
-  "fire-station_11": {
+  "fire_station_11": {
     "height": 34,
     "pixelRatio": 2,
     "width": 34,
     "x": 706,
     "y": 380
   },
-  "fire-station_15": {
+  "fire_station_15": {
     "height": 42,
     "pixelRatio": 2,
     "width": 42,
@@ -1364,28 +1364,28 @@
     "x": 294,
     "y": 296
   },
-  "square-stroke_11": {
+  "square_11": {
     "height": 30,
     "pixelRatio": 2,
     "width": 30,
     "x": 744,
     "y": 296
   },
-  "square-stroke_15": {
+  "square_15": {
     "height": 38,
     "pixelRatio": 2,
     "width": 38,
     "x": 38,
     "y": 458
   },
-  "square_11": {
+  "square_stroked_11": {
     "height": 30,
     "pixelRatio": 2,
     "width": 30,
     "x": 774,
     "y": 296
   },
-  "square_15": {
+  "square_stroked_15": {
     "height": 38,
     "pixelRatio": 2,
     "width": 38,
@@ -1406,28 +1406,28 @@
     "x": 336,
     "y": 296
   },
-  "star-stroke_11": {
+  "star_11": {
     "height": 30,
     "pixelRatio": 2,
     "width": 30,
     "x": 804,
     "y": 296
   },
-  "star-stroke_15": {
+  "star_15": {
     "height": 38,
     "pixelRatio": 2,
     "width": 38,
     "x": 114,
     "y": 458
   },
-  "star_11": {
+  "star_stroked_11": {
     "height": 30,
     "pixelRatio": 2,
     "width": 30,
     "x": 834,
     "y": 296
   },
-  "star_15": {
+  "star_stroked_15": {
     "height": 38,
     "pixelRatio": 2,
     "width": 38,
@@ -1518,14 +1518,14 @@
     "x": 84,
     "y": 338
   },
-  "toilet_11": {
+  "toilets_11": {
     "height": 34,
     "pixelRatio": 2,
     "width": 34,
     "x": 640,
     "y": 212
   },
-  "toilet_15": {
+  "toilets_15": {
     "height": 42,
     "pixelRatio": 2,
     "width": 42,
