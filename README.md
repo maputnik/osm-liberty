@@ -84,10 +84,10 @@ dependencies installed.
 A [Maki](https://github.com/mapbox/maki) icon set using colors to distinguish between icon categories.
 
 Maki is a living project and adds new icons over time, which means that there
-could be new icons that OSM Liberty could use for POIs. `maki_list.py` is a
+could be new icons that OSM Liberty could use for POIs. `sources_list.py` is a
 simple script to list both the names in OSM Liberty's iconset that don't map to
 any valid Maki name, and the Maki names that are not currently used in OSM
-Liberty's iconset. You can run the script with `python3 maki_list.py`.
+Liberty's iconset. You can run the script with `python3 sources_list.py`.
 
 **Color Palette**
 
