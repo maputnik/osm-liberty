@@ -121,11 +121,7 @@
       "paint": {
         "fill-antialias": true,
         "fill-opacity": 0.8,
-        "fill-color": "#D8D8AB",
-        "fill-pattern": [
-          "literal",
-          "wetland_bg_11"
-        ],
+        "fill-pattern": "wetland_bg_11",
         "fill-translate-anchor": "map"
       },
       "minzoom": 12
