@@ -110,6 +110,22 @@
       }
     },
     {
+      "id": "landuse_pitch",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landuse",
+      "filter": ["==", "class", "pitch"],
+      "paint": {"fill-color": "#DEE3CD"}
+    },
+    {
+      "id": "landuse_track",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landuse",
+      "filter": ["==", "class", "track"],
+      "paint": {"fill-color": "#DEE3CD"}
+    },
+    {
       "id": "landuse_cemetery",
       "type": "fill",
       "source": "openmaptiles",
