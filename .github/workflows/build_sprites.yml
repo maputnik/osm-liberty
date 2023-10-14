@@ -26,5 +26,6 @@ jobs:
           branch: gh-pages
           target-folder: sprites
           folder: /home/runner/work/osm-liberty/osm-liberty/sprites
+          git-config-name: maputnik-bot
           git-config-email: <>
           commit-message: Build sprites
