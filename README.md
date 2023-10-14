@@ -104,12 +104,12 @@ Green        | `#76a723`
 
 1. Take the `iconset.json` and import it to the [Maki Editor](https://www.mapbox.com/maki-icons/editor/).
 2. Apply your changes and download the icons in SVG format and the iconset in JSON format.
+Save the downloaded SVGs from Maki Editor to the folder [svgs_iconset](https://github.com/maputnik/osm-liberty/tree/gh-pages/svgs/svgs_iconset).
 3. Mandatory if the updated `iconset.json` should become part of this repo: Format the JSON with `cat iconset.json | jq -MS '.'` for better legibility.
-4. Add the SVG files from the folder [svgs_not_in_iconset](https://github.com/maputnik/osm-liberty/tree/gh-pages/svgs/svgs_not_in_iconset) to the folder `svgs` downloaded from the Maki Editor.
+4. There are also SVGs in the folder [svgs_not_in_iconset](https://github.com/maputnik/osm-liberty/tree/gh-pages/svgs/svgs_not_in_iconset).
 These are the SVGs for road shields, the dot used for city and town layers and the road area pattern which could not be modified using the Maki Editor. To modify these you could use e.g. [Inkscape](https://inkscape.org).
-5. Install [spritezero-cli](https://gitlab.com/beyondtracks/spritezero-cli): `npm install -g @beyondtracks/spritezero-cli` (We're using a maintained fork of https://github.com/mapbox/spritezero-cli.)
-6. Generate the low resolution sprite: `spritezero osm-liberty ./svgs/`
-7. Generate the high resolution sprite: `spritezero --retina osm-liberty@2x ./svgs/`
+5. Install the NPM dev dependencies: `npm install` to have [spritezero-cli](https://gitlab.com/beyondtracks/spritezero-cli) available (we're using a fork of https://github.com/mapbox/spritezero-cli ).
+6. Generate the low and high resolution sprites: `npm run build_sprites`
 
 ## Have a look at ...
 
