@@ -33,7 +33,7 @@
           ],
           "width": 11
         },
-        "building_15.svg": {
+        "building.svg": {
           "height": 15,
           "pathData": [
             {
@@ -63,7 +63,7 @@
           ],
           "width": 11
         },
-        "circle_stroked_15.svg": {
+        "circle_stroked.svg": {
           "height": 15,
           "pathData": [
             {
@@ -93,7 +93,7 @@
           ],
           "width": 11
         },
-        "circle_15.svg": {
+        "circle.svg": {
           "height": 15,
           "pathData": [
             {
@@ -123,7 +123,7 @@
           ],
           "width": 11
         },
-        "commercial_15.svg": {
+        "commercial.svg": {
           "height": 15,
           "pathData": [
             {
@@ -153,7 +153,7 @@
           ],
           "width": 11
         },
-        "cross_15.svg": {
+        "cross.svg": {
           "height": 15,
           "pathData": [
             {
@@ -183,7 +183,7 @@
           ],
           "width": 11
         },
-        "dam_15.svg": {
+        "dam.svg": {
           "height": 15,
           "pathData": [
             {
@@ -213,7 +213,7 @@
           ],
           "width": 11
         },
-        "industry_15.svg": {
+        "industry.svg": {
           "height": 15,
           "pathData": [
             {
@@ -243,7 +243,7 @@
           ],
           "width": 11
         },
-        "marker_15.svg": {
+        "marker.svg": {
           "height": 15,
           "pathData": [
             {
@@ -273,7 +273,7 @@
           ],
           "width": 11
         },
-        "square_stroked_15.svg": {
+        "square_stroked.svg": {
           "height": 15,
           "pathData": [
             {
@@ -303,7 +303,7 @@
           ],
           "width": 11
         },
-        "square_15.svg": {
+        "square.svg": {
           "height": 15,
           "pathData": [
             {
@@ -333,7 +333,7 @@
           ],
           "width": 11
         },
-        "star_stroked_15.svg": {
+        "star_stroked.svg": {
           "height": 15,
           "pathData": [
             {
@@ -363,7 +363,7 @@
           ],
           "width": 11
         },
-        "star_15.svg": {
+        "star.svg": {
           "height": 15,
           "pathData": [
             {
@@ -393,7 +393,7 @@
           ],
           "width": 11
         },
-        "triangle_15.svg": {
+        "triangle.svg": {
           "height": 15,
           "pathData": [
             {
@@ -423,7 +423,7 @@
           ],
           "width": 11
         },
-        "triangle_stroked_15.svg": {
+        "triangle_stroked.svg": {
           "height": 15,
           "pathData": [
             {
@@ -453,7 +453,7 @@
           ],
           "width": 11
         },
-        "warehouse_15.svg": {
+        "warehouse.svg": {
           "height": 15,
           "pathData": [
             {
@@ -504,7 +504,7 @@
           ],
           "width": 11
         },
-        "bank_15.svg": {
+        "bank.svg": {
           "height": 15,
           "pathData": [
             {
@@ -534,7 +534,7 @@
           ],
           "width": 11
         },
-        "clothing_store_15.svg": {
+        "clothing_store.svg": {
           "height": 15,
           "pathData": [
             {
@@ -564,7 +564,7 @@
           ],
           "width": 11
         },
-        "gift_15.svg": {
+        "gift.svg": {
           "height": 15,
           "pathData": [
             {
@@ -594,7 +594,7 @@
           ],
           "width": 11
         },
-        "grocery_15.svg": {
+        "grocery.svg": {
           "height": 15,
           "pathData": [
             {
@@ -624,7 +624,7 @@
           ],
           "width": 11
         },
-        "hairdresser_15.svg": {
+        "hairdresser.svg": {
           "height": 15,
           "pathData": [
             {
@@ -654,7 +654,7 @@
           ],
           "width": 11
         },
-        "laundry_15.svg": {
+        "laundry.svg": {
           "height": 15,
           "pathData": [
             {
@@ -684,7 +684,7 @@
           ],
           "width": 11
         },
-        "music_15.svg": {
+        "music.svg": {
           "height": 15,
           "pathData": [
             {
@@ -714,7 +714,7 @@
           ],
           "width": 11
         },
-        "pharmacy_15.svg": {
+        "pharmacy.svg": {
           "height": 15,
           "pathData": [
             {
@@ -744,7 +744,7 @@
           ],
           "width": 11
         },
-        "shop_15.svg": {
+        "shop.svg": {
           "height": 15,
           "pathData": [
             {
@@ -774,7 +774,7 @@
           ],
           "width": 11
         },
-        "suitcase_15.svg": {
+        "suitcase.svg": {
           "height": 15,
           "pathData": [
             {
@@ -822,7 +822,7 @@
           ],
           "width": 11
         },
-        "alcohol_shop_15.svg": {
+        "alcohol_shop.svg": {
           "height": 15,
           "pathData": [
             {
@@ -852,7 +852,7 @@
           ],
           "width": 11
         },
-        "bakery_15.svg": {
+        "bakery.svg": {
           "height": 15,
           "pathData": [
             {
@@ -885,7 +885,7 @@
           ],
           "width": 11
         },
-        "bar_15.svg": {
+        "bar.svg": {
           "height": 15,
           "pathData": [
             {
@@ -915,7 +915,7 @@
           ],
           "width": 11
         },
-        "beer_15.svg": {
+        "beer.svg": {
           "height": 15,
           "pathData": [
             {
@@ -945,7 +945,7 @@
           ],
           "width": 11
         },
-        "butcher_15.svg": {
+        "butcher.svg": {
           "height": 15,
           "pathData": [
             {
@@ -975,7 +975,7 @@
           ],
           "width": 11
         },
-        "cafe_15.svg": {
+        "cafe.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1005,7 +1005,7 @@
           ],
           "width": 11
         },
-        "fast_food_15.svg": {
+        "fast_food.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1035,7 +1035,7 @@
           ],
           "width": 11
         },
-        "ice_cream_15.svg": {
+        "ice_cream.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1068,7 +1068,7 @@
           ],
           "width": 11
         },
-        "restaurant_15.svg": {
+        "restaurant.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1098,7 +1098,7 @@
           ],
           "width": 11
         },
-        "sushi_15.svg": {
+        "sushi.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1146,7 +1146,7 @@
           ],
           "width": 11
         },
-        "american_football_15.svg": {
+        "american_football.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1176,7 +1176,7 @@
           ],
           "width": 11
         },
-        "baseball_15.svg": {
+        "baseball.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1206,7 +1206,7 @@
           ],
           "width": 11
         },
-        "basketball_15.svg": {
+        "basketball.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1236,7 +1236,7 @@
           ],
           "width": 11
         },
-        "cricket_15.svg": {
+        "cricket.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1266,7 +1266,7 @@
           ],
           "width": 11
         },
-        "golf_15.svg": {
+        "golf.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1296,7 +1296,7 @@
           ],
           "width": 11
         },
-        "pitch_15.svg": {
+        "pitch.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1326,7 +1326,7 @@
           ],
           "width": 11
         },
-        "skiing_15.svg": {
+        "skiing.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1356,7 +1356,7 @@
           ],
           "width": 11
         },
-        "soccer_15.svg": {
+        "soccer.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1386,7 +1386,7 @@
           ],
           "width": 11
         },
-        "swimming_15.svg": {
+        "swimming.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1416,7 +1416,7 @@
           ],
           "width": 11
         },
-        "tennis_15.svg": {
+        "tennis.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1467,7 +1467,7 @@
           ],
           "width": 11
         },
-        "college_15.svg": {
+        "college.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1497,7 +1497,7 @@
           ],
           "width": 11
         },
-        "library_15.svg": {
+        "library.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1527,7 +1527,7 @@
           ],
           "width": 11
         },
-        "museum_15.svg": {
+        "museum.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1557,7 +1557,7 @@
           ],
           "width": 11
         },
-        "school_15.svg": {
+        "school.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1605,7 +1605,7 @@
           ],
           "width": 11
         },
-        "amusement_park_15.svg": {
+        "amusement_park.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1635,7 +1635,7 @@
           ],
           "width": 11
         },
-        "aquarium_15.svg": {
+        "aquarium.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1665,7 +1665,7 @@
           ],
           "width": 11
         },
-        "art_gallery_15.svg": {
+        "art_gallery.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1695,7 +1695,7 @@
           ],
           "width": 11
         },
-        "attraction_15.svg": {
+        "attraction.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1725,7 +1725,7 @@
           ],
           "width": 11
         },
-        "bicycle_15.svg": {
+        "bicycle.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1755,7 +1755,7 @@
           ],
           "width": 11
         },
-        "bicycle_rental_15.svg": {
+        "bicycle_rental.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1785,7 +1785,7 @@
           ],
           "width": 11
         },
-        "cinema_15.svg": {
+        "cinema.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1815,7 +1815,7 @@
           ],
           "width": 11
         },
-        "dog_park_15.svg": {
+        "dog_park.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1845,7 +1845,7 @@
           ],
           "width": 11
         },
-        "playground_15.svg": {
+        "playground.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1875,7 +1875,7 @@
           ],
           "width": 11
         },
-        "stadium_15.svg": {
+        "stadium.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1905,7 +1905,7 @@
           ],
           "width": 11
         },
-        "theatre_15.svg": {
+        "theatre.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1935,7 +1935,7 @@
           ],
           "width": 11
         },
-        "zoo_15.svg": {
+        "zoo.svg": {
           "height": 15,
           "pathData": [
             {
@@ -1983,7 +1983,7 @@
           ],
           "width": 11
         },
-        "aerialway_15.svg": {
+        "aerialway.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2013,7 +2013,7 @@
           ],
           "width": 11
         },
-        "airfield_15.svg": {
+        "airfield.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2043,7 +2043,7 @@
           ],
           "width": 11
         },
-        "airport_15.svg": {
+        "airport.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2073,7 +2073,7 @@
           ],
           "width": 11
         },
-        "bus_15.svg": {
+        "bus.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2103,7 +2103,7 @@
           ],
           "width": 11
         },
-        "car_15.svg": {
+        "car.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2133,7 +2133,7 @@
           ],
           "width": 11
         },
-        "entrance_15.svg": {
+        "entrance.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2166,7 +2166,7 @@
           ],
           "width": 11
         },
-        "ferry_15.svg": {
+        "ferry.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2196,7 +2196,7 @@
           ],
           "width": 11
         },
-        "fuel_15.svg": {
+        "fuel.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2226,7 +2226,7 @@
           ],
           "width": 11
         },
-        "harbor_15.svg": {
+        "harbor.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2256,7 +2256,7 @@
           ],
           "width": 11
         },
-        "heliport_15.svg": {
+        "heliport.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2286,7 +2286,7 @@
           ],
           "width": 11
         },
-        "parking_15.svg": {
+        "parking.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2316,7 +2316,7 @@
           ],
           "width": 11
         },
-        "parking_garage_15.svg": {
+        "parking_garage.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2346,7 +2346,7 @@
           ],
           "width": 11
         },
-        "railway_15.svg": {
+        "railway.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2376,7 +2376,7 @@
           ],
           "width": 11
         },
-        "railway_light_15.svg": {
+        "railway_light.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2406,7 +2406,7 @@
           ],
           "width": 11
         },
-        "railway_metro_15.svg": {
+        "railway_metro.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2454,7 +2454,7 @@
           ],
           "width": 11
         },
-        "place_of_worship_15.svg": {
+        "place_of_worship.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2484,7 +2484,7 @@
           ],
           "width": 11
         },
-        "religious_christian_15.svg": {
+        "religious_christian.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2514,7 +2514,7 @@
           ],
           "width": 11
         },
-        "religious_jewish_15.svg": {
+        "religious_jewish.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2544,7 +2544,7 @@
           ],
           "width": 11
         },
-        "religious_muslim_15.svg": {
+        "religious_muslim.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2592,7 +2592,7 @@
           ],
           "width": 11
         },
-        "cemetery_15.svg": {
+        "cemetery.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2622,7 +2622,7 @@
           ],
           "width": 11
         },
-        "drinking_water_15.svg": {
+        "drinking_water.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2652,7 +2652,7 @@
           ],
           "width": 11
         },
-        "embassy_15.svg": {
+        "embassy.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2682,7 +2682,7 @@
           ],
           "width": 11
         },
-        "police_15.svg": {
+        "police.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2712,7 +2712,7 @@
           ],
           "width": 11
         },
-        "post_15.svg": {
+        "post.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2742,7 +2742,7 @@
           ],
           "width": 11
         },
-        "prison_15.svg": {
+        "prison.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2772,7 +2772,7 @@
           ],
           "width": 11
         },
-        "ranger_station_15.svg": {
+        "ranger_station.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2802,7 +2802,7 @@
           ],
           "width": 11
         },
-        "roadblock_15.svg": {
+        "roadblock.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2832,7 +2832,7 @@
           ],
           "width": 11
         },
-        "rocket_15.svg": {
+        "rocket.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2862,7 +2862,7 @@
           ],
           "width": 11
         },
-        "telephone_15.svg": {
+        "telephone.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2892,7 +2892,7 @@
           ],
           "width": 11
         },
-        "toilets_15.svg": {
+        "toilets.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2922,7 +2922,7 @@
           ],
           "width": 11
         },
-        "town_hall_15.svg": {
+        "town_hall.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2952,7 +2952,7 @@
           ],
           "width": 11
         },
-        "waste_basket_15.svg": {
+        "waste_basket.svg": {
           "height": 15,
           "pathData": [
             {
@@ -2982,7 +2982,7 @@
           ],
           "width": 11
         },
-        "water_15.svg": {
+        "water.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3012,7 +3012,7 @@
           ],
           "width": 11
         },
-        "wheelchair_15.svg": {
+        "wheelchair.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3060,7 +3060,7 @@
           ],
           "width": 11
         },
-        "garden_15.svg": {
+        "garden.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3090,7 +3090,7 @@
           ],
           "width": 11
         },
-        "mountain_15.svg": {
+        "mountain.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3120,7 +3120,7 @@
           ],
           "width": 11
         },
-        "park_15.svg": {
+        "park.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3150,7 +3150,7 @@
           ],
           "width": 11
         },
-        "picnic_site_15.svg": {
+        "picnic_site.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3180,7 +3180,7 @@
           ],
           "width": 11
         },
-        "volcano_15.svg": {
+        "volcano.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3210,7 +3210,7 @@
           ],
           "width": 11
         },
-        "wetland_15.svg": {
+        "wetland.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3258,7 +3258,7 @@
           ],
           "width": 11
         },
-        "danger_15.svg": {
+        "danger.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3288,7 +3288,7 @@
           ],
           "width": 11
         },
-        "dentist_15.svg": {
+        "dentist.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3318,7 +3318,7 @@
           ],
           "width": 11
         },
-        "doctors_15.svg": {
+        "doctors.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3348,7 +3348,7 @@
           ],
           "width": 11
         },
-        "fire_station_15.svg": {
+        "fire_station.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3378,7 +3378,7 @@
           ],
           "width": 11
         },
-        "heart_15.svg": {
+        "heart.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3408,7 +3408,7 @@
           ],
           "width": 11
         },
-        "hospital_15.svg": {
+        "hospital.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3438,7 +3438,7 @@
           ],
           "width": 11
         },
-        "veterinary_15.svg": {
+        "veterinary.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3498,7 +3498,7 @@
           ],
           "width": 11
         },
-        "campsite_15.svg": {
+        "campsite.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3528,7 +3528,7 @@
           ],
           "width": 11
         },
-        "castle_15.svg": {
+        "castle.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3558,7 +3558,7 @@
           ],
           "width": 11
         },
-        "information_15.svg": {
+        "information.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3588,7 +3588,7 @@
           ],
           "width": 11
         },
-        "lighthouse_15.svg": {
+        "lighthouse.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3618,7 +3618,7 @@
           ],
           "width": 11
         },
-        "lodging_15.svg": {
+        "lodging.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3648,7 +3648,7 @@
           ],
           "width": 11
         },
-        "monument_15.svg": {
+        "monument.svg": {
           "height": 15,
           "pathData": [
             {
@@ -3678,7 +3678,7 @@
           ],
           "width": 11
         },
-        "shelter_15.svg": {
+        "shelter.svg": {
           "height": 15,
           "pathData": [
             {
