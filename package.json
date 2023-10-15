@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "validate": "./node_modules/.bin/gl-style-validate style.json",
     "diff": "bash -c 'diff <(./node_modules/.bin/gl-style-format style.json) style.json'",
-    "format": "./node_modules/.bin/gl-style-format style.json | ./node_modules/.bin/sponge style.json"
+    "format": "./node_modules/.bin/gl-style-format style.json | ./node_modules/.bin/sponge style.json",
+    "build_sprites": "bash ./build_sprites.sh"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   },
   "homepage": "https://github.com/maputnik/osm-liberty#readme",
   "devDependencies": {
+    "@beyondtracks/spritezero-cli": "^2.2.0",
     "@mapbox/mapbox-gl-style-spec": "^13.15.0",
     "husky": "^8.0.3",
     "sponge": "^0.1.0"
