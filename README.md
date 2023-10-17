@@ -102,6 +102,9 @@ Green        | `#76a723`
 
 **Modify Icons**
 
+_When submitting a PR, no need to include the sprites. They will be automatically created when merging a PR.<br>
+The size 11 icons are included in the sprites for backward compatability. Please don't include new size 11 icons._
+
 1. Take the `iconset.json` and import it to the [Maki Editor](https://www.mapbox.com/maki-icons/editor/).
 2. Apply your changes and download the icons in SVG format and the iconset in JSON format.
 Save the downloaded SVGs from Maki Editor to the folder [svgs_iconset](https://github.com/maputnik/osm-liberty/tree/gh-pages/svgs/svgs_iconset).
@@ -110,7 +113,6 @@ Save the downloaded SVGs from Maki Editor to the folder [svgs_iconset](https://g
 These are the SVGs for road shields, the dot used for city and town layers and the road area pattern which could not be modified using the Maki Editor. To modify these you could use e.g. [Inkscape](https://inkscape.org).
 5. Install the NPM dev dependencies: `npm install` to have [spritezero-cli](https://gitlab.com/beyondtracks/spritezero-cli) available (we're using a fork of https://github.com/mapbox/spritezero-cli ).
 6. Generate the low and high resolution sprites: `npm run build_sprites`
-7. **When submitting a PR, no need to include the sprites. They will be automatically created when merging a PR.**
 
 ## Have a look at ...
 

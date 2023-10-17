@@ -1393,7 +1393,7 @@
       "minzoom": 16,
       "filter": ["all", ["==", "$type", "Point"], [">=", "rank", 20]],
       "layout": {
-        "icon-image": "{class}_11",
+        "icon-image": "{class}",
         "text-anchor": "top",
         "text-field": "{name}",
         "text-font": ["Roboto Condensed Italic"],
@@ -1421,7 +1421,7 @@
         ["<", "rank", 20]
       ],
       "layout": {
-        "icon-image": "{class}_11",
+        "icon-image": "{class}",
         "text-anchor": "top",
         "text-field": "{name}",
         "text-font": ["Roboto Condensed Italic"],
@@ -1449,7 +1449,7 @@
         ["<", "rank", 7]
       ],
       "layout": {
-        "icon-image": "{class}_11",
+        "icon-image": "{class}",
         "text-anchor": "top",
         "text-field": "{name}",
         "text-font": ["Roboto Condensed Italic"],
@@ -1471,7 +1471,7 @@
       "source-layer": "poi",
       "filter": ["all", ["in", "class", "bus", "rail", "airport"]],
       "layout": {
-        "icon-image": "{class}_11",
+        "icon-image": "{class}",
         "text-anchor": "left",
         "text-field": "{name_en}",
         "text-font": ["Roboto Condensed Italic"],
