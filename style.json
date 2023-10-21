@@ -1393,7 +1393,13 @@
       "minzoom": 16,
       "filter": ["all", ["==", "$type", "Point"], [">=", "rank", 20]],
       "layout": {
-        "icon-image": "{class}",
+        "icon-image": [
+          "match",
+          ["get", "subclass"],
+          ["florist", "furniture"],
+          ["get", "subclass"],
+          ["get", "class"]
+        ],
         "text-anchor": "top",
         "text-field": "{name}",
         "text-font": ["Roboto Condensed Italic"],
@@ -1421,7 +1427,13 @@
         ["<", "rank", 20]
       ],
       "layout": {
-        "icon-image": "{class}",
+        "icon-image": [
+          "match",
+          ["get", "subclass"],
+          ["florist", "furniture"],
+          ["get", "subclass"],
+          ["get", "class"]
+        ],
         "text-anchor": "top",
         "text-field": "{name}",
         "text-font": ["Roboto Condensed Italic"],
@@ -1449,7 +1461,13 @@
         ["<", "rank", 7]
       ],
       "layout": {
-        "icon-image": "{class}",
+        "icon-image": [
+          "match",
+          ["get", "subclass"],
+          ["florist", "furniture"],
+          ["get", "subclass"],
+          ["get", "class"]
+        ],
         "text-anchor": "top",
         "text-field": "{name}",
         "text-font": ["Roboto Condensed Italic"],
