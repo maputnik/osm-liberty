@@ -1,0 +1,31 @@
+name: Build sprites
+on:
+  push:
+    branches: [ gh-pages ]
+    paths: [ svgs/** ]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkou️t
+        uses: actions/checkout@v4.1.1
+        
+      - name: Setup node
+        uses: actions/setup-node@v4.0.0
+        with:
+          node-version: 18
+
+      - name: Build
+        run: |
+          npm ci
+          npm run build_sprites
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4.4.3
+        with:
+          branch: gh-pages
+          target-folder: sprites
+          folder: /home/runner/work/osm-liberty/osm-liberty/sprites
+          git-config-name: maputnik-bot
+          git-config-email: <>
+          commit-message: Build sprites

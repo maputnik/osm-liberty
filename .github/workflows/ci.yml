@@ -13,14 +13,15 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x]
+        node-version: [18.x]
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4.1.1
     - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v4.0.0
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
     - run: npm run validate
     - run: npm run diff
+    - run: npm run build_sprites
