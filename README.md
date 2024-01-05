@@ -13,8 +13,9 @@ You can use the style in your Maplibre and Mapbox GL maps.
 By default, the vector tiles are served from [Maptiler Cloud](https://www.maptiler.com/cloud/) and the relief shading, glyphs and sprites directly from GitHub.
 You would need to create a [MapTiler](https://www.maptiler.com) account to get an access key and replace the placeholder {key} for the [vector source](https://github.com/maputnik/osm-liberty/blob/gh-pages/style.json#L11) with your own key.
 
-
-Another option is to create your own vector tiles with [OpenMapTiles](https://github.com/openmaptiles/openmaptiles) and host the tiles yourself for complete liberty.
+Other options are:
+- Create your own vector tiles with [OpenMapTiles](https://github.com/openmaptiles/openmaptiles) and host the tiles yourself for complete liberty.
+- Use another vector tile source that is based on the vector tile schema of [OpenMapTiles](https://github.com/openmaptiles/openmaptiles) 
 
 ```html
 <!DOCTYPE html>
