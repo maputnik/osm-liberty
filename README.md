@@ -2,19 +2,20 @@
 
 <img align="right" alt="OSM Liberty" src="logo.png" />
 
-A free Mapbox GL basemap style for everyone with complete liberty to use and self host. OSM Liberty is a fork of OSM Bright based on free data sources with a mission for a clear good looking design for the everyday user. It is based on the vector tile schema of [OpenMapTiles](https://github.com/openmaptiles/openmaptiles).
+A free Maplibre and Mapbox GL basemap style for everyone with complete liberty to use and self host. OSM Liberty is a fork of OSM Bright based on free data sources with a mission for a clear good looking design for the everyday user. It is based on the vector tile schema of [OpenMapTiles](https://github.com/openmaptiles/openmaptiles).
 
 **[Preview OSM Liberty with Maputnik](https://maputnik.github.io/editor/?style=https://maputnik.github.io/osm-liberty/style.json)**
 
 ## Usage
 
-You can use the style in your Mapbox GL maps.
+You can use the style in your Maplibre and Mapbox GL maps.
 
-By default, the vector tiles and glyphs are served from [Maptiler Cloud](https://www.maptiler.com/cloud/) and the raster tiles and sprites directly from GitHub.
-You would need to [subscribe](https://www.maptiler.com/cloud/plans) to Maptiler Cloud to get an access key and replace the placeholder {key} for the [vector source](https://github.com/maputnik/osm-liberty/blob/gh-pages/style.json#L11) and [glyphs](https://github.com/maputnik/osm-liberty/blob/gh-pages/style.json#L23) with your own key.
+By default, the vector tiles are served from [Maptiler Cloud](https://www.maptiler.com/cloud/) and the relief shading, glyphs and sprites directly from GitHub.
+You would need to create a [MapTiler](https://www.maptiler.com) account to get an access key and replace the placeholder {key} for the [vector source](https://github.com/maputnik/osm-liberty/blob/gh-pages/style.json#L11) with your own key.
 
-
-Another option is to create your own vector tiles with [OpenMapTiles](https://github.com/openmaptiles/openmaptiles) and host the tiles and assets yourself for complete liberty.
+Other options are:
+- Create your own vector tiles with [OpenMapTiles](https://github.com/openmaptiles/openmaptiles) and host the tiles yourself for complete liberty.
+- Use another vector tile source that is based on the vector tile schema of [OpenMapTiles](https://github.com/openmaptiles/openmaptiles) 
 
 ```html
 <!DOCTYPE html>
@@ -50,6 +51,7 @@ Another option is to create your own vector tiles with [OpenMapTiles](https://gi
 - [OpenMapTiles](http://openmaptiles.org/) as vector data source
 - [Natural Earth Tiles](https://klokantech.github.io/naturalearthtiles/) for relief shading
 - [Maki](https://www.mapbox.com/maki-icons/) as icon set
+- [Orange Mug](https://github.com/orangemug/font-glyphs) as font glyphs
 
 ## Map Design
 
