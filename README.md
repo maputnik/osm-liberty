@@ -4,7 +4,7 @@
 
 A free Maplibre and Mapbox GL basemap style for everyone with complete liberty to use and self host. OSM Liberty is a fork of OSM Bright based on free data sources with a mission for a clear good looking design for the everyday user. It is based on the vector tile schema of [OpenMapTiles](https://github.com/openmaptiles/openmaptiles).
 
-**[Preview OSM Liberty with Maputnik](https://maputnik.github.io/editor/?style=https://maputnik.github.io/osm-liberty/style.json)**
+**[Preview OSM Liberty with Maputnik](https://maplibre.org/maputnik/?style=https://maputnik.github.io/osm-liberty/style.json)**
 
 ## Usage
 
@@ -16,35 +16,6 @@ You would need to create a [MapTiler](https://www.maptiler.com) account to get a
 Other options are:
 - Create your own vector tiles with [OpenMapTiles](https://github.com/openmaptiles/openmaptiles) and host the tiles yourself for complete liberty.
 - Use another vector tile source that is based on the vector tile schema of [OpenMapTiles](https://github.com/openmaptiles/openmaptiles) 
-
-```html
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset=utf-8 />
-  <title>OSM Liberty</title>
-  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-  <style>
-    body { margin:0; padding:0; }
-    #map { position:absolute; top:0; bottom:0; width:100%; }
-  </style>
-  <script src='https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.js'></script>
-  <link href='https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.css' rel='stylesheet' />
-</head>
-<body>
-  <div id='map'></div>
-  <script>
-  var map = new mapboxgl.Map({
-      container: 'map',
-      style: 'https://maputnik.github.io/osm-liberty/style.json',
-      center: [8.538961,47.372476],
-      zoom: 5,
-      hash: true
-  });
-  </script>
-</body>
-</html>
-```
 
 ## Data Sources
 
@@ -62,9 +33,9 @@ Colored relief shading from Natural Earth make the low zoom levels look good.
 
 ## Edit the Style
 
-You can [edit the style directly online in Maputnik](https://maputnik.github.io/editor?style=https://maputnik.github.io/osm-liberty/style.json).
+You can [edit the style directly online in Maputnik](https://maplibre.org/maputnik?style=https://maputnik.github.io/osm-liberty/style.json).
 
-This style actually triggered the need for the development of [Maputnik](https://github.com/maputnik/editor/).
+This style actually triggered the need for the development of [Maputnik](https://github.com/maplibre/maputnik).
 
 A pre-commit hook is included to validate and format the JSON styles using
 [`mapbox-gl-style-spec`](https://www.npmjs.com/package/@mapbox/mapbox-gl-style-spec).
