@@ -1530,7 +1530,15 @@
       "source": "openmaptiles",
       "source-layer": "transportation_name",
       "minzoom": 7,
-      "filter": ["all", ["<=", "ref_length", 6]],
+      "filter": 
+         ["all", ["<=", ["get", "ref_length"], 6],
+         ["case",
+           ["<", ["zoom"], 12],
+           ["!=", ["get", "subclass"], "junction"],
+		     ["!=", ["get", "class"], "path"],
+         ["!=", ["get", "class"], "track"],
+         true
+        ]
       "layout": {
         "icon-image": "default_{ref_length}",
         "icon-rotation-alignment": "viewport",
