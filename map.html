@@ -1,19 +1,47 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="de">
 <head>
-    <script src='https://unpkg.com/maplibre-gl@1.15.2/dist/maplibre-gl.js'></script>
-    <link href='https://unpkg.com/maplibre-gl@1.15.2/dist/maplibre-gl.css' rel='stylesheet'/>
-    <title>Ehrenamtskarte Preview Map</title>
+    <meta charset="utf-8"/>
+    <title>Display a map</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <script crossorigin src="https://unpkg.com/maplibre-gl@4.2.0/dist/maplibre-gl.js"></script>
+    <link href="https://unpkg.com/maplibre-gl@4.2.0/dist/maplibre-gl.css" rel="stylesheet"/>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        body > button {
+            position: relative;
+            z-index: 1;
+        }
+    </style>
 </head>
 <body>
-<div id='map' style='width: 100%; height: 100%;'></div>
-<script type="module">
-  const map = new maplibregl.Map({
-    container: 'map',
-    style: './style.json',
-    center: [11.576124, 48.137154],
-    zoom: 5
-  }).on('load', function () {
-  })
+<div id="map"></div>
+<button onclick="localStorage.setItem('style-url', BAYERN_URL); location.reload()">Switch to Bayern</button>
+<button onclick="localStorage.setItem('style-url', NUERNBERG_URL); location.reload()">Switch to Nürnberg</button>
+<button onclick="localStorage.setItem('style-url', KOBLENZ_URL); location.reload()">Switch to Koblenz</button>
+<script>
+    const BAYERN_URL = 'https://api.entitlementcard.app/project/bayern.ehrenamtskarte.app/map'
+    const NUERNBERG_URL = 'https://api.entitlementcard.app/project/nuernberg.sozialpass.app/map'
+    const KOBLENZ_URL = 'https://api.entitlementcard.app/project/koblenz.sozialpass.app/map'
+    const styleUrl = localStorage.getItem("style-url") ?? BAYERN_URL
+    new maplibregl.Map({
+        container: 'map', // container id
+        style: styleUrl, // style URL
+        center: [0, 0], // starting position [lng, lat]
+        zoom: 1 // starting zoom
+    });
 </script>
+
 </body>
 </html>
