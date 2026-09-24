@@ -1538,7 +1538,7 @@
 		     ["!=", ["get", "class"], "path"],
          ["!=", ["get", "class"], "track"],
          true
-        ]
+        ],
       "layout": {
         "icon-image": "default_{ref_length}",
         "icon-rotation-alignment": "viewport",
