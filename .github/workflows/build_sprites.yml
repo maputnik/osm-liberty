@@ -8,12 +8,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkou️t
-        uses: actions/checkout@v6.0.2
+        uses: actions/checkout@v7.0.1
         
       - name: Setup node
-        uses: actions/setup-node@v6.2.0
+        uses: actions/setup-node@v7.0.0
         with:
-          node-version: 20
+          node-version: 26
 
       - name: Build
         run: |
@@ -21,7 +21,7 @@ jobs:
           npm run build_sprites
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4.8.0
+        uses: JamesIves/github-pages-deploy-action@v4.9.0
         with:
           branch: gh-pages
           target-folder: sprites
